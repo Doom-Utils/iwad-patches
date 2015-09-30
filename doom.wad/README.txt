@@ -20,3 +20,4 @@ b5f86a559642a2b3bdfb8a75e91c8da97f057fe6  doom_1.2.wad
 7742089b4468a736cadb659a7deca3320fe6dcbd  doom_1.9.wad
 e5ec79505530e151ff0e6f517f3ce1fd65969c46  doom_bfg.wad
 9b07b02ab3c275a6a7570c3f73cc20d63a0e3833  doom_ud.wad
+1d1d4f69fe14fa255228d8243470678b1b4efdc5  doom_xbox.wad
