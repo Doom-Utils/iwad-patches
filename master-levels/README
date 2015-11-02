@@ -1,0 +1,29 @@
+Master Levels for Doom II is a little bit weird, and the provided
+scripts will only work if Git is installed (if you cloned it from Git,
+you're already set there).
+
+The original release on PC provides the Master Levels as a collection
+of PWADs that aren't really attached to each other.  Console releases
+have typically combined these in some form.  The only supported
+version going either direction, at the moment, is the Doom 3: BFG
+Edition version included on the Xbox 360 and PlayStation 3 releases.
+
+In order to solve going from a multiple files to a single file, or
+vice-versa, a tar file is used as an intermediary.  In order to
+deterministically generate the tar file, so that a binary patch can
+work at all, Git is used for temporarily creating a repository from
+the loose files, and creating an archive from it.  This prevents
+issues resulting from the directory order, file modes, and UIDs/GIDs
+differing.
+
+Three scripts are provided.  If you have xdelta3 installed, the latter
+two should be extremely helpful.
+
+generate-tar.sh: As the name implies, this creates a tar file based on
+                 the set of loose PWADs for Master Levels
+
+xdelta3-from_console.sh: Patches the console version of the Master Levels
+                         to the tar file, then extracts it.
+
+xdelta3-from_pc.sh: Converts loose files to the tar and patches it
+                    to the console version.
