@@ -49,7 +49,7 @@ git add -f attack.wad blacktwr.wad bloodsea.wad canyon.wad catwalk.wad \
     combine.wad fistula.wad garrison.wad geryon.wad manor.wad mephisto.wad \
     minos.wad nessus.wad paradox.wad subspace.wad subterra.wad teeth.wad \
     ttrap.wad vesperas.wad virgil.wad
-env GIT_AUTHOR_DATE="1995-08-08 02:00:00 +0000" git commit -q -m "Master Levels"
+env GIT_COMMITTER_DATE="1995-08-08 02:00:00 +0000" git commit -q -m "Master Levels"
 git archive -o masterlevels.tar master
 
 rm -fr "$GIT_DIR"
