@@ -6,3 +6,4 @@ source ports, where only 1.1 is well-supported.
 If unsure of which version you have, refer to these sha1 hashes:
 ac129c4331bf26f0f080c4a56aaa40d64969c98a  hexen_1.0.wad
 4b53832f0733c1e29e5f1de2428e5475e891af29  hexen_1.1.wad
+4343fbe5aef905ef6d077a1517a50c919e5cc906  hexen_mac.wad
