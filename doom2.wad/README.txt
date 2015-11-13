@@ -7,6 +7,9 @@ Doom II 1.666g refers to the German release of the game, which removed
 Nazi symbolism (id released an official patch to uncensor the game).
 Doom II 1.8f is the French-translated version.
 
+Doom II Zodiac is the version released for the Tapwave Zodiac hand
+held console
+
 If unsure of which version you have, refer to these sha1 hashes:
 a4ce5128d57cb129fdd1441c12b58245be55c8ce  doom2_1.666g.wad
 6d559b7ceece4f5ad457415049711992370d520a  doom2_1.666.wad
@@ -18,3 +21,4 @@ d510c877031bbd5f3d198581a2c8651e09b9861f  doom2_1.8f.wad
 a59548125f59f6aa1a41c22f615557d3dd2e85a9  doom2_bfg.wad
 1c91d86cd8a2f3817227986503a6672a5e1613f0  doom2_xbox.wad
 b7ba1c68631023ea1aab1d7b9f7f6e9afc508f39  doom2_xbox360bfg.wad
+2cda310805397ae44059bbcaed3cd602f4864a82  doom2_zodiac.wad

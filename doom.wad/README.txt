@@ -12,6 +12,10 @@ version, to have.  It is used as the sort of nexus in this file set.
 Rather than making a giant directory for every any-to-any version, instead,
 you can patch any version to or from Ultimate Doom.
 
+Doom PPC is the IWAD used for the Pocket PC version of Doom. It has the
+Ultimate Doom level set (episode 4 can't be chosen on the device) and uses
+a modified shareware TITLEPIC image.
+
 If unsure of which version you have, refer to these sha1 hashes:
 df0040ccb29cc1622e74ceb3b7793a2304cca2c8  doom_1.1.wad
 b5f86a559642a2b3bdfb8a75e91c8da97f057fe6  doom_1.2.wad
@@ -21,3 +25,4 @@ b5f86a559642a2b3bdfb8a75e91c8da97f057fe6  doom_1.2.wad
 e5ec79505530e151ff0e6f517f3ce1fd65969c46  doom_bfg.wad
 9b07b02ab3c275a6a7570c3f73cc20d63a0e3833  doom_ud.wad
 1d1d4f69fe14fa255228d8243470678b1b4efdc5  doom_xbox.wad
+a89b39d91122882214c3088b8cd6b308713bd7c2  doom_ppc.wad
