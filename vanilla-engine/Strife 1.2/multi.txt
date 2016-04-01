@@ -1,0 +1,336 @@
+Welcome to STRIFE(TM)!
+STRIFE MULTI-PLAYER README 4/19/1996
+
+----------------------------------------------------------------------------
+0. Table of Contents
+----------------------------------------------------------------------------
+0. Table of Contents
+1. Getting Started in Multi-player Mode
+2. Rule Changes in Multi-player Mode
+3. Winning at Deathmatch
+4. Multi-player Demo Recording
+5. Network Play
+6. Modem Play
+7. Command Line Parameters
+8. Adding More Phone Numbers to Your List
+9. Legal Stuff
+
+--------------------------------------------------------------------------
+1. Getting Started in Multi-player Mode
+--------------------------------------------------------------------------
+1. Install STRIFE as described in the manual. 
+2. To launch STRIFE, go to the directory in which you installed STRIFE,
+type SETUP, and press the ENTER key.  Unlike STRIFE in single-player mode, 
+STRIFE in multi-player mode must be run either from the SETUP program or 
+by using the command line parameters mentioned later in this addendum.
+3. The SETUP program allows you to configure STRIFE to your system and
+lets you provide STRIFE with programming information that is necessary for
+the multi-player game (number of players, skill level, mode, etc.). The
+SETUP program is simple to use and provides context-sensitive help at the
+bottom of the screen.
+
+NUMBER OF PLAYERS: A maximum of eight people can play multi-player STRIFE
+on a networked game.
+
+COMPATIBLE NETWORKS: To play the multi-player version of STRIFE, you must
+have a network that uses the IPX protocol. Check your network manuals for
+information regarding protocol. Novell networks use the IPX protocol.
+
+MULTIPLE GAMES ON THE NET: To play a multi-player game while another group
+is also playing the multi-player game, you'll need to change your network
+port address from the SETUP application. The port address tells your
+server where to send information over the network. Network addresses range
+from 1-64000. You should refer to the person in charge of your network for
+possible port addresses.
+
+--------------------------------------------------------------------------
+2. Rule Changes in Multi-player Mode
+--------------------------------------------------------------------------
+Many of the rules for multi-player STRIFE are different from those for the
+single-user game. Read the following information carefully before you
+begin to play STRIFE in the multi-player mode.
+
+MENUS: When you activate the Options menu or sub-menus, the game KEEPS
+RUNNING so that other players can continue with the action. It is best to
+find a safe place where your character can hide before adjusting screen
+sizes or sounds.
+
+PAUSE: A single-player may pause the game by pressing the PAUSE key, but
+any other player can resume the game by pressing the PAUSE key again. Make
+sure it's OK with your buddies before taking a breather.
+
+SAVE: You cannot save a game during network play.
+
+LOAD: You cannot load a saved game while playing a multi-player game.
+
+WEAPONS: When a player runs over a weapon, he picks it up, but the weapon
+remains in the game for other players to take. With the RESPAWNING ITEMS
+option on, the items will disappear, and will come back in about 30 
+seconds. With the RANDOM RESPAWN option (`-RANDOM' from the command line)
+places from which items are picked up will have items randomly reappear in
+them after the 30 second interval.
+
+RESTART: If you die and restart within the level, the level will NOT reset
+like it does in multi-player STRIFE. Life goes on without you.
+
+DEATH: When you die, you will often leave behind a little mound of goodies
+from your inventory.
+
+KEYS: There are no keys in the game. Doors open without keys, or never.
+
+UNIFORM COLORS: In multi-player games, each player's uniform is a different 
+color.  The color of your uniform is the color next to your name on the 
+kills screen. The colors are Tan, Red, Rust, Grey, Dark Green, Gold, Bright
+Green, and Blue.
+
+CHAT MODE: In a multi-player game you can communicate with other players in
+the chat mode.  To enter into chat mode which will broadcast a message to
+all the players, press [T].  A cursor will appear where your messaging is
+normally placed.  To broadcast to a specific player, after pressing [T]
+you'll need to press the number of that player (1-8).  You can change your
+name by pressing the [T] and [$] keys, then entering your new name.  CHAT
+MACROS: In a multi-player game, you can send your own pre-defined macros
+(defined in the SETUP program) by initiating chat mode (as explained
+above), then holding [Alt] and pressing the number key that corresponds to
+the macro you wish to send.  For example, if macro #2 is "I got the
+Sigil!", initiate chat mode by pressing [T], then hold down [Alt] and press
+[2] to send "I got the Sigil!" to everyone else in the game.
+
+EXITING A LEVEL: When one player exits a level, all players instantly exit
+to the new level with him, regardless of their position or their status.
+
+KEY SCEEN: In deathmatch mode, the key screen shows each player's kill
+count - the number of times each has been killed by another player.
+
+AUTOMAP: In deathmatch mode, on the Training skill level the automap 
+works the same way it does in single-player mode. Each player is 
+represented by a different color arrow.
+
+SPY MODE: If you're playing with the Training skill level, press [F12] to
+toggle through the other players' viewpoint(s). Press any other key to
+return to your view. You still retain your own status bar at the bottom,
+and if your view reddens from pain it is YOU, not the person whose view
+you're looking out of, who has been hit.
+
+--------------------------------------------------------------------------
+3. Winning at Deathmatch
+--------------------------------------------------------------------------
+The rules for completing or winning a deathmatch game have intentionally
+been left general. Any player can exit an area and force all of the
+players to move to the next area. Also, there is no limit to how many
+kills are required to declare a player the winner. That's completely up to
+you, since you know what you like best! 
+
+Remember that you can have a ton of fun without killing each other. Invent
+new games like Capture the Chalice, Monster Bash (gang up on the baddies,
+not each other), or use deathmatch to give inexperienced players a virtual 
+guided tour through the world of STRIFE.
+
+Note: Before you play STRIFE in deathmatch mode you might want to become
+familiar with the layout of every area in STRIFE. As you know, in
+deathmatch mode your starting location is random and often in an area 
+that is very hostile.
+
+--------------------------------------------------------------------------
+4. Multi-player Demo Recording
+--------------------------------------------------------------------------
+You can record your tournaments for posterity!  To record multi-player
+demos, add the line "-RECORD <filename>" (i.e. "-RECORD demoz") to the
+command-line.  Make sure the other players are recording also, or it won't
+work.  If you need more time, add the "-MAXDEMO <K>" option to increase
+demo buffer space. Make sure both of you specify the same amount. STRIFE
+defaults to 128K of demo buffer space, to specify 1meg you would type
+"-MAXDEMO 1024" on the command-line.
+IF STRIFE CRASHES TO DOS WITH A "Z_MALLOC" ERROR, IT'S BECAUSE YOU DON'T
+HAVE ENOUGH MEMORY FOR THE MAXDEMO AMOUNT SPECIFIED!
+
+When you are done recording, press the [F10] key and all players will
+exit to DOS.  To play the demo back, type, "STRIFE -PLAYDEMO <filename>"
+and the demo will play back.  To see from the other players' point of
+view, press the [F12] key.  Press [F12] to toggle between all players in
+the demo.  The TAB key will display the automap.
+
+--------------------------------------------------------------------------
+5. Network Play
+--------------------------------------------------------------------------
+When you want to run a network game, use IPXSETUP.EXE which is the device
+driver for STRIFE's network mode. The parameters are as follows:
+
+-NODES <# of players> - starts STRIFE as a network game and sets the 
+number of players who are going to play. If you don't specify the number 
+of nodes, the default is 2.
+
+-PORT <# of the port> sets the port from which to play STRIFE multi-player 
+on the network. By setting a different port, more than one group of
+players can play STRIFE on a single network. 
+
+--------------------------------------------------------------------------
+6. Modem Play
+--------------------------------------------------------------------------
+When you want to play a modem or null-modem game, run SERSETUP.EXE which
+is the device driver for STRIFE's serial communications mode. The
+parameters are as follows:
+
+-DIAL <phone number> tells the program which number to dial, if you're
+going to do the calling.
+
+-ANSWER puts your modem into Answer mode so someone can call you and play
+STRIFE.
+
+-COM1, -COM2, -COM3, -COM4 specifies which COM port to which your modem or
+serial cable is connected. It is very important that you specify!
+
+8250 tells SERSETUP to set the UART to 8250, just in case your 16550 UART
+is acting up at the higher speed.
+
+-IRQ <irq number> sets the IRQ for the COM port.
+
+-PORT <port number> sets the COM I/O port that SERSETUP uses to 
+communicate with your modem. To use hexadecimal, such as the number 
+0x3f8, you would type "-PORT 0x3f8".
+
+-<#> sets the baud rate of your COM port, overriding the value in the
+MODEM.CFG if you're running a modem game.  Legal values are 9600, 14400,
+38400, 57600.
+
+Note that to run a null-modem game, you must have a null-modem cable
+plugged into a serial port on both computers and each computer runs
+SERSETUP.EXE with a -COM# parameter as well as any General Parameters. Do
+not use the -ANSWER or -DIAL parameters, or SERSETUP will think you're
+using a modem. To get a null-modem cable, go to CompUSA or Radio Shack and
+say, "I need a null-modem cable to run a STRIFE multi-player game."
+
+VERY IMPORTANT!
+You will need to run the SETUP program and select Choose Modem from the
+Network/Modem/Serial menu so you can set your modem init string correctly.
+Select the modem and press [Enter] and SETUP will create a new MODEM.CFG
+file that corresponds to your modem (the MODEM.CFG file is used by
+SERSETUP for initializing the modem.)
+If your modem is not in the list, you will most likely need to edit the 
+MODEM.CFG file in the STRIFE directory.  The first line of the file is an
+initialization string that:
+
+1. Turns off error-correction and
+2. Turns off data-compression.
+
+The MODEM.CFG file has a Hayes-standard init string like this:
+
+                         AT Z S=46 &Q0 &D0
+
+You just add your own commands after the "AT Z " if your modem doesn't
+work with these settings, dig through your modem manual for the correct
+settings. The second line is a hang-up string used when you quit STRIFE.
+The third line is the baud rate at which you want your COM port set.
+The legal settings are: 9600, 14400, 38400, 57600.
+If the modem connection isn't working when you call your friend, have him
+call you instead. Try setting the modem to GENERIC (in the SETUP.EXE
+program) if your modems don't connect. If you STILL can't get the modems
+to connect, both of you should run your favorite COMM programs and connect
+with 9600, no error correction and no data compression.  Then quit the
+COMM program and keep the connection going.  Then just run SERSETUP with a
+-COM# parameter (as if you were running a null-modem game) since you're
+already connected. If you had trouble connecting, but figured out some
+settings that work, please fax them to us at (214) 686-9288 so we can
+expand our modem init string database and perhaps have the SETUP program
+ask you for your modem type in a future version of STRIFE.
+
+--------------------------------------------------------------------------
+7. Command Line Parameters
+--------------------------------------------------------------------------
+These parameters can be passed straight to STRIFE, or passed to IPXSETUP
+or SERSETUP, each which then passes them to STRIFE.
+
+-DEATHMATCH starts STRIFE as a deathmatch game. This is the default mode
+for a network game.
+
+-ALTDEATH specifies respawning items during deathmatch. 
+
+-RANDOM items picked up will be randomly respawned. This is only useful
+with -ALTDEATH
+
+-SKILL <# of skill level> sets the skill level (1-5) you wish to play.
+
+-CONFIG <pathname> allows you to use your configuration file from any
+directory you choose. This is primarily for diskless workstations that
+don't have a C: drive to which to save config information. You need to
+rename the DEFAULT.CFG file created by the SETUP program to a directory
+and name of your choosing to avoid conflicts.
+
+-NOMONSTERS allows you to start playing with NO Enemies shooting you! This
+is great for deathmatch where, really, the enemies just get in the way.
+ 
+-NOJOY isn't what it sounds like. It just disables your joystick.
+
+-NOMOUSE disables your mouse. 
+
+-NOSOUND turns off sound effects.
+
+-NOMUSIC turns off music.
+
+-NOSFX turns off both sound and music.
+
+-NOVOICE turns off the voices.  There are, however, no voices in 
+deathmatch play.
+
+-PLAYDEMO <filename> runs a demo you've previously recorded, see -RECORD.
+
+-RECORD <filename> tells STRIFE to record the game you are starting.
+Demo files will be saved as <filename>.lmp.
+
+-MAXDEMO <xxx> If you want to record a demo bigger than 128k, use this
+option. <xxx> will be the size (in kilobytes) of the demo. example 
+-MAXDEMO 1024 will record a 1 megabyte demo.
+
+-RESPAWN tells STRIFE to respawn some robots 12 seconds after you kill
+them. The robots that explode and go away when killed, will not respawn.
+The BLOODBATH skill level already does this. Note that using -RESPAWN and
+-NOMONSTERS at the same time is a dumb thing to do.
+
+-TURBO <xxx> gives you a speed boost. This is great in deathmatch! The value
+xxx can be from 0 to 250. The other player(s) will be notified of your
+speed increase!  THIS IS CONSIDERED CHEATING!
+
+@<filename> will allow you to specify a Response file from which STRIFE
+will read additional command-line parameters. For example, typing `STRIFE
+@MYPARMS' will tell STRIFE to look in the MYPARMS file for additional
+command-line parameters. The file format is simply one parameter per line
+with a carriage return to terminate the line.
+Each parameter is typed exactly as you would type it on the DOS command-
+line.
+
+-FAST will make the enemies move and shoot up to 3 times faster, just as
+if you were playing in Bloodbath mode, but without the respawning.
+
+-TIMER <# of minutes> will prevent STRIFE from exiting the level until
+after a specified number of minutes. This is for you level scroungers! 
+This option is only useful in deathmatch mode.
+
+An example line for entering the above information would be: 
+STRIFE -DEATHMATCH -SKILL 4 -TIMER 10
+NOTE: Without using the -WARP parameter in single-player, all of these
+game options will be reset to the defaults.  Network games will auto-
+matically warp to the start level without this parameter.
+
+--------------------------------------------------------------------------
+8. Adding more numbers to your list
+--------------------------------------------------------------------------
+You must use a text editor (such as EDIT that comes with DOS) to edit the
+MODEM.NUM file. The format is simple; The first line is the person's name
+(which will appear in the list), the second line is the phone number. The
+third line should be blank.
+
+--------------------------------------------------------------------------
+9. Legal Stuff
+--------------------------------------------------------------------------
+STRIFE (TM), the STRIFE logo and STRIFE likenesses are trademarks of
+Velocity, Inc. STRIFE is Copyright 1996, Velocity, Inc., All rights
+reserved.
+Velocity (TM) is a trademark of Velocity, Inc.
+This product contains software code owned by Id Software, Inc. (the "Id
+Code")  Id Code copyright 1993, 1996 Id Software, Inc.  All Rights
+Reserved.  The Id Software, Inc. name is a trademark of Id Software, Inc.
+DOOM is a trademark of Id Software, Inc.
+IBM is a registered trademark of International Business Machines, Inc.
+Sound Blaster is a registered trademark of Creative Labs, Inc.  All other
+trademarks are the property of their respective companies.
+--------------------------------------------------------------------------

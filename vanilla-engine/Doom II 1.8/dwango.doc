@@ -1,0 +1,196 @@
+DWANGO v2.0 - The DOOM Wide-Area Network Game Organization!
+Copyright (C) 1994 IVS Corporation
+
+
+DWANGO is a revolutionary, new way to play games.  It's all about networking
+and playing other people all around the world, no matter where they are.
+You can chat with each other, create teams, join teams and jump into any
+DOOM, DOOM2 or HERETIC world you want -- either in DeathMatch or in Co-
+operative mode.
+
+The problem common to networking computer games is that the other people 
+that you want to play might not want to play at the exact same time that you 
+do.  Or, you might get tired of beating the same old person time after time 
+because you don't know anyone else in your area with the same DOOM problem 
+that you have.  With DWANGO, you get DeathMatch-On-Command! Just dial up and 
+challenge someone to a match -- even if it's 3:00 in the morning!
+
+IMPORTANT NOTE: Since DWANGO is a very new service, you need to dial a
+long-distance number to access it.  The area code is 713, which is in
+Houston, TX.  If you can't afford the charges (or don't WANT to), please
+don't run DWANGO.  If you're under 18, please get your parent's permission
+before you start racking up long-distance bills-from-hell.  Otherwise, if
+you're an avid MoDOOMer, you'll appreciate the convenience of DWANGO.
+You will get a half-hour of FREE time on the server, but to continue using
+DWANGO, you will need to enter your credit card information in the Billing
+section and incur a $20 start-up fee.  Then you will need to buy time,
+which you can choose in the Billing section.
+
+To get started, it's easy. Just type DWANGO in your DOOM, DOOM2 or HERETIC
+directory.  Make sure that you run DWANGO from the directory of the game
+you want to play, or DWANGO won't have any idea which game you're using.
+The best way of running DWANGO is to copy all DWANGO-related files into
+the game directory -- there's DWANGO.EXE, DWANGO.STR and DWANGO.TXT. Then,
+run DWANGO from there.
+
+First off, DWANGO needs to know your configuration, so when you first run
+DWANGO, the Create Configuration panel will come up.  You need to enter
+your Baud Rate, COM Port, Area Code and Current Modem.  
+
+For baud rate, start off with the fastest baud possible first, 38400.  
+Select the COM port to which your modem is connected.  If your phone line 
+has call-waiting, you can disable it by selecting the Disable CallWaiting 
+option.  If your disable code is not the default "*70", you can type the 
+correct one for your area.  Next, you need to enter your area code. Finally, 
+you need to choose the type of modem you are using.  Press F1 to choose 
+your modem from a list of popular modems. Finally, press the F10 key to 
+tell DWANGO that you're finished configuring.
+
+Now, DWANGO is ready for you to log in.  But you're not registered as a
+New User yet, so you need to press F1 at the Login panel to create a New
+User account.
+
+The Username is your "handle" online; it doesn't need to be your real name.
+So, you could call yourself "killer" if you think you're really good.  Or, 
+call yourself "babyboy" if you're new to all this DeathMatch stuff. Press
+ENTER after editing an item and you will be moved to the next item. If you
+need to go back and edit your information, just use the cursor keys to move
+back to the item.  The Password field will be your permanent password, so
+choose something you'll remember easily.  Every time you log in to DWANGO
+after this time, you'll need to enter both your Username and Password to
+get into the system.  Press F10 when you've filled all New User Account
+fields to log onto DWANGO!
+
+DWANGO will then Initialize your modem, then Dial DWANGO. When the DWANGO
+Server answers, DWANGO will Attempt to connect to the server.  If connection
+doesn't happen within 20 seconds, something is wrong with either your
+Baud Rate or your modem init string.  First, try to change your baud rate
+by re-running DWANGO with "-config".  The -config parameter will let you
+re-enter your Configuration Information and create a new DWANGO.CFG file.
+
+When you finally connect to the DWANGO Server, the main screen will come
+up and all the users online will start entering your userlist at the top of
+the screen.  The information listed for each person is the Name of the
+person (their handle), which team they belong to, which PWAD they are
+playing, what their current status is (Available or Playing), which game
+they want to play (DOOM, DOOM2 or HERETIC), which version of the game
+they're using (you must have matching versions to play on the same team),
+and finally their User Type.  If you're new to DWANGO, you will be a newbie.
+After you've paid your start-up fee of $20, your status will be Normal.
+
+Any time any users enter DWANGO, leave DWANGO, start a team, play a game,
+or anything that could change a user's status, that change will be reflected
+in the userlist at the top of the screen.
+
+As soon as you login for the first time, the DWANGO Server will look at the
+information you entered for the New User Account you requested.  The Server
+will inform you if you have been accepted or rejected.  For more information,
+you can call 1-800-2DWANGO, or 1-800-239-2646.  If you are rejected, the
+New User panel will come up again for you to re-enter your information. One
+reason you could be rejected is by typing a handle or password with a space
+character in it.
+
+If you've been accepted, then you're in!  You will begin to see text start
+scrolling up the screen from the other users online.  They are talking to
+each other -- feel free to join in.  Go ahead and type, "I'm new here!" and
+press the ENTER key.  Someone will strike up a conversation with you and
+maybe ask you to play. Everything you type on the message line will be sent
+to the server when you press ENTER.  This area is called the Lobby.
+
+If you want to type a message that only one person can read, type their
+name, a space, then your message.  If you wanted to tell "shadow" that he
+really needs a beating, you would type "shadow you really need a beating!".
+What shadow would see is,"<your name> TELLs you: you really need a beating!".
+
+If you log onto the server and you're the only one there, but there's a
+team already playing and you want to join in, you can send a message to a
+person on the team, or to all the people on the team.  Just type the name
+of a person on the team, or the team name, a space, then your message. An
+example would be,"level7 i want to join in!".  If the team name is "level7",
+everyone on the team would get the message.  If they decide to let you in,
+then you would see them stop playing their game and start talking to you
+in the Lobby.
+
+If someone creates a team, you will see a message stating the team
+information.  If you want to play on that team, press F3 to Join.  This will
+bring up a Join Team panel -- use the arrow keys to choose the team you
+want to join.
+
+If you want to create a team, press F2 and the Create Team panel will come
+up.  The most common default options are listed.  You can choose whether
+this will be a DeathMatch or Cooperative (yeah, right) game, which skill
+level to use, if you want monsters on the level (no monsters is the norm),
+which map/level and episode you want to play, and the team name.  You can
+edit any of these options by using the cursor keys to navigate the panel
+and press ENTER to change a field.  If you want to play a PWAD file, press
+the F1 key and choose which PWAD from the list of PWADs that you have. You
+must have a WADS subdirectory off the current directory you're in to choose
+PWADs.
+
+To create the team, press the F10 key.  Soon you will see people joining the
+team you created!  When you have enough people on your team, press the F10
+key to leave the Lobby and launch the game you're going to play (DOOM, DOOM2
+or HERETIC).
+
+When you come back from your game, DWANGO will reload the userlist for you,
+since some people may have left or joined the server while you were playing.
+
+If you want to change your status from newbie to Normal, you need to enter
+Billing.  Since this is your first time, select "Set or Change billing
+preferences" from the menu.  This is where you enter your VISA or Mastercard
+credit card number and expiration date.  You also need to enter your name
+as it appears on the credit card.  If you don't have a credit card to buy
+time or pay your start-up fee, you need to call 1-800-2DWANGO so they can
+work something out with you.
+
+Press the F10 key to process your credit card information.  If the server
+comes back with Credit Accepted, then you'll see your status change from
+newbie to Normal.  You are now an offical DWANGO member.  Welcome!
+
+Now, you need to buy time so you can play.  Prices may change during holidays
+so check the Buy Time on your Credit Card option and you will get the latest
+prices.  You buy time in blocks, from 2 hours of play time up to 25 hours.
+Whichever you can afford, use the cursor keys to choose which one you want.
+Press the ESC key if you're just browsing.  IMPORTANT: your time is used up
+ONLY WHEN YOU ARE PLAYING A GAME.  Just sitting in the lobby chatting with
+others doesn't take away from your time.
+
+When you choose the amount of time, your credit card is used for the 
+transaction (you entered your credit card number when you paid your start-
+up fee).  No hassles!  Unless, of course, the server comes back and tells
+you that your credit was rejected.  As always, call 1-800-2DWANGO to find
+out the solution to your problems.
+
+If you want to change the credit card you use to purchase time, choose the
+"Set or Change billing preferences" option and enter information for a 
+different credit card.  This will update your info on the server.
+
+In the near future, DWANGO will accept authorization numbers to buy time
+(you would most likely call a 1-800 number to purchase time, which would
+give you an authorization number to use in this software to add your time.)
+
+At any time, you can check your remaining online time credits by choosing
+that function from the Billing menu.  This will display your remaining
+time you have for play.
+
+If, for any reason, some information in the userlist becomes garbled, you
+can press the F8 key to reload the userlist.
+
+If 25-lines vertically isn't enough for you, press the F9 key to toggle
+between 25 and 50-line video modes.  Try it!
+
+The ESC key will allow you to exit back to DOS.
+
+DWANGO is compatible with DOOM, DOOM2 and HERETIC.  Try it for yourself!
+
+
+
+
+
+
+
+
+
+
+
+

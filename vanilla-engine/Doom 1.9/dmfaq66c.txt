@@ -1,0 +1,1942 @@
+====================================
+=SECTION THREE= DOOM ADD-ON SOFTWARE
+====================================
+
+------------------------------------------------------------------
+CHAPTER *11*: What is DOOM add-on software and where can I get it?
+------------------------------------------------------------------
+
+        DOOM add-on software is software, not made by id Software, that
+modifies, changes, or helps you with your game when playing DOOM.  Some
+examples are cheating utilities, map editors, and sound editors.  This
+software is in no way endorsed by id, and neither id Software nor myself
+take any responsibility for any problems you have with this software.  DO
+NOT contact id regarding any of this software.  Most of this software will
+not work on the shareware version of DOOM, by request from id Software.
+Most of this software is available from these sites unless specified
+otherwise.
+
+FTP #(1) ftp.orst.edu             /pub/doom/<directory_name_here>
+       + ftp.uwp.edu              /pub/msdos/games/id/home-brew/doom/<dir>
+       + empires.stanford.edu     /pub/<directory_name>/<directory_name>
+       + ftp.uni-erlangen.de      /pub/pc/msdos/games/ID/DOOM-stuff/<dir>
+
+FTP  (2) wuarchive.wustl.edu      /pub/MSDOS_UPLOADS/games/doomstuff/<dir>
+
+BBS  (3) Software Creations       (508)-365-2359 (2400 baud)
+                                  (508)-368-7036 (9600-14.4k v.32bis)
+                                  (508)-368-4137 (14.4k16.8k HST/DS)
+
+BBS +(4) Game Palace              (305)-587-4258
+BBS +(6) 8N1                      (407)-438-1568
+
++: This site is a mirror of (1)
+#: ftp.orst.edu is a temporary site to replace the old DOOM site
+   until a new permanent site can be found.
+
+*11-1* If I don't have FTP access, how can I get these files?
+=============================================================
+
+        Call one of the BBSs listed in Chapter [11].
+
+--------------------------------------------------------------
+CHAPTER [12]: What cheating utilities have been made for DOOM?
+--------------------------------------------------------------
+
+        This chapter describes utilities that have been created to help
+people cheat at DOOM.  Due to the recent release of v1.666 of DOOM, there are
+currently no save game editors that work with the new save game format.
+Please E-mail me if you have created one!
+
+-----------------------------------------------------------
+CHAPTER [13]: What add-on software allows me to alter DOOM?
+-----------------------------------------------------------
+
+[13-1]: BSP v1.2x
+=================
+
+DESCRIPTION:
+        A 100% working nodes builder which builds the correct BSP nodes and
+blockmap data for any WAD file.
+
+CREATED BY:
+        Colin Reed (colin@argonaut.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/node-build/bsp12x.zip
+
+*13-2*: DEHACKED v2.1
+=====================
+
+DESCRIPTION:
+        DEHACKED allows modification of the DOOM.EXE file.  This makes it
+possible to create new weapons, new monsters, many special-effects, and
+much more.  Works will all versions of DOOM and DOOM II.
+
+CREATED BY:
+        Greg Lewis (gregory.lewis@umich.edu)
+
+AVAILABLE AT:
+        Site (1): wad_edit/doomhack/dhe21.zip
+
+(13-3) Deframed v1.0
+====================
+
+DESCRIPTION:
+        Deframed v1.0 is a utility used to extract the frame table from
+the registered version of the DOOM.EXE.  Patch files can be created in text
+or binary format, edited and written back to DOOM.EXE.
+
+CREATED BY:
+        Chris Gillespie (gilles2@hubcap.clemson.edu)
+
+AVAILABLE AT:
+        Site (1): wad_edit/doomhack/dfram10.zip
+
+*13-4*: DEU v5.3
+================
+
+DESCRIPTION:
+        A map editor to create brand new levels for DOOM or edit existing
+ones.  Includes manual, tutorial, and complete source code.  Widely 
+considered THE DOOM level editor.
+
+        Note: v5.3 of DEU was not available at time of writing, but 
+should be available very soon after.
+
+CREATED BY:
+        Raphael Quinet (quinet@montefiore.ulg.ac.be)
+
+AVAILABLE AT:
+        Site (1): wad_edit/editors/deu53.zip
+        Site (2): deu53.zip
+
+*13-5*: DMapEdit v3.01
+======================
+
+DESCRIPTION:
+        A full DOOM map editor which allows editing of DOOM level
+components.
+
+CREATED BY:
+        Jason Hofoss (hoffo002@gold.tc.umn.edu)
+
+AVAILABLE AT:
+        Site (1): wad_edit/editors/dme301.zip
+        Site (2): dmaped30.zip
+
+[13-6]: DMAUD v1.1
+==================
+
+DESCRIPTION:
+        DMAUD will store sounds into or extract sounds from DOOM.WAD
+files distributed with DOOM versions 1.0, 1.1, and 1.2.  In addition, DMAUD
+will play the sound if a SoundBlaster compatible sound card is present.
+DMAUD v1.1 also has the ability to create PWAD files.
+        Input files can be any format (.AU, .VOC, .WAV, .SND, etc) and any
+sample rate; they will be converted as necessary.
+
+CREATED BY:
+        Bill Neisius (bill@solaria.hac.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/dmaud11.zip
+        Site (2): dmaud11.zip
+
+[13-6-1]: DMFE v0.0.1
+---------------------
+
+DESCRIPTION:
+        DMFE provides a simple front-end to Bill Neisius' excellent utility,
+DMAUD, which allows you to alter the sound files used in DOOM.
+
+CREATED BY:
+        Douglas Reedy (welch@zaphod.mps.ohio-state.edu)
+
+AVAILABLE AT:
+        Site (1): misc/dmfe001.zip
+
+[13-7]: DMGRAPH v1.1
+====================
+
+DESCRIPTION:
+
+        Allows importing and exporting of graphics for DOOM.  v1.0 allows
+usage of PPM or GIF graphic files in 320x200x256 format.
+
+CREATED BY:
+        Bill Neisius (bill@solaria.hac.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/dmgrap11.zip
+        Site (2): dmgrap11.zip
+
+[13-8]: DMMUSIC v1.0a
+=====================
+
+DESCRIPTION:
+        DMMUSIC allows importing and exporting of MUS files with IWAD and
+PWAD files.
+
+CREATED BY:
+        Bill Neisius (bill@solaria.hac.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/dmmus10a.zip
+
+*13-9*: DOOMCAD v4.3 and v5.0
+=============================
+
+DESCRIPTION:
+
+        DOOMCAD is a "state-of-the-art" DOOM map editor for Windows.
+Allows creations of levels from scratch, three dimensional previewing,
+drag-and-drop editing, and fairly good handling of nodes.
+
+        Note: v4.3 works only on DOOM I while v5.0 works only on DOOM II.
+
+CREATED BY:
+        Matt Tagliaferri (matt.tagliaferri@pcohio.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/editors/dmcad43.zip and dmcad50.zip
+        Site (2): dmcad43.zip and dmcad50.zip
+
+[13-10]: DOOM Color Changer
+===========================
+
+DESCRIPTION:
+        This program modifies the DOOM.WAD files' player pictures. This
+allows you to change the way other players are viewed in a
+multi-player game.  If you are playing a cooperative game, you can
+make the players white so they stand out and you can avoid hitting
+them by accident.  Or, you can make the players dark colors so that a
+deathmatch game can be more difficult.  This program will only work
+on the registered DOOM v1.2 or above.
+
+CREATED BY:
+        Douglas Leininger (72773.245@compuserve.com)
+
+AVAILABLE AT:
+        Site (1): misc/doomcc.zip
+
+*13-11*: DOOM Construction Kit v1.1a
+====================================
+
+DESCRIPTION:
+	An easy to use DOOM map editor.  Many functions allow the
+automating of texture placement.
+
+CREATED BY:
+	Bill Morris (bmorris@amtsgi.bc.ca)
+
+AVAILABLE AT:
+	Site (1): wad_edit/editors/dck11a.zip
+
+[13-12]: DOOMDump v0.9
+======================
+
+DESCRIPTION:
+        Dumps out all structures contained in a WAD file to a text file.
+
+CREATED BY:
+        Steve Simpson (ssimpson@world.std.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/dmdump09.zip
+
+[13-13]: DOOM Editor - The Real Thing v2.60b4
+=============================================
+
+DESCRIPTION:
+        A DOOM map editor which allows map changes, bitmap viewing, and
+sound importing and exporting.  Very little knowledge of DOOM WAD structure
+needed.  Requires Windows v3.1.
+
+CREATED BY:
+        Unknown name (pringler@cuug.ab.ca)
+
+AVAILABLE AT:
+        Site (1): wad_edit/editors/de_260b4.zip
+        Site (2): de_260b4.zip
+
+*13-14*: DOOMLaunch v1.00
+=========================
+
+DESCRIPTION:
+        Menu-driven access to ALL DOOM options.
+                - Fully supports multi-player games
+                - Handles up to 750 external WAD files
+                - WADs are compressed with PKZIP until they are needed
+                - Allows 6 separate saved games for each WAD
+                - Allows assignment of rating and description to WADs
+                - WADs can be separated in up to 250 groups
+                - Keeps track of date/time/elapsed time WAD was played
+                - WAD statistics (number of monsters, ammo, weapons)
+                - Built in map viewer
+
+CREATED BY:
+        Keith Cohen (viper@mercury.interpath.net)
+
+AVAILABLE AT:
+        Site (1): multi_player/dl100.zip
+
+[13-15]: DOOMTOOL
+=================
+
+DESCRIPTION:
+        A collection of two utilities: SND.EXE allows a sound to be put
+into a PWAD file.  CAT.EXE allows two PWAD files to be merged into a third.
+
+CREATED BY:
+        Unknown Name (jdooley@ugcs.caltech.edu)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/doomtool.zip
+        Site (2): doomtool.zip
+
+[13-16]: DOPE v1.2
+==================
+
+DESCRIPTION:
+        DOPE is a DOOM Object Placement Editor.  This program will allow
+you to completely edit object placement in all levels.
+
+CREATED BY:
+        Chris Carollo (ccarollo@magnus.acs.ohio-state.edu)
+
+AVAILABLE AT:
+        Site (2): dope12.zip
+
+*13-17*: EdMap v1.23
+====================
+
+DESCRIPTION:
+	Popular and powerful DOOM map editor.  This is one of the few
+current map editors that works on both DOOM and DOOM II.
+
+CREATED BY:
+        Jeff Rabenhorst (araya@wam.umd.edu)
+
+AVAILABLE AT:
+        Site (1): wad_edit/editors/edmap123.zip
+
+[13-18]: IDBSP v1.0
+===================
+
+DESCRIPTION:
+        id Software's BSP node builder ported to DOS.
+
+CREATED BY:
+        Ron Rossbach (ej070@cleveland.freenet.edu)
+
+AVAILABLE AT:
+        Site (1): wad_edit/node-build/idbsp10.zip
+
+[13-19]: Jumble v3.0
+====================
+
+DESCRIPTION:
+        JUMBLE is a DOOM item randomizer; it randomly places, objects,
+enemies, and powerups in new locations.
+        Some useful features include savable configuration files, object
+weighting, removal of items, retention of items, and netDOOM compatibility.
+Also reads RanDOOM v1.x .W files.
+        The optional add-on archive includes many different already created
+.JBL files for immediate playability.
+
+CREATED BY:
+        <Empty> Productions (joakim.erdfelt@swsbbs.com)
+
+AVAILABLE AT:
+        Site (1): random/jumble30.zip and random/jumble3s.zip
+        Site (2): jumble30.zip and jumble3s.zip
+        Site (3): jumble30.zip and jumble3s.zip
+
+[13-20]: MDE: My DOOM Editor v0.90b
+===================================
+
+DESCRIPTION:
+        Allows modification of DOOM levels, including object placement,
+light levels, floor and ceiling heights, secret areas, acid damage,
+blinking lights, crushing ceilings, moving platforms, teleports, and more.
+Not a complete level structure editor.
+
+CREATED BY:
+        Patrick Steele (Unknown address)
+
+AVAILABLE AT:
+        Site (1): wad_edit/editors/mde90b1.zip
+        Site (2): mde90b1.zip
+
+[13-21]: Move Level v2.0
+========================
+
+DESCRIPTION:
+        Move Level allows modification of the episode and mission number
+in a DOOM PWAD file.
+
+CREATED BY:
+        Steve Stimpson (ssimpson@world.std.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/movelev2.zip
+
+[13-22]: MUS2PWAD v1.0
+======================
+
+DESCRIPTION:
+        Places MUS files into PWAD files.
+
+CREATED BY:
+        Wirta Wiriyan (kosasih@cae.wisc.edu)
+
+AVAILABLE AT:
+        Site (1): music/mus2pwad.zip
+
+[13-23]: NodeNav v0.8
+=====================
+
+DESCRIPTION:
+        Allows observation of the geometry of the nodes structure for a
+particular DOOM level.
+
+CREATED BY:
+        Frank Palazzolo (palazzol@msen.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/node-build/nodenav.zip
+        Site (2): nodenav.zip
+
+[13-24]: RanDOOM v1.65
+======================
+
+DESCRIPTION:
+        RanDOOM is a utility which will randomize the placement of
+objects in the DOOM playfield.  Additionally, RanDOOM has some smarts and
+fixes major problems that other randomizers have.  RanDOOM allows you to
+tailor its randomizing to your personal taste.  RanDOOM has the capability
+to randomize and create PWAD files as well.
+
+CREATED BY:
+        Scott Coleman: ASRE Software (tmkk@uiuc.edu)
+
+AVAILABLE AT:
+        Site (1): random/rdoom165.zip
+        Site (2): rdoom165.zip
+
+[13-25]: REJECT v1.0
+====================
+
+DESCRIPTION:
+
+        REJECT.EXE is a command line based utility used for building the
+REJECT resource in a DOOM PWAD file. It post-processes a PWAD which
+has been created using a level editor such as DEU. Its main purpose
+is to speed up slow PWAD files by reducing the number of line-of-sight
+calculations performed by the DOOM engine.
+
+CREATED BY:
+        L. M. Witek (lee@trousers.demon.co.uk)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/reject10.zip
+
+[13-26]: Renegade Graphics DOOMED v1.1c/e
+=========================================
+
+DESCRIPTION:
+        Allows advanced DOOM map editing and has been used by many
+PWAD creators.  Allows modification and creation of PWAD files.  Includes
+detailed documentation.  A v2.0 upgrade is expected soon which should
+add many new features.
+        Note: The newest registered version is v1.1e.  Registration
+              is $25 US.
+
+CREATED BY:
+        Joe Pantuso (73633.2517@compuserve.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/editors/rgde11cs.zip
+        Renegade Graphics BBS: (615)-337-9198
+
+[13-27]: RENWAD
+===============
+
+DESCRIPTION:
+        Allows modification of the episode and mission number in a DOOM
+PWAD file.
+
+CREATED BY:
+        ASRE Software (tmkk@uiuc.edu)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/renwad.zip
+
+*13-28*: UltEd v1.00b
+=====================
+
+DESCRIPTION:
+	A DOOM map editor similar to DEU v5.2.  This editor is unique
+because it runs under OS/2.
+
+CREATED BY:
+	Peter Ott (pott@cate.ryerson.ca)
+
+AVAILABLE AT:
+	Site (1): wad_edit/editors/ulted.zip
+
+[13-29]: VERDA v0.20
+====================
+
+DESCRIPTION:
+        With VERDA, you can move THINGs around the map and change them
+to other things. You can change LINE triggers, SIDE image selection,
+SECTOR image selection, floor heights, ceiling heights, sector actions
+(raising/lowering, etc.), and properties (acid/blinking lights, etc.)  You
+can graphically see which lines trigger which sectors, and change this.
+You can display the NODE information graphically, but it cannot currently
+be edited.
+
+CREATED BY:
+        Mike Carter (verda@swri.edu)
+        Robert Fenske
+        Bob Robinson
+
+AVAILABLE AT:
+        Site (1): wad_edit/old_edit/verda020.zip
+
+[13-30]: VERDA Node Builder v1.05
+=================================
+
+DESCRIPTION:
+        Builds nodes in a PWAD file.
+
+CREATED BY:
+        Robert Fenske (rfenske@swri.edu)
+
+AVAILABLE AT:
+        Site (1): wad_edit/node-build/vbsp1050.zip
+
+*13-31*: WADEd v1.42
+====================
+
+DESCRIPTION:
+	WADED was designed to be an  easy  and  decent DOOM map editor.  
+It is completely mouse controlled, and run from DOS.  The obvious goal 
+was to  write a  good  editor,  so  people would be able to create some 
+good new DOOM levels from scratch that could be distributed in small 
+patch .WAD (PWAD) files.
+
+CREATED BY:
+        Matthew Ayres (ayres@cdrom.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/editors/waded142.zip
+
+[13-32]: WAD Extended Tools v1.0
+================================
+
+DESCRIPTION:
+        Allows viewing and hex editing of WAD resources such as pictures,
+textures, color maps, and more.
+
+CREATED BY:
+        Unknown Name (vels@aldan.cs.biu.ac.il)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/ewt.zip
+
+[13-33]: WAD Hacker v2.0
+========================
+
+DESCRIPTION:
+        WAD Hacker is a DOOM WAD file resource viewer.  Allows viewing of
+all graphical resources.  BMPs can be generated from any graphic and PWAD
+files can be produced from any level.
+
+CREATED BY:
+        Roger Hayes (roger_hayes@stortek.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/wadhak.zip
+
+[13-34]: WADMASTER v0.5
+=======================
+
+DESCRIPTION:
+        Allows adding and removing of THINGS in DOOM levels.  Also displays
+NODES, SSECTORS, and SEGS.
+
+CREATED BY:
+        Unknown
+
+AVAILABLE AT:
+        Site (1): wad_edit/old_edit/wdmstr05.zip
+        Site (2): wdmstr05.zip
+
+[13-35]: WADNAME
+================
+
+DESCRIPTION:
+        WADNAME is a utility which will display the episode and mission
+number of all replacement levels contained in a given WAD file.
+
+CREATED BY:
+        ASRE Software (tmkk@uiuc.edu)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/wadname.zip
+
+[13-36]: Wads_Up v1.1
+=====================
+
+DESCRIPTION:
+        Wads_Up is basically a THING editor.  It allows you to move
+objects, graphics, enemies, around a level.
+
+CREATED BY:
+        Gary Whitehead (gary@stek.demon.co.uk)
+
+AVAILABLE AT:
+        Site (1): wad_edit/editors/wadsup11.zip
+
+[13-37]: WAD Tools v1.0
+=======================
+
+DESCRIPTION:
+        WAD Tools is a freeware program to be used with id Software's
+phenomenal action game, DOOM.  It is designed to let any curious
+individual peruse the contents of the DOOM WAD file.  Anyway, WAD
+Tools will let you do any number of operations on the resources in
+the WAD file. You can view it in hex mode, or if it's a graphic
+resource, you can view it in 320x200x256 VGA mode.  You can also
+export it to a file (an LBM if it's a graphic resource), or replace
+it by importing a file.  And, if you're really brave, you can export
+all the resources in the WAD file to individual files.
+
+CREATED BY:
+        Jeff Miller (atomicus@indirect.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/wt100.zip
+        Site (2): wt100.zip
+
+----------------------------------------------------
+CHAPTER [14]: What add-on data files exist for DOOM?
+----------------------------------------------------
+
+*14-1*: Graphics
+================
+        Here is a catalog of various graphics collections available for
+DOOM.  Bill Neisius' DMGRAPH v1.1 or a similar utility is often needed to
+import many of these into DOOM and DOOM II.
+
+AVAILABLE AT:
+        Site (1): graphics/(filename)
+        Site (1): themes/starwars/(filename)  (Star Wars related)
+        Site (1): themes/aliens/(filename)    (Aliens related)
+
+FILE         DESCRIPTION             CREATOR
+====         ===========             =======
+alien-tc.zip Creates Aliens DOOM     Olivier Montanuy (montanuy@dmi.ens.fr)
+aliens-x.zip Redo of Aliens patch    Unknown
+alien102.zip Aliens levels           David Lobser (lobser@csn.org)
+angels  .zip Sargeants have wings    Sam Lantinga (slouken@cs.ucdavis.edu)
+babydoll.zip Troopers are baby dolls Unknown Name (fey@cyberspace.org)
+barn3d21.zip 3-D Barney the Dinosaur David Lobser (lobser@csn.org)
+baron_1 .zip Preview of DOOM T-shirt Teery Greenlaw (greenlaw@crl.com)
+bdoom   .zip Barney the Dinosaur     Bill Neisius (bill@solaria.hac.com)
+bigcacos.zip Super Cacodemons        Jim Hendrickson (jhendric@acs.bu.edu)
+bny3dwad.zip WAD version of Bunny    David Lobser (lobser@csn.org)
+borg    .zip Sargeants are Borg      Unknown (p.magnussen@auckland.ac.nz)
+bright  .zip Turns up lighting       Atul Varma (atulv@bronze.coil.com)
+brn-cln .zip Barney/Clinton combo    Robbie (teegarde@ucssun1.sdsu.edu)
+brn3dwad.zip WAD version of Barney   David Lobser (lobser@csn.org)
+bunny3d .zip 3-D Energizer Bunny     David Lobser (lobser@csn.org)
+chook   .zip Rockets are chickens    David Biggs (dbiggs@yoyo.cc.monash.edu.au)
+chookexe.zip Creats Chook DOOM       Sam Lantinga (slouken@cs.ucdavis.edu)
+chungang.zip Gory new graphics       Unknown
+clin-wad.zip Clinton DOOM WAD        Robbie Teegarden
+                                     (teegarde@ucssun1.sdsu.edu)
+clintn20.zip Clinton DOOM w/ sound   See above
+clinton .zip Clinton DOOM            Adrian Hayes (ahayes@pacifier.rain.com)
+coolskys.zip New skies for DOOM      Nathan Mielcare
+                                     (donnmiel@tecnet1.jcte.jcs.mil)
+CRAZDOOM.ZIP Imps wear bikinis       Unknown
+crystld2.zip Enemies are "clear"     Unknown (brianf@halcyon.com)
+custard .zip Custard Pie Launcher    Bernhard (kotzen@itu.sun.ac.za)
+dalek3d .zip Imps are Daleks         David Lobser (lobser@csn.org)
+dalek-3 .zip Imps are Daleks         Unknown Name (rkimmel@u.washington.edu)
+dckscrn .zip Preview of DOOM constr- Ben Morris (bmorris@amtsgi.bc.ca)
+dckscrn2.zip uction kit, coming soon Ben Morris (bmorris@amtsgi.bc.ca)
+doom4win.zip DOOM logos for Windows  "Nightcrawler"
+doommorf.zip Enemy FLI animation     Neal Miller (millen3@rpi.edu)
+eyeball .zip Cacodemon is eyeball    Unknown
+femdoom .zip Changes mugshot female  Lynn Forest (teejay@ccwf.cc.utexas.edu)
+fhum    .zip New sargeant deaths     Unknown
+frisb-dm.zip Rockets are frisbees    Chris Pimlott (pimlottc@shadowso.com)
+gdoom   .zip Cacodemons are George   Don Miller (conm@uidaho.edu)
+guy2sarg.zip Swaps Sargeants/Marines Dave Matteson (davematt@mail.msen.com)
+happy   .zip Makes DOOM peaceful     Dan Lottero (dlottero@bu.edu)
+headcdm .zip Pistol is Headcresher   Unknown
+icesky  .zip Skies/Glacier Bay, AL   Unknown
+imp2cyb .zip Imps are CyberDemons    Andrew Scott (raistlin@werple.apana.org.au)
+imp_grfx.zip Imps are more gory      Greg Gimsby (Unknown E-mail address)
+jagdoom .zip Jaguar DOOM preview     id Software (help@idsoftware.com)
+joltdoom.zip Monsters are skulls     Unknown
+lum     .zip Marine is "LUM"         Whisp (wafang@osiris.hmc.edu)
+macbar10.zip Barrels are Macintoshes Atul Varma (atulv@bronze.coil.com)
+movie10 .zip Aliens/Pred/Terminator  Werner Sphal
+                                     (spahl@work2.ch-cip.uni-koeln.de)
+myface  .zip Cacodemons are faces    Adrian Hayes (ahayes@pacifier.rain.com)
+nopent  .zip Removes pentagrams      Steve Simpson (ssimpson@world.std.com)
+pacdoom .zip Pacmen have invaded     Bill Neisius (bill@solaria.hac.com)
+pchan   .zip Plasma is P-Chan pig    Whisp (wafang@osiris.hmc.edu)
+penguins.zip Cacodemons are penguins Tim Collins (collinst@ee-wp.bham.ac.uk)
+redguy  .zip Marines are red/targets Unknown (daron@tyrell.net)
+righthnd.zip Fist is right-handed    Unknown
+rpgv1   .zip Rockets are RPGs        Josh Herndon (jherndon@vt.edu)
+sequence.zip New death sequences     Unknown Name (dryerson@botany.utoronto.ca)
+shotgun .zip New shotgun             Robert Allen (robbob2573@aol.com)
+skullb  .zip Alters Marine graphics  Unknown
+smiley-1.zip Cacodemons are smileys  Robbie Teegarden
+                                     (teegarde@ucssun1.sdsu.edu)
+stars2  .zip Another sky replacement Unknown (pinder2@griffin.emba.uvm.edu)	
+stimpy_g.zip Monsters are enemies    Jussi Karjalainen
+                                     (jussik@phoenix.oulu.fi)
+stars   .zip Skies are star fractals Unknown (pinder2@griffin.emba.uvm.edu)
+strooper.zip Sargeant->Stormtrooper  Phillip (p.magnussen@auckland.ac.nz)
+swatst  .zip CyberDemon is ATST      Howard Cohen (hsc5505@ritvax.isc.rit.edu)
+swdoc11 .zip Star Wars DOOM          "Action Jackson"
+swgfx2  .zip Cacodemons -> Probots   Mike C. (thomas@ug.cs.dal.ca)
+swgfx3  .zip Barrels -> R2D2         Mike C. (thomas@ug.cs.dal.ca)
+swgfx4  .zip Lost Souls ->           Mike C. (thomas@ug.cs.dal.ca)
+             Interrigator Droids
+swgfx5  .zip Baron -> Emperor guard  Mike C. (thomas@ug.cs.dal.ca)
+swgfxmo .zip All Star Wars patches   Manny Mendoza
+                                     (mmendoza@cybververse.com)
+swlaser .zip Rockets -> Lasers       Jeff Johnston (brunner@gas.uug.arizona.edu)
+swlsaber.zip Chainsaw is lightsaber  Claude Martins
+                                     (martins@binkley.cs.mcgill.ca)
+swstuff .zip Star Wars title screen  Jeff Johnston (brunner@gas.uug.arizona.edu)
+techbar .zip Changes status bar      Josh Fallon
+                                     (Fallonjb95@cs14@cadetmail.usafa.af.mil)
+toondm2 .zip Homer DOOM              Olivier Montanuy (montanuy@dmi.ens.fr)
+ufo     .zip Cacodemon is UFO        Unknown (r.a.snow@bra0110.wins.icl.co.uk)
+wolfdm_2.zip Wolfenstein enemies     Unknown Name (moss@plains.nodak.edu)
+yiggle  .zip Sargeants are "Yiggles" Joey Cato (cato@orion.etsu.edu)
+zebedee .zip Troopers are "Zebedees" Duncan Simpson (drsimpon@mh1.mcc.ac.uk)
+
+*14-2*: Missions
+================
+
+        There are simply too many add-on levels for DOOM to list them 
+all here!  However, a listing of the best DeathMatch WADs has been 
+included.  Do some of your own exploring to find your personal favorite 
+missions.
+
+*14-2-1*: DOOM DeathMatch WAD Ranking
+-------------------------------------
+
+AVAILABLE AT:
+        Site (1): wads/<directory_name_here>/<filename>
+
++=========================================================================+
+|                      DOOM DEATHMATCH WAD RANKING                        |
+|                      =-=-=-=-=-=-=-=-=-=-=-=-=-=                        |
+|                  200+ WADS - Revision Date: 08/01/94                    |
++=========================================================================+
+
+             Compiled by: James Dicke & "Chainsaw Jim" Urbas
+
+About the authors:
+
+James Dicke   jdicke@carroll1.cc.edu   or   EXEC-PC: JAMES DICKE
+   - DOOM Fanatic.  As an employee of the Virtual Gaming Center he finds
+     time to talk to many doom-junkies that are not on the internet.  It
+     has been his hobby to collect all WAD's.
+
+Jim "Chainsaw" Urbas   jimu@point.cs.uwm.edu
+   - DOOM Fanatic.  Current projects:  wc - Wad compiler; tool to help
+     developers integrate new graphics into WAD files.  Deathmatch
+     Compilations DM_xx_xx.ZIP; several 9 level episodes containing the
+     best deathmatch maps, optimized for use in a single episode (namely:
+     DMSMALL1 and DMSMALL2).  Also working on a new solo episode with
+     Brant Katkansky, author of NUCLEAR.WAD.  Main area of interest is in
+     adding additional graphics to doom missions.
+
+     [SHAMELESS PLUG MODE ON]:
+     The Virtual Gaming Center (Milwaukee, WI) use several networks of fast
+     computers with 27" screens and special controllers (steering wheels,
+     flight sticks, etc) to play multi-player games IN-PERSON.  The VGC is
+     also host to the Mid-West DOOM Tournaments.  You may contact them at
+     VGCenter@execpc.com  or  (414) 476-1514.  Also, if you're into Magic:
+     The Gathering, we sell and play it and also hold MTG tournies.
+
+---------------------------------------------------------------------------
+Ratings Legend:
+
+    G = Game Play               D = Design         # = Recommended Minimum
+How Fun And Addicting      How Interesting/Clever      Number Of Players
+-------------------------  ----------------------  ------------------------
++ = Play til Dawn          + = A Piece Of Art      6 = WAY TOO LARGE
+9 = Near Perfect           9 = Amazing             5 = Huntin' w/4 players
+8 = Great--Play 1-2 hrs    8 = Fascinating         4 = Hopin' w/4 players
+7 = Excellent--A favorite  7 = Interesting         3 = Hopin' w/3 players
+6 = Very Good--30-60 min   6 = Above Average       2 = Hopin' w/2 players
+5 = Average - Good         5 = Average             1 = A Frag every 10 sec
+4 = OK but flawed          4 = Below Average           even with 2 players
+3 = A diversion - 10 min.  3 = Poor                0 = WAY TOO SMALL
+2 = Boring after 2 min.    2 = Ugly
+1 = Painfully boring       1 = A Bad Joke          ? = Untested
+0 = Utter shit             0 = Vomit
+_ = Untested               _ = Untested
+
+T: Type      A=Action, H=Hunting, B=Both, -= Who knows
+W: Weapons   0=Pistol/Fists, 1=Shotgun, 2=Chain, 3=Rocket/Plasma 4=BFG
+M: Monsters  0=None, 1=A few, 2=Several, 3=Lots, 4=Big&Bad, 5=Barons/Cyber
+
+Comments:
+  +G  means new graphics  +S means new sounds,      +M  new music was added
+  +Cx Cooperative Exit    +T text background story  +D2 Deathmatch v2.0 ok
+  -X  has no exit         -x has an unmarked exit
+
+==========================================================================
+    G = Game Play                       T = Type (Action/Hunting/Both)
+    D = Design                          W = Weapons at skill 1 (0-4)
+    # = Recommended Minimum # Players   M = Monsters at skill 1 (0-5)
+
+G D Name      Map   Released  #T WM  Short Description and Comments
+- - --------  ----  --------  -- --  ----------------------------------------
++ 7 ledges    E1M1   4-20-94  2A 34  Tunnels around a main room
++ 6 shadows   E1M1   4-11-94  2A 40  2 small rooms connected w/halls -X
++ 5 house     E1M1   5-28-94  2A 40  Simple house design, no furniture -X
+ 
+9 9 markroom  E1M1   4-15-94  2A 30  Dark arena w/steps -x
+9 7 butt      E1M1   6-17-94  3B 44  Wood arena, shadow snipers +SM -X
+9 7 ihrke2    E1M1   7-22-94  2A 34  Pit w/ledges and crusher -x (dmihrke2.zip)
+9 7 peace     E1M1   5-18-94  2B 40  Based on Shadows
+9 6 cor81     E1M1   5-31-94  4A 40  Corridors w/side rooms. Invs walls -X
+9 6 tourney   E1M1   6-27-94  2B 30  Central court yard w/snipe zones
+9 5 corr2     E1M1   5-31-94  2A 40  VSml. Cross shaped. Light switch -X
+9 5 circle    E1M1   7-13-94  2A 30  A circle w/guns in outside doorways. -X
+9 5 hitmeinf  E1M1   7-20-94  2B 31  One lrg oval room w/obsticals -X
+9 _ lavapit   E1M1   7-27-94  2B 45  Sqr. rooms w/halls & lova moat
+  
+8 8 core      E1M1   5-30-94  4B 34  Vbig, square/symmetrical +G
+8 8 train2    E1M1   9-08-94  2B 44  2 lrg rooms, outer ledge, halls, snips +D2
+8 7 buttv2    E1M1   7-19-94  3B 45  Updated version of BUTT for +D2
+8 7 ledges3   E1M1   6-07-94  2A 34  2 rooms w/ledges, stairs, & elevators
+8 7 shadows3  E1M1   5-17-94  2A 40  Updated shadows, cute- less playable
+8 6 e2m1_joe  E2M1   7-14-94  2B 30  Three large elevators w/connecting halls
+8 6 nova      E1M1   5-12-94  2A 32  Arena in outer ring. Passable walls -x
+8 6 styx      E1M1   6-15-94  2A 30  Court yard w/bridge & sniper halls
+8 5 fragday   E1M1   7-03-94  2A 40  Several big rooms, stairs, yard
+8 5 ihrke1    E1M1   7-22-94  2A 44  Like "dthbox.wad" -x (dmihrke1.zip)
+8 5 stream    E3M1   7-01-94  3A 40  Compound built around a stream -x
+8 6 facelift  E1M1   7-25-94  3B 40  Elevators w/center room & teleporters
+8 4 ledges2   E1M1   5-17-94  2A 34  Like Ledges, sloppy
+8 3 dthbox    E1M1   5-04-94  2A 40  VSml room w/ TonsOweapons on pillars
+8 _ 1kdeaths  E1M1   9-25-94  2A __  Central room w/teleporters & snipers
+8 _ 21jpxfir  E2M1   9-15-94  2A __  A few halls & steps
+8 _ bean      E1M1   9-25-94  3B __  Corridors & small dark rooms
+8 _ castle    E1M1   8-24-94  3A __  Castle like area w/self moving elevators
+8 _ cybrdeth  E1M1   8-25-94  2A __  Large square room w/pilars
+8 _ dietdoom  E1M1   9-10-94  3B __  Multi-building/room w/outside, teleports
+8 _ dmcath24  E1M1  10-03-94  3A 42  Central cathedral w/halls & elevators +Cx
+8 _ deatday3  E1M3   9-25-94  2B __  2 main rooms w/teleporters
+8 _ ihrke4    E1M1   8-01-94  2B 45  Several lrg rooms (dmihrke4.zip)
+8 _ jeff19a   E1M9   7-26-94  2B 30  Several circle rooms w/yard. LotsOammo
+8 _ jhkdth1   E1M1   9-25-94  3B __  Warehouse maze
+8 _ joi-cm1   E2M1   8-13-94  __ 4_  Snipes, lrg castle-ish. (HOM)
+8 _ peace_20  E1M1   7-18-94  2B 40  Updated version of PEACE for +D2
+8 _ steels    E1M1   8-13-94  3B __  Circle w/maze & sniper zones
+8 _ zrat      E1M1   8-03-94  3B 35  Castle-ish *G -x
+  
+7 + maverick  E2M1   6-03-94  3B 23  Little ammo, Multi-Theme Map +Cx
+7 9 bludlust  E2M1   5-12-94  4H 45  Tall center room, plus shaped
+7 9 markrm3   E1M1   6-13-94  2A 22  Staircases -x
+7 9 mav2d     E1M1   8-09-94  2B __  Center room w/outer halls
+7 8 bludlst2  E1M9   5-20-94  4H 43  Star shaped, lots of suicide
+7 8 draco1    E2M1   7-22-94  4H 45  Cross halls, Elevators, & Teleporters
+7 8 jadml1m1  E1M1   4-07-94  2A 21  Dark central room w/sniper points -x
+7 8 lurker    E2M1   7-24-94  3B 30  Circles w/1 way walls & halls +D2
+7 8 pentadth  E2M1   7-01-94  5B 30  5 Large Rooms w/ledges & elevators -X
+7 8 tnplhome  E1M1   6-03-94  3A 31  Someone's nice home w/furniture
+7 8 vampire5  E1M1   9-22-94  2B 50  Many connecting rooms/snipe spots
+7 7 bilbo11   E1M1   7-28-94  3B 45  Halls & rooms *M -x
+7 7 chase21a  E2M1   7-25-94  2B 40  Center building w/outside yard +G
+7 7 phrag21a  E1M1   7-25-94  4H 45  Several halls & lrg rooms (Nudes) +G
+7 6 chase     E1M1   7-01-94  2B 34  Center room w/side chambers
+7 6 ihrke5    E1M1   8-03-94  2B 35  Two lrg rooms w/halls (dmihrke5.zip)
+7 6 octafrag  E1M1   4-26-94  3B 12  Center elevators & snipe zones -X
+7 6 tncross2  E2M1   4-05-94  2A 33  *corrupt*  (Use DMSMALL1)
+7 6 town      E3M6   7-21-94  3H 45  Many buildings & walls
+7 6 ultima    E1M1   5-02-94  2A 31  1Rm, Suspended Cross -x
+7 5 clash     E1M1   5-23-94  2A 30  Symmetric w/center room, no Spec
+7 5 cwwad     E1M1   6-08-94  5A 33  VLrg. Center room. Pyramid. Berserks
+7 5 deathme   E3M1   6-06-94  2A 45  Large Sq w/pillars, barrels, windows +M
+7 5 duo_1     E1M1   4-29-94  2H 30  Square area w/outside corridor
+7 5 enigma    E1M1   7-30-94  2B 41  Center room w/elevators. Snipper zones
+7 5 hexxed    E1M1   6-06-94  2A 45  Caged Spider & Cyber -x
+7 5 show      E1M1   7-21-94  3H 35  Lrg hex room w/sniper zones
+7 5 swetdeth  E1M1   5-06-94  3B 35  Square room w/trench & hill
+7 5 trimatch  E1M1   7-20-94  2B 30  Three circles connected w/outer circle
+7 4 nasty11   E1M1   6-03-94  1A 21  Simple octagon w/weapons in center
+7 4 steps3    E1M1   3-30-94  3B 33  Multi-rooms & snipe windows
+7 2 t3        E1M1   6-25-94  1A 50  VSml. 4 doors, 4 rooms, 4 Weapons. -X
+7 _ auror12a  E1M2   7-29-94  3H 45  Lots of secrets, pillers, platforms
+7 _ ayrton_2  E1M1   8-08-94  2B __  small rooms w/short halls +D2
+7 _ carnage   E1M1   6-09-94  3B __  Four main rooms w/connecting halls
+7 _ dblcross  E2M2   8-08-94  2B __  Crusher, 8 outer circles. +D2
+7 _ dethday2  E1M2   9-25-94  3A __  Several large rooms
+7 _ free4all  E2M9   8-24-94  3B __  Central room w/long elevator & halls *M
+7 _ infinity  E1M1   9-12-94  3B __  Two central rooms w/long elevator & halls
+7 _ ledges4i  E1M1   8-24-94  __ __  Large room with ledges and teleports +D2
+7 _ maniac    E2M1   9-15-94  3B __  Few halls & small rooms & secrets
+7 _ madmax    E1M1  10-11-94  2A __  Circular room & teleporters -X
+7 _ megadeth  E2M7   9-25-94  2A __  1 room w/rockets
+7 _ octfrag2  E1M1  10-11-94  3B __  Several rooms w/shotguns +D2 +S
+7 _ ojsim1    E2M1   7-31-94  3B 40  Several rooms w/secret snipper zones
+7 _ pentadth  E1M1   9-25-94  3B __  Several pentagrams & halls w/secrets
+7 _ qwert7    E2M1   7-20-94  2A 31  Caverns and 1-way walls
+7 _ rot       E1M1   9-18-94  3B __  Central room w/passages & secrets
+7 _ slapme    E1M1   9-11-94  3B __  Big central square, snipers
+7 _ tkmaz14a  E1M4   7-29-94  2H 34  Twisty halls, hidden maze
+7 _ treedm1   E1M1  10-15-94  3B __  Several rooms & halls
+7 _ trunk     E1M1   8-09-94  3B __  Several lrg rooms, halls
+7 _ tourney2  E1M1  11-05-94  4B __  Designed for VGC Team Alt-Death Tourney
+ 
+6 9 lookout   E1M1   9-16-94  4H __  Halls & rooms +G
+6 9 mayan666  E1M1  10-17-94  3B __  Outside w/buildings & pyramids +G
+6 8 morehell  E1M1   5-06-94  4H 11  VBig.  Interconnected rooms. +Cx
+6 7 fragyou   E1M1   6-25-94  3A 22  Court yard w/stairs & elevators
+6 6 dethe1m1  E1M1   4-30-94  4A 31  A large house. +GM
+6 6 dethmaze  E1M1   7-13-94  4H 32  A maze w/some darkness & sniper zones
+6 6 spaz      E2M1   6-27-94  5H 45  2 Large Rooms, Perches & snipe zones
+6 6 spunk     E1M1   4-12-94  3B __  Several big rooms, TonsOammo
+6 6 the-keep  E1M1   5-08-94  4H 30  In the shape of a castle/moat/court
+6 5 gore1     E1M1   4-18-94  4A 30  Large cavernous rooms (maze like)
+6 5 speedoom  E1M1   6-20-94  2A 30  Square room w/teleporters (DM?)
+6 5 spiral    E2M1   4-20-94  4H 34  Room w/spiral stairs + small rooms
+6 5 theta-4   E1M1   5-14-94  4H 30  Outside arena. Large rooms. +G
+6 5 zzone     E1M1   4-20-94  2A 35  Big room w/perches
+6 4 dmaze     E1M1   7-01-94  4H 30  Dark large twisting caverns
+6 4 fig8      E1M1   7-23-94  2B 40  Figure 8 shaped.
+6 3 avrax     E3M4   6-08-94  5H 40  Paths & Arenas. TonsOAmmo -X
+6 3 death1    E1M1   5-04-94  0A 00  Itty bitty; distributed with DEATH9.ZIP
+6 3 grease    E3M1   6-24-94  2A 33  Inverted pyramid. One way-down
+6 _ area8     E1M1   9-10-94  3A __  Center arena w/ledges
+6 _ ash15a    E1M5   7-26-94  2H 45  Tons of small rooms w/doors
+6 _ batman    E2M1   7-24-94  4H 44  Lots of loops & shadows
+6 _ chain     E2M1   7-31-94  2B 30  LotsOchainsaws, drak areas, fake walls
+6 _ conquer   E3M1   9-25-94  4B __  Center outside room w/halls
+6 _ drkstair  E2M1   7-20-94  3B 34  Stair pit w/outer halls -x
+6 _ dthtown   E1M1   7-02-94  4B __  Streets & multi-level buildings
+6 _ elements  E1M1   9-04-94  2B __  Square rooms, snipers, central area
+6 _ garden    E1M1   9-05-94  __ __  Big rooms and hallways.
+6 _ horror    E1M1   7-15-94  4H 45  Halls & rooms -x
+6 _ led       E1M1   8-24-94  4H __  Halls & lrg room & ammo dump.
+6 _ mav2m1    E1M1   8-09-94  2A __  Circle room w/outside doors (HOM)
+6 _ maze      E1M1   7-31-94  3H 40  A simple maze w/all weapons -x +M
+6 _ m_rohe    E1M1   9-06-94  3B __  Mansion & swiming pool w/outside. +G
+6 _ night2-0  E1M8   9-25-94  3B __  Central room w/pillers +G +D2 -X
+6 _ nomercy   E1M1   8-01-94  3B 45  Multi-strange rooms -x +M
+6 _ pentgram  E1M2   9-15-94  4B __  Many rooms
+6 _ pip       E1M1   9-19-94  4B __  Large room w/ledges & invis walls -x
+6 _ pits13a   E1M3   7-29-94  3H 45  Inverted pyramid, platform, teleporters
+6 _ pueblo    E1M1   9-03-94  3B __  Multi-building w/outside. +G
+6 _ riana001  E1M1   7-30-94  3B _2  Rooms & elevators -X
+6 _ sniper    E1M1   9-15-94  __ __  Several rooms w/snipers & rockets
+6 _ tunnels   E1M2   7-21-94  2A 04  Butterfly shapped caverns w/teleports
+6 _ usq2      E1M1   9-25-94  3B __  Large building & outside area
+6 _ yes       E1M1   8-24-94  __ __  1 rectangle room, flashing lights.
+  
+5 9 space     E1M2   5-27-94  2B 33  Several large room in outer space +GS -X
+5 9 the_grid  E2M1   5-20-94  4H 23  SLOW. Lots of nooks & crannies
+5 8 trench    E1M1   5-12-94  3A 21  Trenches to run around in outside
+5 7 markrm2   E2M1   6-13-94  3A 22  Veritical floor maze -x
+5 7 stadium   E1M1   6-25-94  __ __  Very simple; Looks like football stadium
+5 7 swig1     E1M1   7-01-94  5H 35  4 Rooms, 50 Rockets
+5 6 afro      E1M1   4-19-94  4H 23  Large Complex level
+5 6 flat-692  E1M1   6-07-94  2A 34  A house w/furniture & yard
+5 6 jadml1m1  E1M1   4-07-94  2B 22  Dark Ring w/Powerups
+5 6 warehse1  E1M1   6-13-94  5H 35  VBig. Boxes mazes & outside yard
+5 5 11bones   E1M1   4-11-94  4B 21  Center room w/halls & perches
+5 5 bigbro    E1M1   4-19-94  5H 23  Large rooms. One "god" player -x
+5 5 cross     E1M3   3-11-94  5H 34  Big complex w/many rooms
+5 5 dspiral   E2M1   1-26-94  2A 43  Arena & spiral stairs in center -x
+5 5 flash     E1M1   4-04-94  4H 14  Side rooms w/central pit & balcony -x
+5 5 frgfst21  E2M1   5-02-94  5H 21  Hex room, spiral stairs, big court yrd
+5 5 techbase  E1M1   5-31-94  4H 32  Large room w/crates + snipe zones -x
+5 5 urbnbeta  E1M1   6-06-94  4B 32  Several big houses & yards
+5 4 acheron   E1M3   6-10-94  4B 22  Many hex rooms & teleporters
+5 4 dodge     E1M1   6-29-94  2B 45  Very dark. Square chambers w/Barons
+5 4 jaredm11  E1M1   7-03-94  3B 40  Coliseum w/side halls & teleports
+5 4 xeno11    E1M1   5-24-94  5H 35  Many room complex w/outside area +G
+5 3 cantrun   E1M1   6-27-94  4H 50  VBig, TonsOWep Repetitive -X
+5 3 stolen    E2M1   7-01-94  4A 35  Based on Shadows. Bad lighting.
+5 2 quirul    E1M1   7-01-94  4A 12  Large warehouse w/halls -X
+5 2 rip2      E1M4   6-13-94  3B 30  Many caverns -X
+5 1 canyon    E2M1   6-08-94  4B 32  Twisty canyon
+5 _ altima    E2M5   8-07-94  4B __  Central room & strange rooms
+5 _ andy      E1M1   8-06-94  3H 40  Follow arrows, several lrg rooms -x
+5 _ circle_   E1M1   7-22-94  5H 35  Vlrg. interesting complex.
+5 _ choppas   E1M1   9-11-94  2B __  Room w/lifts & chainsaws -x
+5 _ dc        E1M1   8-24-94  4B __  Strange rooms
+5 _ death__   E1M1   7-26-94  __ 35  Super TonsOammo, Elevators
+5 _ dmarena1  E2M1   8-24-94  2A __  Big circle
+5 _ evil_e    E1M1   4-20-94  __ 35  Central arena w/off chutes. Few secrets.
+5 _ hunter    E1M1   9-15-94  4H __  Maze w/rooms
+5 _ kill      E1M1   7-22-94  4H 40  Open area, ledges, buildings
+5 _ maxfrag   E1M1   8-05-94  __ 31  Fast twisty halls, 2 rooms
+5 _ rip2      E1M1   7-16-94  __ 30  -x
+5 _ rip5      E1M3   7-16-94  __ 40  -x
+5 _ runaway   E1M1   9-15-94  4H __  Multi-room w/halls
+5 _ ry11ecr   E1M1  09-26-94  4H __  Large multi-room w/many doors -x
+5 _ scarves   E1M3   7-10-94  4H __  Corridors
+5 _ snipe99   E1M1   8-25-94  4H __  Big complex
+5 _ triangle  E1M1   8-19-94  4B __  Triangle room w/teleports & pilars
+5 _ zone      E1M1   9-09-94  4B __  Dark twisty halls w/outside +D2
+  
+4 8 coloseum  E3M1   6-08-94  3A 35  Circular room. Outside Secrets
+4 8 deadzone  E1M1   6-07-94  5H 22  Arena & lift grid
+4 7 thekeep2  E1M1   5-15-94  4H 20  In the shape of a castle/moat/court
+4 7 9-to-5    E1M6   6-13-94  5H 35  Vlrg office building w/outside.
+4 6 dmat4     E1M1   7-01-94  3A 44  Large warehouse. LotsOBarrels
+4 5 freedom   E2M2   5-12-94  4H 33  Halls & large caverns interconnected
+4 5 sewer     E2M1   5-30-94  5H 32  Large open center circled by building
+4 5 stairs    E1M1   4-30-94  6H 35  VBig. Lots of rooms & stairs
+4 4 grrfy11   E1M1   4-16-94  3H 22  Large multi-room complex -x
+4 4 pyramid   E2M1   5-11-94  4H 34  Pyramid w/mazes. (DM?)
+4 4 quary11   E1M1   5-02-94  2A 33  Large pit w/trenches. -X
+4 4 rampage   E1M1   5-16-94  4H 33  Large complex w/many small rooms
+4 3 atica     E1M1   6-29-94  4H 12  Large maze w/outside area
+4 3 horror21  E2M1   5-28-94  4B 45  Multi-room complex
+4 2 pellejos  E1M1   7-01-94  3A 10  Large Square room w/outer ring -X
+4 _ abanware  E1M1   9-06-94  4B __  Central room & outside yard
+4 _ biosci    E1M1   7-22-94  5H 44  Outside yard w/Lrg. building
+4 _ convertm  E1M1   6-30-94  4H 13  Rooms w/cages, halls, elevators -x (HOM)
+4 _ dead      E1M1   9-15-94  3B __  Central room, "sticky" corners, secrets
+4 _ deathday  E1M1   9-15-94  4H __  Maze of rooms & halls -x
+4 _ diefast   E1M1   8-08-94  3H __  Halls
+4 _ eyespy    E2M2   9-15-94  3H __  Rooms w/many halls.
+4 _ fist_em   E1M1   8-31-94  4H __  Many rooms w/outside area. (Slow outside)
+4 _ gryblood  E2M2   7-20-94  4H 35  Bizaar floating building (DM?)
+4 _ hiding    E1M1   7-28-94  4H 34  Halls, Lrg rooms, traps, secrets
+4 _ holymoly  E2M3   7-20-94  2A 45  Huge circle arnea -x
+4 _ joi-ctc   E2M1   8-01-94  __ 43  Huge multi-level w/ledges & elevators
+4 _ kswood    E1M1   9-08-94  4H __  Huge outside w/some buildings +M
+4 _ phucked   E1M1   9-07-94  __ __  Central area w/lifts -x
+4 _ rip3      E1M2   7-16-94  __ 30  -x
+4 _ rip4      E1M1   7-16-94  __ 34  -x
+4 _ rip6      E3M1   7-16-94  __ 34  -x
+4 _ rip7      E1M5   7-16-94  __ 30  -X
+4 _ rip8      E1M3   7-16-94  __ 30  -x
+4 _ spaceshp  E1M1   9-25-94  5H __  Huge corridors & TonsO'Weapons
+4 _ spankme   E1M1   8-26-94  2B __  Room w/weapon pedistals
+4 _ techtemp  E2M1   8-24-94  3H __  Halls & rooms -X
+4 _ tour      E2M1   8-05-94  3H 42  Rooms & ledges. Unmarked teleports +M
+4 _ turbo     E1M1   7-14-94  3B 34  Multi-room with many suicide traps -x
+4 _ woodhal2  E1M1   9-12-94  4H __  Maze like halls
+4 _ wow       E1M4   8-17-94  __ __  Space rooms (nudes) +G
+  
+3 9 thejoker  E1M1   8-09-94  4H __  TonsOswitches, traps. +M
+3 6 castle    E1M1   7-12-94  5H 33  VLrg. Castle layout w/outside & moat.
+3 6 longmtch  E2M1   4-21-94  4H 43  Lots of rooms, cages, secrets
+3 5 djg21-1a  E2M1   3-28-94  5B 45  Rooms connected by halls
+3 5 nitro2    E2M1   6-08-94  3H 23  Interconnecting rooms
+3 5 pleasure  E1M1   5-10-94  5B 15  Huge stadium w/bleachers & lot -x
+3 4 daemon2   E1M1   4-07-94  4H 25  Not a deathmatch specific.
+3 4 upliftng  E1M1   4-17-94  4H 25  Halls, pits, & trees
+3 3 hellbnd   E2M1   6-04-94  5H 30  Large multi-room complex
+3 3 jal_dm1   E1M1   5-10-94  3B 31  Several large court yards + teleports
+3 3 jeff-1-2  E1M2   3-24-94  4H 31  Large rooms some dark w/teleports
+3 3 rings     E1M1   6-19-94  2A 12  Sq. Rings around a central block
+3 2 dprison   E1M1   1-21-94  2A 45  All start in center room w/Baron
+3 1 arena     E1M1   4-08-94  6A 40  Biggest room ever- HOMs & equip -X
+3 _ bunka     E1M1   9-14-94  2B __  Dark arena
+3 _ ghostown  E1M2   9-25-94  5H __  Large barren town w/streets & buildings
+3 _ killer21  E2M1   9-15-94  4H __  Crushing walls, acid pits, secrets
+3 _ newday    E1M1   9-15-94  4H __  Room & halls
+3 _ murder2   E2M1   8-24-94  __ __  Huge.
+3 _ wwf       E1M1   7-27-94  2B 32  Arena & halls
+  
+2 8 dethwalk  E2M1   4-11-94  2A 33  Planks on a green acid lake -X
+2 8 quatro    E1M1   6-14-94  4H 44  VBig multi-level complex w/outside
+2 4 lvnghell  E1M1   7-01-94  2H 33  Lots of large & weird rooms +M -X
+2 4 pillars   E1M1   2-18-94  3H 34  Pillar room, Outside circle
+2 4 sniper    E1M1   6-30-94  3H 32  Many connected rooms -x
+2 4 softhell  E2M1   6-14-94  4H 35  Very big complex. Too many monsters
+2 4 rock-it   E1M1   5-09-94  4H 35  Several Large rooms. Many Suicide
+2 _ base      E1M1   8-13-94  __ __  Huge mazes w/outside -x
+2 _ spoon!    E1M1   9-25-94  __ __  Acid w/thin walkways
+  
+1 1 nitro1    E2M2   5-20-94  2A 30  Very small. Interconnected rooms.
+1 2 stewbeta  E1M1   9-07-78  5H 45  Outside lake & tower (lots of HOM)
+1 3 tnspires  E2M1   4-07-94  2A 10  4 tall pillars surround by acid
+1 _ escape    E1M1   8-05-94  __ __  Huge
+
+[14-2-2]: PWAD Authoring Template v1.4
+--------------------------------------
+
+        For all of you PWAD authors out there, here is the "Official" PWAD
+Authoring Template v1.4.  When you release your PWAD, please fill this form
+out and place it in the information file you create about your PWAD.
+Thanks to Steve Bareman (bareman@hope.cit.hope.edu) for creating a WAD
+about file standard.
+
+WAD Authoring Template V1.4   (Clip this line)
+================================================================
+Title                   :
+Filename                : xxxx.WAD
+Author                  : Your name here
+Email Address           :
+Misc. Author Info       :
+
+Description             : Set the mood here.
+
+Additional Credits to   :
+================================================================
+
+* Play Information *
+
+Game                    : DOOM I/DOOM II/Both
+Episode and Level #     : ExMx (,ExMx,...)
+Single Player           : Yes/No
+Cooperative 2-4 Player  : Yes/No
+Deathmatch 2-4 Player   : Yes/No
+Difficulty Settings     : Yes/Not implemented
+New Sounds              : Yes/No
+New Graphics            : Yes/No
+New Music               : Yes/No
+Demos Replaced          : None/1/2/3/All
+
+* Construction *
+
+Base                    : New level from scratch/Modified ExMx/xxx.WAD
+Editor(s) used          :
+Known Bugs              :
+
+
+* Copyright / Permissions *
+
+Authors (MAY/may NOT) use this level as a base to build additional
+levels.
+
+(One of the following)
+
+You MAY distribute this WAD, provided you include this file, with
+no modifications.  You may distribute this file in any electronic
+format (BBS, Diskette, CD, etc) as long as you include this file
+intact.
+
+You MAY not distribute this WAD file in any format.
+
+You may do whatever you want with this file.
+
+
+* Where to get this WAD *
+
+FTP sites:
+
+BBS numbers:
+
+Other:
+
+*14-3*: Sounds
+==============
+        Here is a catalog of various sound collections available for DOOM.
+Bill Neisius' DMAUD v1.1 or similar utility is needed to import many of
+them into DOOM.  Others are in PWAD format, which require the use
+of the command line:
+
+        "DOOM -FILE <wadfile>.WAD"
+
+AVAILABLE AT:
+        Site (1): sounds/(filename)
+
+
+FILE         DESCRIPTION             CREATOR
+====         ===========             =======
+aliensnd.zip Aliens F/X and Music    Unknown
+aliens2 .zip Aliens movie            Unknown
+anime   .zip Anime sounds            Steve Chaney (gunhed@netcom.com)
+ash-doom.zip PWAD of doom-ash.zip    Unknown
+aoddoom .zip Army of Darkness        Unknown (flash@black.clarku.edu)
+aodsound.zip Army of Darkness        Marc Wensauer (w9b192@ugrad.cs.ubc.ca)
+awsdm1-2.zip Best sounds collection  Christian Reed (jcr@gas.uug.arizona.edu)
+beav-but.zip Beavis and Butthead     Doug Dziedzic (dziedzic@ecst.csuchico.edu)
+beavis  .zip Beavis and Butthead     Jeff Webinger (willey@iastate.edu)
+dgold3lt.zip DOOM GOLD Lite          Enigma-13
+dm_chris.zip Realistic/frightening   Chris Hayashida
+                                     (chayashida@ms.asucla.ucla.edu)
+dm_cool .zip Humourous sounds        Aaron Criger (blade@freenet.grfn.org)
+dm_fluid.zip Fluid Motion sounds     Dagda Samildanac
+                                     (dagda_s@hebron.connected.com)
+dm_gheto.zip Explicit lyrics         Unknown
+dmgold10.zip DOOM GOLD               Enigma-13
+dmgold_4.zip DOOM GOLD IV (D2)       Enigma-13
+dmaliens.zip Aliens movie            "Peacemaker"
+dmfmj20 .zip Full Metal Jacket       Jin Kim (xjinkim@fullerton.edu)
+dmmisc  .zip Star Wars/Ren & Stimpy  "Asthmahound"
+dmnsnd1 .zip Aliens/Predator/Ash     Daniel Kennett (dkennett@sfu.ca)
+dmnsnd2 .zip Simpsons                "Shriker" (gills@qucdn.queensu.ca)
+dmnsnd3 .zip Predator/others         "Shriker" (gills@qucdn.queensu.ca)
+dmpython.zip Monty Python            Adam Isgreen and Andre Vrignaud
+                                     (andrev@aol.com)
+dmsally .zip When Harry Met Sally    "Duran Duran"
+dmsilly1.zip Humorous                Unknown (dchouina@sobeco.ca)
+dmstrwr1.zip Star Wars PWAD          Unknown (aaronf@netcom.com)
+dmwierd .zip 36 new sounds           Scott Schuricht
+                                     (schurich@mn.ecn.purdue.edu)
+dmzounds.zip TV shows/songs/CDs      Stephen Pandke (pandke@zeus.achilles.net)
+doe     .zip Homer Simpson           Steve (gunhed@netcom.com)
+doom-ash.zip Army-Darkness/Evil Dead Brian Olson (olso0389@maroon.tc.umn.edu)
+doomdwdk.zip Darkwing Duck           Patrick (patrick@fornext.com)
+doomsnds.zip Util plays sounds       Michael Albers (mal@netcom.com)
+doomwkd .zip "Wicked" sounds         "D.H."
+doomwavs.zip Sound collection        "Halitosis"
+drwho   .zip Dr. Who sounds          Simon Jansen (sjan01@cs.aukuni.ac.nz)
+dsmdoom .zip Original DOOM sounds    Unknown (drudman@corp.hp.com)
+dsmterm .zip Terminator              Unknown (drudman@corp.hp.com)
+evildead.zip Evil Dead sounds        SubSector
+funsnd  .zip Various movies          Steve Huskisson (steveh@satelnet.org)
+gdsounds.zip PWAD of greatds.zip     Unknown (efisher@moose.uvm.edu)
+goons   .zip Goons sounds            Peter Sellers (heasman@geo.geol.utas.edu.au)
+greatds .zip Sound collection        Unknown
+gus1m   .zip Optimized GUS MIDI      Tom Klok (a344@mindlink.bc.ca)
+hiroshim.zip Scary sounds            Wes Ratliff (tas8663@utarlg.uta.edu)
+hn_doom .zip HellNet sounds          Unknown
+hhgwavs .zip Hitchhiker's Guide TTG  S.P. Harvey (sharvey@interaccess.com)
+homer   .zip Simpsons PWAD           Dave Sawford and Andrew Gerrard
+                                     (dws@ras.phy.cam.ac.uk)
+homerdm2.zip Homer DOOM              Shinobi
+jamsnds2.zip NBA Jam sounds          Mr. Micro
+jb-doom .zip James Brown sounds      Steven Fox (steven.fox@twwde.com)
+jbrown  .zip James Brown sounds      Ron VanDevender
+                                     (renv@graylady.uoregon.edu)
+jerkey  .zip Jerky Boys              Unknown
+jerky   .zip Jerky Boys              Steve Huskisson (steveh@satelnet.org)
+jesco   .zip Jesco White sounds      Unknown (un035345@wvnvaxa.wvnet.edu)
+jpdoom  .zip Jurassic Park sounds    Steven Waldner (waldner@plains.nodak.edu)
+kickassa.zip Various Movies          Charles Fuoco (cfuoco@uxa.cso.uiuc.edu)
+mstdoom .zip MST3k sounds            Michael Coleman (grolsch1@aol.com)
+mydoom10.zip Sound collection        Unknown
+mymixwad.zip Sound collection        Unknown
+newsnd  .zip Various Sounds          Johnny Nugnug (jnugnug@nas.com)
+not4kids.zip Explicit lyrics         Unknown (cluster@neosoft.com)
+pooksnds.zip Pook Sounds             Evan Malsbury (Unknown)
+predator.zip Predator                Dream Warrior
+python  .zip Monty Python sounds     Solomon White (whitesol@math.enmu.edu)
+raw     .zip Favorite Sounds (D2)    Andrew Smith (aes4@fdadr.cdrh.fda.gov)
+realdm-1.zip Military Base Sounds    Andrew Schramm
+                                     (schramm@mciron.mw.tu-dresden.de)
+seindoom.zip Seinfeld                Unknown
+sex     .zip Explicit lyrics         Wade Stewart (swade@efn.org)
+simpsons.zip Simpsons DOOM           Chuck Fuoco (cfuoco@uxa.cso.uiuc.edu)
+spit    .zip Various Sounds          Unknown (s1076329@cedarville.edu)
+st-snds .zip Star Trek               Pete Hesse (pmhesse@vax1.acs.jmu.edu)
+sternwad.zip Howard Stern            Unknown
+stooges .zip The Three Stooges       Phil Robinson
+                                     (robinson@euler.jsc.nasa.gov)
+swdoc13 .zip Star Wars Sounds        AJ
+swsfx   .zip Star Wars Sounds        Mike (Unknown)
+swfxpwad.zip Star Wars               Unknown
+t2sounds.zip Terminator II           Unknown
+t2      .zip Terminator II           Unknown
+udoomsfx.zip Various TV shows        Unknown
+yaasp   .zip Aliens sounds           Jeremy Phillips
+voices  .zip SPISPOPD sounds         Nathan Mielcarek
+                                     (donnmiel@tecnet1.jcte.jcs.mil)
+voodoom .zip Sounds                  Shinobi
+wworld30.zip Wayne's World           Eric Wescott (wescotte@earth.execpc.com)
+                                     (jphil@tartarus.uwa.edu.au)
+
+*14-4*: Music
+=============
+        Here is a catalog of various music collections available for DOOM.
+Bill Neisius' DMMUSIC v1.0a or similar utility is needed to import many of
+them into DOOM.  Others are in PWAD format, which require the use
+of the command line:
+
+        "DOOM -FILE <wadfile>.WAD"
+
+AVAILABLE AT:
+        Site (1): music/(filename)
+
+FILE         DESCRIPTION    EPISODES CREATOR
+====         ===========         === =======
+allepmus.zip assorted music      123 Unknown
+                                     (jtdickin@ouray.denver.colorado.edu)
+batmus  .zip Batman Music        1XX Tim McCune (trm@ksu.ksu.edu)
+classic1.zip classical music     1XX Unknown
+classic2.zip classical music     1XX Unknown
+clasmus .zip classical music     1XX Unknown
+e2music1.zip assorted music      12X Unknown (chadan@daisy.cc.utexas.edu)
+e2newmus.zip New Music           X2X Unknown (chadan@daisy.cc.utexas.edu)
+foreve  .zip Live Forever Queen  1XX Kathy Brown (Unknown)
+jaymust .zip assorted music      12X Unknown (bgorski@emr1.emr.ca)
+jjs-jams.zip New Music           123 J. J. Franzen (jfranzen@scf.usc.edu)
+lithmusi.zip classic rock        123 Chris Hopkins (chopkins@peinet.pe.ca)
+pop     .zip Pop Music           1XX Nigel Arnold (nige@theweb.demon.co.uk)
+rikmusic.zip Rick's Music        12X Rick Kelly (bubsy1@aol.com)
+starmid .zip Star Wars music     123 Unknown
+swmusfx3.zip Star Wars music     123 Chris Hopkins (chopkins@peinet.pe.ca)
+swmusic .zip Star Wars music     123 Chris Hopkins (chopkins@peinet.pe.ca)
+t2mus   .zip Terminator II music 1XX Wirta Wiriyan (kosasih@cae.wisc.edu)
+vamus1  .zip Various Pop Music   1XX Angelito So (aso@ic.sunysb.edu)
+
+*14-5*: LMPs (Recordings)
+=========================
+
+        As far as I am aware, no LMP packages have been released for 
+DOOM v1.666 or DOOM II v1.7a.
+
+*14-6*: DEHACKED patches
+========================
+
+        DEHACKED (see Chapter [13-2]) allows modification of the DOOM.EXE
+file.  DEHACKED can be used to create DOOM.EXE patch files, which are used
+to save DOOM.EXE settings to be distributed.  To use a DEHACKED patch,
+the DEHACKED utility is required (see Chapter [13-2]).  Using the DEHACKED
+utility, type this to use a DEHACKED patch file.
+
+        "DEHACKED <WAD file name/path> -LOAD <patch name>.DEH"
+
+        For example, to use a DOOM.WAD in the C:\DOOM directory, and patch
+it with the monster morphing patch, you would use this command line:
+
+        "DEHACKED c:\doom\doom.wad -LOAD monsmorf.deh"
+
+AVAILABLE AT:
+
+        Site (1): wad_edit/doomhack/(filename)
+
+        For a complete list and review of all DeHackEd patches, E-mail 
+Michael Adcock at "adcock@menudo.uh.edu" asking for the DeHacked patch 
+review.
+
+----------------------------------------------------------
+CHAPTER *15*: What other miscellaneous DOOM add-ons exist?
+----------------------------------------------------------
+
+*15-1* APCiDOOM v5.1
+====================
+
+DESCRIPTION:
+	A full front-end for DOOM and DOOM II.  Allows use of the APCi MultiPlayer Game Server (available on various BBSes) as well as standard modem and IPX games.
+
+CREATED BY:
+	APC, Inc.  (Unknown)
+
+AVAILABLE AT:
+	Site (1): multi_doom/apcidm51.zip
+
+[15-2]: BNUDOOM v1.26
+=====================
+
+DESCRIPTION:
+        A DOOM serial driver replacement utilizing a fossil driver.  Allows
+modem-modem connections with modem speeds up to 115K with full error
+correction and hardware flow control, non-standard IRQ setups, voice to
+modem connections (no need to wait for RING in this case - goes straight to
+on-line to get the handshaking going), option NOT to drop DTR after a game
+has ended in order to restart the game without losing the connection, and
+more.  If you are having trouble with your modem and DOOM, this is for you.
+
+CREATED BY:
+        David Nugent (address@here)
+
+AVAILABLE AT:
+        Site (1): multi_doom/BNUDM126.ZIP
+
+*15-3*: DeuTex and DeuSF v2.9
+=============================
+
+DESCRIPTION:
+	DeuTex is a freeware program to build, rip-off and rebuild PWADs.
+Allows you to flexibly redefine sprites, floors, ceilings, wall textures, 
+sounds, music, levels (obtained from doom editors). DeuSF enables you to
+distribute PWADS where some sprite and floor/ceiling are redefined.
+A must to create customised and original looking PWADs.
+Supports .GIF .BMP .WAV .AU (and .MUS, obtained from MIDI files).
+
+CREATED BY:
+	Olivier Montanuy (montanuy@dmi.ens.fr)
+
+AVAILABLE AT:
+	Site (1): wad_edit/misc/deutex29.zip
+
+[15-4]: DIRPWAD
+===============
+
+DESCRIPTION:
+        Reads episode and mission number from a PWAD file, including
+information about mode.
+
+CREATED BY:
+        R. Nijlunsing (csg465@wing.rug.nl)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/dirpwad.zip
+
+[15-5]: DOOMBSP Source Code
+===========================
+
+DESCRIPTION:
+        id Software's BSP builder source code.
+
+CREATED BY:
+        id Software (help@idsoftware.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/node-build/doombsp.zip
+
+*15-6*: DOOM Color Changer v2.0
+===============================
+
+DESCRIPTION:
+        This program modifies the DOOM.WAD files' player pictures. This
+allows a you to change the way other players are viewed in a 
+multi-player game. If you are playing a cooperative game, you can make 
+the players white so they stand out and you can avoid hitting them by 
+accident. Or, you can make the players dark colors so that a deathmatch
+game can be more difficult.  This program will only work on the 
+registered DOOM version 1.2.
+
+CREATED BY:
+	Douglas Leininger (72773.245@compuserve.com)
+
+AVAILABLE AT:
+	Site (1): misc/doomcc2.zip
+
+*15-7*: DOOM Control Center v3.0
+================================
+
+DESCRIPTION:
+        Run single/serial/modem/network games.  Mouse-driven user 
+interface, control all aspects of modem and net games ITHOUT command 
+line parameters.  Use external WADs, edit chat macros, saved games. 
+Re-assign levels of WAD files.  Browse internal directory of WAD files.
+
+CREATED BY:
+	Unknown
+
+AVAILABLE AT:
+	Site (1): misc/dmcc30.zip
+
+*15-8*: DOOM EasyWAD v1.11
+==========================
+
+DESCRIPTION:
+        This program was made for all those DOOMers with loadsa WAD 
+files. It produces a nice WAD selection interface, which should put an 
+end to losing track of all these files. (At least I get more frustrated 
+from finding that particular WAD file and typing all that things on the 
+command line than from playing DOOM itself!).
+
+CREATED BY:
+	M. van der Heide (martijn@.htsa.hva.nl)
+
+AVAILABLE AT:
+	Site (1): misc/easyw111.zip
+
+*15-9*: DOOMED v1.666
+=====================
+
+DESCRIPTION:
+	This is the one of the few save game editors that I know of that 
+hassurvived each and every DOOM version release.  This great editor 
+works on all versions of DOOM I through v1.666.
+
+CREATED BY:
+	Arun Bhalla (abhalla@imsa.edu)
+
+AVAILABLE AT:
+	Site (1): doomed16.zip
+
+*15-10*: DOOMED v1.6b
+=====================
+
+DESCRIPTION:
+	Another saved game editor (different than the original DOOMED).  
+This editor is unique as it works on both DOOM I and DOOM II.
+
+CREATED BY:
+	Chris Holz (cholz@wilbur.mbrak.swin.oz.au)
+
+AVAILABLE AT:
+	Site (1): misc/doomedt.zip
+
+*15-11*: DOOM Front End v3.10
+=============================
+
+DESCRIPTION:
+	A DOOM front end allowing many configurations.  For DOOM I.
+
+CREATED BY:
+	Josh Jackson (jsoftware@delphi.com)
+
+AVAILABLE AT:
+	Site (1): misc/dfe310.zip
+
+*15-12*: DOOM!gate v1.6
+=======================
+
+DESCRIPTION:
+	A DOOM front end allowing many configurations.  For DOOM I.
+
+CREATED BY:
+	Jani Halme (Unknown)
+
+AVAILABLE AT:
+	Site (1): misc/dgate160.zip
+
+[15-13]: The DOOM Hacker's Tool Kit v1.0
+========================================
+
+DESCRIPTION:
+        The full source code for Josh Jackson's WAD editing utilities.
+
+CREATED BY:
+        Josh Jackson (joshjackson@delphi.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/misc/dhtk100.zip
+
+(15-14): The DOOM Help Service
+==============================
+
+DESCRIPTION:
+        A group of many files, including the "Official" DOOM FAQ and modem
+information, for help with DOOM.
+
+CREATED BY:
+        Ian Mapleson (mapleson@cee.hw.ac.uk)
+
+AVAILABLE AT:
+        Site (1): text/doomhelp.zip
+
+(15-15): The DOOM Honorific Titles
+==================================
+
+DESCRIPTION:
+        When you think your DOOM skills are solid and that no monster in
+hell can be a match for your shotgun, you have two basic ways of getting
+street credit.  One is to win lots of DeathMatches against well-known
+players, and the other is to get one or more "DOOM Honorific Titles".
+The DHT is a rating system that awards top players with standardized and
+universally recognized titles. If you feel proud and/or silly enough,
+you can include the relevant letters after your name in your .sig and
+impress your fellow DOOM players.
+
+There are four titles to be conquered:
+
+     DOOM Master (DM):               can complete any level on Ultra-Violence.
+
+     DOOM Grand Master (DGM):        can complete any level on Nightmare.
+
+     DOOM Tyson (DT):                can complete any level on Ultra-Violence
+                                     using nothing more than fist and pistol.
+
+     DOOM Grand Ass Kicker (DGAK):   has the combined skills of a Master, a
+                                     Tyson and a Grand Master.
+
+The titles are awarded by passing an examination. As with most
+examinations, this will only be a random sampling of your
+capacity. You won't be required to complete all 27 episodes to prove
+that you can do it.
+
+You will be your own judge for the results. You will receive the text
+of the examination, which tells you what to do to be awarded the title
+you think you deserve; from then on you just have to produce the
+corresponding LMPs and upload them to a specific public place in a
+specific format to be able to call yourself a DM, DT, DGM or DGAK. There
+is no time limit. The LMPs must be produced especially for the
+examination -- you can't just send in your old ones. This is because
+there is an authentication mechanism which prevents people from
+recycling other people's LMPs.
+
+CREATED BY:
+        Frank Stajano (fms@cam-orl.co.uk)
+
+AVAILABLE AT:
+        Site (1): incoming/dht-exams/DHT3.ZIP
+
+*15-16*: DOOMLaunch v1.00
+=========================
+
+DESCRIPTION:
+        DOOMLaunchis a complete DOOM .WAD manager.  Looking for one 
+program to handle all of your wads efficiently and easily?  Can't find 
+the text file to tell you what level that wad is?  Is your hard drive 
+overwhelmed by the sheer size of all those extra wads?  Need a simple, 
+easy to use solution?  DOOMLaunch can help.
+
+CREATED BY:
+	Keith Cohen (Unknown)
+
+AVAILABLE AT:
+	Site (1): misc/dl100.zip
+
+[15-17]: DOOM Launcher for OS/2 v1.1
+====================================
+
+DESCRIPTION:
+        This program will create a REXX exec on-the-fly that will launch
+the DOOM v1.2 registered version with appropriate DOS SETTINGS and
+PARAMETERS to allow you to play DOOM under OS/2 2.1 in one of 3 ways:
+Stand alone, via Modem, and network.  This program supports all known
+command line options for the DOOM.EXE, SERSETUP.EXE, and IPXSETUP.EXE
+executables.
+
+CREATED BY:
+        Kevin Royalty (k.royalty@genie.geis.com)
+
+AVAILABLE AT:
+        Site (1): /pub/doom/misc/dmos2run.zip
+
+[15-18]: The DOOM Level Design FAQ v1.1
+=======================================
+
+DESCRIPTION:
+        A file containing frequently asked questions about DOOM level
+design and editing.
+
+CREATED BY:
+        Tom Neff (tneff@panix.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/text/design11.zip
+
+[15-19]: DOOMLOAD v4.0
+======================
+
+DESCRIPTION:
+        A replacement for DOOM's SETUP.EXE which allows quick net and modem
+play, "Sudden Death" play, play-logging for Novel networks, LMP recording
+and playback, and more.
+
+CREATED BY:
+        Christian Antkow (cant@softchoice.com)
+
+AVAILABLE AT:
+        Site (2): doomld4.zip
+        Site (1): multi_doom/doomld4.zip
+
+*15-20*: DOOM Master v3.0
+=========================
+
+DESCRIPTION:
+        The "ultimate" DOOM shell/launcher, handling everything from
+network to modem play, all DOOM configurations, and even has CD-ROM audio
+support.
+
+CREATED BY:
+        Joe Wilcox (sillysft@aol.com)
+
+AVAILABLE AT:
+        Site (1): misc/dm3.zip
+
+*15-21*: DOOMenu v17.0
+======================
+
+DESCRIPTION:
+     DOOMenu is a utility which allows IPX network, modem, and null-modem, or
+single play quickly and easily.  DOOMenu allows you to choose cooperative or
+deathmatch with respawn or monsters on or off.  It can load a save game, or
+use an external WAD file.  It will ask you for the skill, episode, episode
+map, number to dial, and whether to disable call waiting.  It can store up to
+9 different default phone numbers for speed dialing.  It also has a built-in
+wad rating system, so you never have to remember which wads were good, and a
+wad counter which records the number of times you have played each wad.  It
+fully supports DOOM v1.666 with -fast (speeds up monsters), -altdeath
+(DeathMatch v2.0 Rules), -turbo (Speeds up players! Gr8 for handicapping), and
+@RESPONSE.
+
+CREATED BY:
+        Jason Sandlin (000082937@ucis.vill.edu)
+
+AVAILABLE AT:
+        Site (1): misc/doomen17.zip
+
+[15-22]: DOOM Modem Contact List R7
+===================================
+
+DESCRIPTION:
+        The purpose of this list is to act as a directory of DOOM Modem
+players to help DOOMers connect with each other. If you are seeking a
+fellow player, simply locate someone near you on this list and send
+them E-Mail.
+        If you would like to be added to the list, send E-mail with the
+subject "DMCL - Add me" to 73743,431 on CompuServe, or
+"73743.431@compuserve.com" on the Internet.  Please provide the following
+information:
+
+1) State/Province/Country (For North America, please use the state/province
+                           2 character postal abbreviation.)
+2) Area Code
+3) NNX - This is the first 3 digits of your phone number, also known as
+         your exchange. (Not required for European addresses)
+4) Name
+5) City
+6) Game play preference (D=Deathmatch/C=Cooperative/E=Either)
+7) E-Mail Address
+
+Example: Canada, ON, 416, 631, Jeff Forsyth, Toronto, E, 73743,431
+
+CREATED BY:
+        Jeff Forsyth (CompuServe: 73743,431)
+
+AVAILABLE AT:
+        Site (1): text/dmcl7.txt
+
+[15-23]: DOOMPICS.ZIP
+=====================
+DESCRIPTION:
+
+        A series of DOOM pictures, including death scenes, barrels, and
+a close up of a rocket.  These graphics are in PCX format.
+
+CREATED BY:
+        Edgar Roman (eroman@dante.nmsu.edu)
+
+AVAILABLE AT:
+        Site (2): doompics.zip
+
+[15-24]: DOOM Serial Connection Manager v1.06b
+==============================================
+
+DESCRIPTION:
+        DOOM Serial Connection Manager is an alternative to using SETUP.EXE
+or command line parameters to set up serial connections.  It allows you to
+change many more options than with SETUP, and allows you to save up to 40
+configurations.
+
+CREATED BY:
+        The Blind Preacher: Nick Sabinske
+        To reach Nick, E-mail "sharvari@coke.eng.umd.edu" and the message
+        will be forwarded.
+
+AVAILABLE AT:
+        Site (1): multi_doom/dscm106b.zip
+        Site (2): dscm106b.zip
+
+[15-25]: DOOM Utilities v0.1
+============================
+
+DESCRIPTION:
+        Allows you to view DOOM maps.  Includes such features as zoom, pan,
+and multiple episode support.
+
+CREATED BY:
+        Bill Kirby (bkirby@netcom.com)
+
+AVAILABLE AT:
+        Site (1): dmutil01.zip
+
+[15-26]: DOOM WAD Manager v1.30c
+================================
+
+DESCRIPTION:
+        DOOM WAD Manager is a program that allows you to organize and work
+with all of your DOOM PWAD levels.  You can catalog your PWAD and IWAD
+files, change the level a PWAD modifies, and run DOOM with a single IWAD
+or PWAD to try them out.
+
+CREATED BY:
+        The Blind Preacher: Nick Sabinske
+        To reach Nick, E-mail "sharvari@coke.eng.umd.edu" and the message
+        will be forwarded.
+
+AVAILABLE AT:
+        Site (1): misc/dwm130c.zip
+        Site (2): dwm130c.zip
+
+*15-27*: DOOM.WAD Patch v1.666
+==============================
+
+DESCRIPTION:
+	A unofficial patch which repairs a bug in DOOM I v1.666 in 
+episode 3, mission 9.
+
+CREATED BY:
+	Lloyd Shelby (lshelby@indy.net)
+
+AVAILABLE AT:
+	Site (1): misc/dmp1666r.zip
+
+[15-28]: The DOOM IPX Network FAQ v1.2
+======================================
+
+DESCRIPTION:
+        A file containing answers to frequently asked questions about
+playing DOOM over an IPX network.
+
+CREATED BY:
+        Josh Jackson (jsoftware@delphi.com)
+
+AVAILABLE AT:
+        Site (1): text/ipxnet12.faq
+
+*15-29*: iDOOM v1.1
+===================
+
+DESCRIPTION:
+        A TCP/IP network driver for playing DOOM over the Internet. 
+
+	* Full support for DOOM II
+	* Online chat mode
+	* Interactive game parameter setting
+	* Built-in player "dialing directory"
+
+CREATED BY:
+        Scott Coleman (asre@uiuc.edu)
+        Jay Cotton (jay@calc.vet.uga.edu)
+
+AVAILABLE AT:
+        Site (1): multi_player/idoom11.zip
+        mrcnext.cso.uiuc.edu: /asre/idoom11.zip
+
+*15-30*: Internet DOOM Client/Server System v0.12
+=================================================
+
+DESCRIPTION:
+   The DOOM* Client/Server System is a front-end to DOOM TCP/IP network 
+drivers.  You use the client software to connect to a Frag Server. While 
+connected to the server, you can chat with other players and bystanders 
+and negotiate game parameters. You tell the server what parameters you 
+want, and when all the players are ready, the server will give the 
+client the decided game parameters plus the IP adresses of all your 
+victims. The client software will disconnect from the server and then 
+run a multi-player DOOM game (iDOOM* or linuxxdoom*).
+
+CREATED BY:
+	Jay Cotton (jay@calc.vet.uga.edu)
+
+AVAILABLE AT:
+	Site (1): multi_doom/tcpsrv12.zip
+
+[15-31]: LNTYP v1.01
+====================
+
+DESCRIPTION:
+        Contains descriptions of the available linedef types by number,
+grouped by function.  Includes 33 previously undefined linedef types and
+corrections to many others.
+
+CREATED BY:
+        Brian McKimens (samneric@connected.com)
+
+AVAILABLE AT:
+        Site (1): wad_edit/text/lntyp101.zip
+
+[15-32]: MIDI2MUS
+=================
+
+DESCRIPTION:
+        Converts MIDI music files to DOOM's MUS file format.  Useful for
+available DOOM music editors.
+
+CREATED BY:
+        id Software (help@idsoftware.com)
+
+AVAILABLE AT:
+        Site (1): music/midi2mus.exe
+
+[15-33]: OLDIPX.ZIP
+===================
+
+DESCRIPTION:
+        These are some files which may be useful in getting DOOM running over
+a TCP/IP network.  Included is an older version of a 3Com Etherlink III
+packet driver from 3Com, which has been found to be more reliable than
+the newer version from the Crynwr collection.  Also included is an older
+version of the Crynwr collection, which includes a number of useful
+utilities that were taken out of the newer version.  An old version of an
+IPX-to-PD converter is also included, which seems to run much better with
+DOOM than the new version by Intel.
+        Other files include a copy of the DOOM IPX FAQ.
+
+CREATED BY:
+        Steve Bonds (sbonds@jarthur.claremont.edu)
+
+AVAILABLE AT:
+        Site (1): oldipx.zip
+        Site (1): multi_doom/oldipx.zip
+
+*15-34*: SER6.ZIP
+=================
+
+DESCRIPTION:
+        A DOOM SERSETUP.EXE replacement which allows many baud rates,
+fixes all serial bugs, chat functions, statistics display, warping, and
+much more.
+
+CREATED BY:
+        Russell Gilbert (b804682@csc1.ftw.bnr.com)
+        Paul Hermann (hermann@poly-eng.uakron.edu)
+
+AVAILABLE AT:
+        Site (1): multi_doom/ser6.zip
+        Site (2): ser6.zip
+
+[15-35]: The Ultimate DOOM Maps
+===============================
+
+DESCRIPTION:
+        1024x768x256 GIF maps of all DOOM levels.
+
+CREATED BY:
+        Hap Campbell (hsc5m@watt.seas.virginia.edu)
+
+AVAILABLE AT:
+        Site (2): ultmaps1.zip
+
+*15-36*: Unofficial DOOM Specs v1.666
+=====================================
+
+DESCRIPTION:
+        Technical information about the DOOM .WAD file for programmers.
+Includes complete explanation of all components of the .WAD file,
+including nodes.  v1.666 of the specs may not be available until the 
+first quarter of 1995.
+
+CREATED BY:
+        Matt Burnett (matt.fell@acebbs.com)
+        Hank Leukart (Distribution: ap641@cleveland.freenet.edu)
+
+AVAILABLE AT:
+        Site (1): wad_edit/text/dmspec16.txt
+        Site (2): dmspec16.txt
+        Site (3): dmspec16.zip
+
+------------------------------------
+CHAPTER [16]: Future add-on software
+------------------------------------
+
+[16-1]: Add-on software wish list
+=================================
+        Attention programmers!  Here is a wish list, created by the DOOM
+players, of add-on software that should be made for DOOM.  If you would
+like to make an addition to this list, please send me E-mail.  Additionally,
+if you are planning on creating one of these utilities, tell me, and I'll move
+it to the "Add-on software in the making" chapter.
+
+        o Patch for network play that allows more than four players
+
+[16-2]: Add-on software in the making
+=====================================
+        This chapter tells about add-on software which is being currently
+worked on.  If you are working on something that is not in here, please send
+me E-mail so I can put it in.  In this section, you can also request help on
+creating some add-on software.
+
+        Project: None
+        Author: Ghent (ghent@rushnet.com)
+        Status: Looking for programming project.  If anyone would like help
+                from an experienced programmer for a DOOM project, E-mail
+                him.
+

@@ -1,0 +1,40 @@
+TITLE=Final DOOM: TNT - Evilution
+// warp type should be "em" for episode, map or "map"
+WARPTYPE=map
+EXENAME=DOOM2.EXE
+// set class_select to "0" for non-Hexen games
+CLASS_SELECT=0
+MAXPLAYERS=4
+MAP01=System Control
+MAP02=Human BBQ
+MAP03=Power Control
+MAP04=Wormhole
+MAP05=Hanger
+MAP06=Open Season
+MAP07=Prison
+MAP08=Metal
+MAP09=Stronghold
+MAP10=Redemption
+MAP11=Storage Facility
+MAP12=Crater
+MAP13=Nukage Processing
+MAP14=Steel Works
+MAP15=Dead Zone
+MAP16=Deepest Reaches
+MAP17=Processing area
+MAP18=Mill
+MAP19=Shipping/Respawning
+MAP20=Central Processing
+MAP21=Administration Center
+MAP22=Habitat
+MAP23=Lunar Mining Project
+MAP24=Quarry
+MAP25=Baron's Den
+MAP26=Ballistyx
+MAP27=Mount Pain
+MAP28=Heck
+MAP29=River Styx
+MAP30=Last Call
+MAP31=Pharaoh
+MAP32=Caribbean
+

@@ -1,0 +1,40 @@
+TITLE=Final DOOM: The Plutonia Experiment
+// warp type should be "em" for episode, map or "map"
+WARPTYPE=map
+EXENAME=DOOM2.EXE
+// set class_select to "0" for non-Hexen games
+CLASS_SELECT=0
+MAXPLAYERS=4
+MAP01=Congo
+MAP02=Well of Souls
+MAP03=Aztec
+MAP04=Caged
+MAP05=Ghost Town
+MAP06=Baron's Lair
+MAP07=Caughtyard
+MAP08=Realm
+MAP09=Abattoire
+MAP10=Onslaught
+MAP11=Hunted
+MAP12=Speed
+MAP13=The Crypt
+MAP14=Genesis
+MAP15=The Twilight
+MAP16=The Omen
+MAP17=Compound
+MAP18=Neurosphere
+MAP19=Nme
+MAP20=The Death Domain
+MAP21=Slayer
+MAP22=Impossible Mission
+MAP23=Tombstone
+MAP24=The Final Frontier
+MAP25=The Temple of Darkness
+MAP26=Bunker
+MAP27=Anti-Christ
+MAP28=The Sewers
+MAP29=Odyssey of Noises
+MAP30=The Gateway of Hell
+MAP31=Cyberden
+MAP32=Go 2 it
+

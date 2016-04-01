@@ -1,0 +1,119 @@
+DM.EXE -- The DeathManager
+
+What is DM?
+
+DM is an easy-to-use interface that replaces the hassle of typing command-
+line parameters to SERSETUP.EXE and IPXSETUP.EXE, the programs used to 
+network our games DOOM, DOOM2 and HERETIC. It is also much easier than 
+starting network games from the SETUP.EXE program as there are no menus to 
+navigate, everything is on one screen.  And the really nice feature of DM 
+is that it saves all the information you enter, so the next time you run DM, 
+all the options you last used are selected.
+
+Using DM
+
+To use DM, make sure that you're in the directory with DOOM, DOOM2 or 
+HERETIC and type DM.  A menu will pop up and you navigate it using the arrow 
+keys.  The spacebar or ENTER will change the status of an item.  Some items 
+are grouped together, so when you choose them they will deactivate other 
+items in the same group.  If you choose 3-player, then 2-player will be 
+deactivated since you can't play 2-player and 3-player at the same time!
+
+Some items require input, such as the SKILL item.  The legal range of values 
+is listed below:
+Item            Legal values    Notes
+SKILL           1-5             1 = easiest, 5 = hardest
+EPISODE         1-3             1 = shareware, 2-3 = registered
+MAP             1-9             DOOM2 map values are 1-32
+TIMER           1-99            the number you enter is MINUTES you play the
+				level before the game takes you to the 
+				intermission screen
+TURBO           1-250           This changes your speed in the game
+CALL            14-digit        This is the number SERSETUP will call
+
+Some items are FLAGS, which specify whether to turn those options on or off 
+in the game:
+No Monsters:    If this option is selected, NO MONSTERS will appear in the 
+		game. Perfect for DeathMatch!
+Respawn         This option will make monsters respawn after you kill them!
+WADs            If this is set, the list of external WADs will be used, 
+		otherwise, DM just ignores the list, but still keeps 
+		it around for later use.
+
+In the "Connect Type" area are 3 options, Modem, IPX Network, and Serial 
+Cable.  This specifies how you will be connected playing a network game.  
+If you choose Modem or Serial Cable, the "# of Players" will change to 2.  
+If you choose Serial Cable, the "Modem/Serial" changes to Already Connected 
+for you.
+
+In the "# of Players" area you can choose to play a 2,3 or 4-player game.  
+You can only choose the 3 and 4-player options if you have "IPX Network" 
+selected.  DM will not allow you to change the number of players to anything 
+other than 2 if you are connected by modem or serial cable. 
+
+In the "Game Type" area are 3 options, DeathMatch, Cooperative, and Old 
+DeathMatch.  The DeathMatch option is really the DeathMatch 2.0 rules for 
+DOOM and DOOM2, where in HERETIC, there are no Old DeathMatch rules.  In 
+DOOM and DOOM2, the Old DeathMatch option will leave all the weapons where 
+they are when a player picks them up and none of the items on the level 
+respawn.
+
+In the "Modem/Serial" area, you specify how you are connected by modem or 
+serial cable. If you are using IPX Network, DM will ignore any settings in 
+this area.  The "Already Connected" option is what you select if you are 
+connected directly by serial cable, otherwise, if you are connected by modem 
+you would choose either "Wait for call" so your modem auto-answers or type a 
+phone number in the field to the right of Call.  
+
+If you want to build a database of phone numbers that you can easily choose 
+from, press the F2 key.  Press the F1 key to create a new phone number
+entry. Another input dialog will come up with the Name and Number 
+fields ready for you to edit.  Press ENTER on the Name field and type the 
+person's name, then press ENTER.  Move the cursor to the Number field and 
+press ENTER to edit the number.  When you're finished editing the Name and 
+Number info, press the F10 key to save the information.
+
+In the "Select person to call" dialog, pressing the ENTER key will take the 
+phone number and put it in the field to the right of Call.  There's no way 
+to just delete a Name and Number entry, edit it instead.
+
+In the "Map Warping" area, there are two choices.  If you are playing DOOM 
+or HERETIC, choose the first option, DOOM or HERETIC so you can enter the 
+Episode and Map values you want to warp to.  If you don't want to warp to a 
+level, press ESC while entering a map or episode value.  Thus, if you want 
+to get rid of the map warping flag, press ENTER on the option, then press 
+ESC to turn it off.
+
+The "COM Port" area is used only if you are connecting by modem or serial 
+cable. If you are playing on an IPX Network, DM will ignore the settings in 
+this area.
+
+If you like playing PWAD files, you can tell DM which ones you want to use 
+by pressing the F3 key.  Press ENTER on the first empty field then type in 
+the pathname of the PWAD file.  For example, if you had a subdirectory off 
+your DOOM2 directory named WADS and in that directory you had a PWAD named 
+CLASSIC.WAD, you would input WADS\CLASSIC.WAD and press ENTER.  To get rid 
+of an entry, press the DEL key.
+
+To tell DM to use the PWAD files in the list, select the WADs option.  When 
+this option is turned on, DM will pass along the files in the WADfile list
+to the SERSETUP or IPXSETUP programs.
+
+Those are all the options that DM will handle for you.  If you require use 
+of even more advanced options, you can enter them on the command-line right
+after invoking DM.  To record a demo, you could type "DM -record demo" and 
+DM will pass the "-record demo" parameters along for you.
+
+To actually start playing your game, press the F10 key to launch SERSETUP 
+or IPXSETUP (depending on your Connect Type).  If you want to just launch 
+the game without connecting, press the F1 key.  This will directly launch 
+DOOM, DOOM2 or HERETIC with all the options you've selected.  Just make 
+sure you select Cooperative so you don't start in a strange place in 
+single-player mode!
+
+DM saves a configuration file named DM.CFG.  If DM has a problem starting 
+up, delete DM.CFG.
+
+When you finish your game and want to play again after changing some options, 
+re-run DM after exiting the game.  Now you are in a never-ending loop that 
+will take hours to get out of.  Have fun!

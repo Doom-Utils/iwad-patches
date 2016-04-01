@@ -1,0 +1,2441 @@
+------------------------------------------------------------------------------
+                           T H E   " O F F I C I A L "
+=================     ===============     ===============   ========  ========
+\\ . . . . . . .\\   //. . . . . . .\\   //. . . . . . .\\  \\. . .\\// . . //
+||. . ._____. . .|| ||. . ._____. . .|| ||. . ._____. . .|| || . . .\/ . . .||
+|| . .||   ||. . || || . .||   ||. . || || . .||   ||. . || ||. . . . . . . ||
+||. . ||   || . .|| ||. . ||   || . .|| ||. . ||   || . .|| || . | . . . . .||
+|| . .||   ||. _-|| ||-_ .||   ||. . || || . .||   ||. _-|| ||-_.|\ . . . . ||
+||. . ||   ||-'  || ||  `-||   || . .|| ||. . ||   ||-'  || ||  `|\_ . .|. .||
+|| . _||   ||    || ||    ||   ||_ . || || . _||   ||    || ||   |\ `-_/| . ||
+||_-' ||  .|/    || ||    \|.  || `-_|| ||_-' ||  .|/    || ||   | \  / |-_.||
+||    ||_-'      || ||      `-_||    || ||    ||_-'      || ||   | \  / |  `||
+||    `'         || ||         `'    || ||    `'         || ||   | \  / |   ||
+||            .===' `===.         .==='.`===.         .===' /==. |  \/  |   ||
+||         .=='   \_|-_ `===. .==='   _|_   `===. .===' _-|/   `==  \/  |   ||
+||      .=='    _-'    `-_  `='    _-'   `-_    `='  _-'   `-_  /|  \/  |   ||
+||   .=='    _-'    %%    `-__\._-'  %%  %% `-_./__-'   %%%%  `' |. /|  |   ||
+||.=='    _-'     %%  %%             %%% %%             %%  %%    `' |  /==.||
+=='    _-'        ######             ## ###             ##  ##        \/   `==
+\   _-'           ##  ##             ##  ##             ####           `-_   /
+ `''                                                                      ``'
+=================     ===============     ===============   ========  ========
+\\ . . . . . . .\\   //. . . . . . .\\   //. . . . . . .\\  \\. . .\\// . . //
+||. . ._____. . .|| ||. . ._____. . .|| ||. . ._____. . .|| || . . .\/ . . .||
+|| . .||   ||. . || || . .||   ||. . || || . .||   ||. . || ||. . . . . . . ||
+||. . ||   || . .|| ||. . ||   || . .|| ||. . ||   || . .|| || . | . . . . .||
+|| . .||   ||. _-|| ||-_ .||   ||. . || || . .||   ||. _-|| ||-_.|\ . . . . ||
+||. . ||   ||-'  || ||  `-||   || . .|| ||. . ||   ||-'  || ||  `|\_ . .|. .||
+|| . _||   ||    || ||    ||   ||_ . || || . _||   ||    || ||   |\ `-_/| . ||
+||_-' ||  .|/    || ||    \|.  || `-_|| ||_-' ||  .|/    || ||   | \  / |-_.||
+||    ||_-'      || ||   =============================   || ||   | \  / |  `||
+||    `'         || ||    \\ # # # # # # # # # # # //    || ||   | \  / |   ||
+||            .===' `===.  =========================  .===' /==. |  \/  |   ||
+||         .=='   \_|-_ `===. || #  ||_+_||  # || .===' _-|/   `==  \/  |   ||
+||      .=='    _-'    `-_  `=||  # ||   || #  ||='  _-'   `-_  /|  \/  |   ||
+||   .=='    _-'          `-__|| #  ||   ||  # ||__-'         `' |. /|  |   ||
+||.=='    _-'                 ||  # ||FAQ|| #  ||                 `' |  /==.||
+=='    _-'                    || #  ||   ||  # ||                     \/   `==
+\   _-'                    =========================                   `-_   /
+ `''                      // # # # # # # # # # # # \\                     ``'
+                         =============================
+
+                     Post-Release v6.666 - STANDARD revision
+                       Last Updated: DOOMSDAY, 1994
+               December 10, 1994 EST: Anniversary Edition
+             Written by: Hank Leukart (ap641@cleveland.freenet.edu)
+             "DOOM: Where the sanest place... is behind a trigger."
+                "DOOM: Such mayhem the likes of which have never
+                  been witnessed in this particular dimension!"
+-----------------------------------------------------------------------------
+
+----------
+DISCLAIMER
+----------
+
+        This FAQ is to aid in informing the public about the game DOOM 
+and DOOM II, by id Software.  In no way should this promote your killing 
+yourself, killing others, or killing in any other fashion.  
+Additionally, Hank Leukart claims NO responsibility regarding ANY 
+illegal activity concerning this FAQ, or indirectly related to this FAQ.  
+The information contained in this FAQ only reflects id Software 
+indirectly, and questioning id Software regarding any information in 
+this FAQ is not recommended.
+
+---------------------
+TRADEMARK INFORMATION
+---------------------
+
+        All specific names included herein are trademarks and are so 
+acknowledged: id Software, DOOM, DOOM II, Apogee, Wolfenstein 3-D, 
+Creative Labs, WaveBlaster, Sound Blaster, Advanced Gravis, Gravis 
+UltraSound (GUS), Gravis Gamepad, Forte, Roland, Roland Sound Canvas, 
+Pro Audio Spectrum, IBM, Microsoft, MS-DOS, Atari, and Jaguar.  Any 
+trademarks not mentioned here are still hypothetically acknowledged.
+
+----------------
+COPYRIGHT NOTICE
+----------------
+
+This article is Copyright 1993, 1994 by Hank Leukart.  All rights reserved.
+You are granted the following rights:
+
+I.  To make copies of this work in original form, so long as
+      (a) the copies are exact and complete;
+      (b) the copies include the copyright notice and these paragraphs
+          in their entirety;
+      (c) the copies give obvious credit to the author, Hank Leukart;
+      (d) the copies are in electronic form.
+II. To distribute this work, or copies made under the provisions
+    above, so long as
+      (a) this is the original work and not a derivative form;
+      (b) you do not charge a fee for copying or for distribution;
+      (c) you ensure that the distributed form includes the copyright
+          notice, this paragraph, the disclaimer of warranty in
+          their entirety and credit to the author;
+      (d) the distributed form is not in an electronic magazine or
+          within computer software (prior explicit permission may be
+          obtained from Hank Leukart);
+      (e) the distributed form is the NEWEST version of the article to
+          the best of the knowledge of the distributor;
+      (f) the distributed form is electronic.
+
+        You may not distribute this work by any non-electronic media,
+including but not limited to books, newsletters, magazines, manuals,
+catalogs, and speech.  You may not distribute this work in electronic
+magazines or within computer software without prior written explicit
+permission.  These rights are temporary and revocable upon written, oral,
+or other notice by Hank Leukart. This copyright notice shall be governed
+by the laws of the state of Ohio.
+        If you would like additional rights beyond those granted above,
+write to the author at "ap641@cleveland.freenet.edu" on the Internet.
+
+---------
+CONTENTS:
+---------
+
+[1] Introduction
+        *1-1* A word from Hank Leukart
+        [1-2] About the "Official" DOOM FAQ
+                (1-2-1) About the "Official" DOOM ASCII Logo
+        [1-3] Getting the "Official" DOOM FAQ
+        [1-4] Adding to the FAQ
+        [1-5] The DOOM Mailing List
+        [1-6] Acknowledgments
+        [1-7] Accurate Information
+
+=SECTION ONE= PRELIMINARY INFORMATION
+
+[2] What is DOOM?
+[3] What makes DOOM different from Wolfenstein 3-D?
+        [3-1] Texture-Mapped Environment
+        [3-2] Non-Orthogonal Walls
+        [3-3] Light Diminishing/Light Sourcing
+        [3-4] Variable Height Floors and Ceilings
+        [3-5] Environment Animation and Morphing
+        [3-6] Palette Translation
+        [3-7] Multiple Players
+        [3-8] Smooth, Seamless Gameplay
+        *3-9* New Monsters and Artificial Intelligence
+        *3-10* Weapons
+                [3-10-1] What does BFG9000 stand for?
+[4] Who created DOOM?
+        [4-1] How can I contact id Software?
+[5] What are the differences between the different releases of DOOM?
+        (5-1) What is the shareware release?
+        [5-2] What is the mail-order release?
+        [5-3] What makes the six versions different?
+        (5-4) What is the commercial release?
+        [5-5] I bought DOOM in a store, is it illegal?
+        (5-6) What is WinDOOM?
+        *5-7* What other DOOM ports are in the works?
+[6] Where can I get DOOM and related information?
+        [6-1] How can I get the shareware release?
+                *6-1-1* What are the file names?
+                [6-1-2] How can I get DOOM using FTP?
+                [6-1-3] How can I get DOOM using AFS?
+                [6-1-4] How can I get DOOM on a BBS?
+        *6-2* How can I get the mail-order release?
+        *6-3* How can I get the commercial release (DOOM II) and patch?
+        [6-4] How can I get the DOOM Specs for creating add-on utilities?
+        [6-5] Where can I get the serial play and node building source code?
+        [6-6] What books about DOOM are available?
+        *6-7* Where can I find World Wide Web sites about DOOM?
+[7] What is needed to run DOOM?
+        *7-1* What is REQUIRED to run DOOM?
+        *7-2* What sound cards does DOOM support?
+        [7-3] What game controllers does DOOM support?
+[8] How can I use multiple players in DOOM?
+        [8-1] How does the multi-player gameplay work?
+                [8-1-1] How does pausing, saving, and loading work?
+                [8-1-2] What are the different uniform colors for?
+                [8-1-3] How does a player see what others are doing?
+                [8-1-4] How do players communicate using Chat Mode?
+                [8-1-5] How do the weapons work?
+                [8-1-6] What happens when a player dies?
+                [8-1-7] Can players exchange supplies?
+                [8-1-8] Miscellaneous
+        [8-2] What exactly is "DeathMatch" mode?
+        [8-3] How does DOOM work with networks?
+                (8-3-1) What are the network command line parameters for DOOM?
+                [8-3-2] How does DOOM determine player colors?
+                [8-3-3] How can I use DOOM on Novell Netware Lite?
+                [8-3-4] How can I use DOOM on other types of networks?
+                [8-3-5] How can I set up a small inexpensive DOOM network?
+        [8-4] How can I play DOOM by serial link?
+        [8-5] How can I play DOOM over the Internet?
+                (8-5-1) How can I play DOOM using IHHD?
+                *8-5-2* How can I play DOOM using iDOOM?
+        [8-6] How can I setup DOOM to be played on a multi-player BBS?
+        (8-7) Where can I find multi-player partners?
+
+=SECTION TWO= CHEATS AND SPOILERS
+
+[9] How can I cheat in DOOM?
+        *9-1* What are the DOOM cheat codes?
+        *9-2* What command line parameters exist?
+                [9-2-1] What do the dots that appear in development mode mean?
+[10] Can someone tell me how to...?
+        [10-1] Where are the DOOM secret levels?
+                [10-1-1] Knee-Deep in the Dead?
+                [10-1-2] The Shores of Hell
+                (10-1-3) Inferno
+        (10-2) Where are the secret doors in DOOM?
+                *10-2-1* DOOM I Secrets
+                        *10-2-1-1* Secret Master List
+                        *10-2-1-2* Secrets in Detail
+                *10-2-2* DOOM II Secrets
+                        *10-2-2-1* Secret Master list
+                        *10-2-2-2* Secrets in Detail
+        [10-3] When should I use each weapon?
+        [10-4] Where can I get each weapon for the first time?
+        [10-5] Where can I find the various powerups in the game?
+                *10-5-1* DOOM I
+                *10-5-2* DOOM II
+                *10-5-3* How much do health and armor items help me?
+        [10-6] How powerful is the ammunition?
+                [10-6-1] How much ammunition is obtained from picking up
+                         the various types?
+        [10-7] How many enemies are in the entire game?
+                *10-7-1* DOOM I
+                        *10-7-1-1* The entire game
+                        *10-7-1-2* Knee Deep in the Dead
+                        *10-7-1-3* Shores of Hell
+                        *10-7-1-4* Inferno
+                *10-7-2* DOOM II
+                        *10-7-2-1* Levels 1-11
+                        *10-7-2-2* Levels 12-22
+                        *10-7-2-3* Levels 23-32
+        [10-8] How many shots does it take to kill each enemy?
+        (10-9) Which enemies will attack each other?
+
+=SECTION THREE= DOOM ADD-ON SOFTWARE
+
+*11* What is DOOM add-on software and where can I get it?
+        *11-1* If I don't have FTP access, how can I get these files?
+[12] What cheating utilities have been made for DOOM?
+[13] What add-on utilities allow me to alter DOOM?
+        [13-1] BSP v1.2x
+        *13-2* DEHACKED v2.1
+        (13-3) Deframed v1.0
+        *13-4* DEU v5.3
+        *13-5* DMapEdit v3.01
+        [13-6] DMAUD v1.1
+               [13-6-1] DMFE v0.0.1
+        [13-7] DMGRAPH v1.1
+        [13-8] DMMUSIC v1.0a
+        *13-9* DOOMCAD v4.3 and v5.0
+        [13-10] DOOM Color Changer
+        *13-11* DOOM Construction Kit v1.1a
+        [13-12] DOOMDump v0.9
+        [13-13] DOOM Editor: The Real Thing v2.60b4
+        *13-14* DOOMLaunch v1.00
+        [13-15] DOOMTOOL
+        [13-16] DOPE v1.02
+        *13-17* EdMap v1.23
+        [13-18] IDBSP v1.0
+        [13-19] Jumble v3.0
+        [13-20] MDE: My DOOM Editor v0.90b
+        [13-21] Move Level v2.0
+        [13-22] MUS2PWAD v1.0
+        [13-23] NodeNav v0.8
+        [13-24] RanDOOM v1.65
+        [13-25] REJECT v1.0
+        [13-26] Renegade Graphics DOOMED v1.1c/e
+        [13-27] RENWAD
+        *13-28* UltEd v1.00b
+        [13-29] VERDA v0.20
+        [13-30] VERDA Node Builder v1.05
+        *13-31* WADED v1.42
+        [13-32] WAD Extended Tools v1.0
+        [13-33] WAD Hacker v2.0
+        [13-34] WADMASTER v0.5
+        [13-35] WADNAME
+        [13-36] Wads_Up v1.1
+        [13-37] WAD Tools v1.0
+[14] What add-on data files exist for DOOM?
+        *14-1* Graphics
+        [14-2] Missions
+                *14-2-1* DOOM DeathMatch WAD Ranking
+                [14-2-2] PWAD Authoring Template v1.4
+        *14-3* Sounds
+        *14-4* Music
+        *14-5* LMPs (Recordings)
+        *14-6* DEHACKED patches
+[15] What other miscellaneous DOOM add-ons exist?
+        *15-1* APCiDOOM v5.1
+        [15-2] BNUDOOM v1.26
+        *15-3* DeuTex and DeuSF v2.9
+        [15-4] DIRPWAD
+        [15-5] DOOMBSP Source Code
+        *15-6* DOOM Color Changer v2.0
+        *15-7* DOOM Control Center v3.0
+        *15-8* DOOM EasyWAD v1.11
+        *15-9* DOOMED v1.666
+        *15-10* DOOMED v1.6b 
+        *15-11* DOOM Front End v3.10
+        *15-12* DOOM!gate v1.6
+        [15-13] The DOOM Hacker's Tool Kit v1.0
+        (15-14) The DOOM Help Service
+        (15-15) The DOOM Honorific Titles
+        *15-16* DOOMLaunch v1.00
+        [15-17] DOOM Launcher for OS/2 v1.1
+        [15-18] The DOOM Level Design FAQ v1.1
+        [15-19] DOOMLOAD v4.0
+        *15-20* DOOM/Master v3.0
+        *15-21* DOOMenu v17.0
+        [15-22] DOOM Modem Contact List R7
+        [15-23] DOOMPICS.ZIP
+        [15-24] DOOM Serial Connection Manager v1.06b
+        [15-25] DOOM Utilities v0.1
+        [15-26] DOOM WAD Manager v1.30c
+        *15-27* DOOM.WAD Patch v1.666
+        [15-28] The DOOM IPX Network FAQ v1.2
+        *15-29* iDOOM v1.1
+        *15-30* Internet DOOM Client/Server System v0.12
+        [15-31] LNTYP v1.01
+        [15-32] MIDI2MUS
+        [15-33] OLDIPX.ZIP
+        *15-34* SER6.ZIP
+        [15-35] The Ultimate DOOM Maps
+        *15-36* The Unofficial DOOM Specs v1.666
+[16] Future add-on software
+        [16-1] Add-on software wish list
+        [16-2] Add-on software in the making
+
+=SECTION FOUR= TROUBLESHOOTING
+
+[17] Why won't DOOM work correctly?
+        [17-1] How can I use SMARTDRV.EXE with DOOM?
+        [17-2] Why am I getting an "OUT OF MEMORY" error with DOOM?
+        [17-3] Why does DOOM crash when I start it?
+        [17-4] How can I run DOOM under OS/2?
+[18] Why won't my sound card work with DOOM?
+        [18-1] Why won't my Sound Blaster v1.0 or v1.5 work with DOOM?
+        [18-2] Why won't my Sound Blaster Pro work with DOOM?
+        [18-3] Why won't my Gravis UltraSound work with DOOM?
+        [18-4] Why does the game crash when using my Gravis UltraSound?
+        [18-5] Why won't my Pro Audio Spectrum 16 work with DOOM?
+        [18-6] Why won't my ATI Stereo-F/X work with DOOM?
+[19] Miscellaneous DOOM problems
+        [19-1] Why won't my mouse work with DOOM?
+                [19-1-1] Why does my mouse start moving itself during play?
+                [19-1-2] Why won't my two button mouse work with DOOM?
+                [19-1-3] Why won't my IBM PS/2 mouse work with DOOM?
+        [19-2] Why does netDOOM seem to crash at certain times?
+        [19-3] Why won't my modem work with DOOM?
+        [19-4] Why is my network slowing down when using DOOM?
+        [19-5] Why won't the v1.666 patch install correctly?
+        [19-6] DOOM is too easy
+        [19-7] DOOM is too hard
+        [19-8] I get motion sickness when playing DOOM
+
+=SECTION FIVE= MISCELLANEOUS
+
+*20* The Night Before DOOM: A Poem From the Past
+*21* Other literature available from Hank Leukart
+[22] Conclusion
+[23] Revision History
+        [23-1] Pre-Game-Release FAQs
+        [23-2] Post-Game-Release FAQs
+
+-------------------------
+CHAPTER [1]: Introduction
+-------------------------
+
+*1-1*: A word from Hank Leukart
+===============================
+        Happy DOOM Birthday!
+
+        It's not often that someone can ask me, "What were you doing at
+this very moment, one year ago?" and I would be able to answer.  Today,
+December 10th, 1994, is one of those rare occasions in which I know 
+exactly.
+
+        Actually, I'm sure if I asked about half the readers of this 
+FAQ, they would be able to give me details about their activities too.  
+Most of us were sitting on Internet (or using every free moment to log 
+on) waiting for DOOM to be released.  I remember staying up most of the 
+night, disappointed when it wasn't release by 8am EST.  I waited, 
+waited, and waited, until finally everyone located it on "ftp.uwp.edu" 
+all at the same time.  Wow!  All the die-hard-DOOM-fans-to-be let out a
+sigh of release as the suspense was lifted.
+
+        In retrospect, it has been an incredible experience.  After 11 
+revisions and thousands of pieces of E-mail, I'm still alive and sane!  
+DOOM has taken up a large portion of my life (it's so addictive) and 
+now, here I am, one year, later.
+
+        I hope everyone enjoys this "Anniversary Edition" of the 
+"Official" DOOM FAQ v6.666.  It contains DOOM I and DOOM II information, 
+the latest on DOOM ports, and all the coolest add-on utilities.
+
+        Now, I have a feeling it's going to all start over again with 
+Quake!  Watch for the game in late 1995 from id.  Although this may or 
+may not be last "Official" DOOM FAQ, it will definitely be awhile until 
+the next revision--this covers just about everything.
+
+        Above all, "Keep on DOOMing!"
+
+        -Hank Leukart
+
+[1-2]: About the "Official" DOOM FAQ
+====================================
+        Welcome to the post-release v6.666 of the "Official" DOOM FAQ.  
+What does that mean?  Post-release is after the game is released, 
+version 6.666 is a standard revision written after 5.8, "Official" means 
+absolutely nothing, DOOM is the name of the game, and FAQs are 
+[F]requently [A]sked [Q]uestions.
+        Here's how revision classification works.  If a new version of
+the FAQ only has a small amount of information changed or added, the version
+number is increased by 0.1.  This is called a "minor revision."  If a new
+version of the FAQ has a substantial amount of new information changed or
+added, the version number is increased by 0.5.  This is called a "standard
+revision." If a new version of the FAQ has a huge amount of added or changed
+information, major parts of the FAQ are rearranged, or major parts of the FAQ
+are rewritten, then the version number is increased by 1.0.  This is called a
+"major revision."
+        You may be wondering why chapter numbers are enclosed in either
+[]'s, ()'s, or **'s.  The definition of these is as follows:
+
+        []: Chapters enclosed in brackets mean that the information
+            contained in the chapter has not been updated in this or the
+            previous FAQ.
+        (): Chapters enclosed in parenthesis mean that the information
+            contained in the chapter has not been updated since the previous
+            FAQ.
+        **: Chapters enclosed in asterisks means that the information
+            contained in the chapter is new or has been updated for the
+            current version of the FAQ you are reading.
+
+(1-2-1): About the "Official" DOOM ASCII Logos
+==============================================
+        Thanks to Frans P. de Vries (fpdevries@hgl.signaal.nl), an
+incredible ASCII DOOM logo was added to the beginning of the document in
+v5.5 of the FAQ.
+        The DOOM II logo was added in v6.666 of the FAQ.
+        Please keep in mind that, as is rest of this document, the logos
+are copyrighted.  This FAQ may not be split into parts and distributed.
+Therefore, the logo may not be used independently from the "Official" DOOM FAQ
+in any other documents apart from the "Official" DOOM FAQ, the Unofficial
+DOOM Specs, and DOOM iNsAnItY.
+        Thank you for respecting U.S. and global copyright laws.
+
+[1-3]: Getting the "Official" DOOM FAQ
+======================================
+        I am sorry to announce that my DOOM Mailing List has been
+canceled, due to numerous problems.  Anyone who has had a subscription to
+the list in the past will no longer receive updates, and no new
+subscriptions are permitted.  There is a new mailing list, however.  See
+Chapter [1-5] for more information.
+        The "Official" DOOM FAQ can still be requested from me, however.  My
+Internet E-mail address is "ap641@cleveland.freenet.edu."  Please make the
+subject of your E-mail "DOOM FAQ Request."
+        The "Official" DOOM FAQ is posted every two weeks (or earlier
+if a new version is released) on the following Usenet groups.
+
+        (1) comp.sys.ibm.pc.games.action
+        (2) comp.sys.ibm.pc.games.announce
+        (3) comp.sys.ibm.pc.games.misc
+        (4) rec.games.computer.doom.announce
+
+        The "Subject:" line of the post will be "'Official' DOOM FAQ v??.??"
+where "??.??" is the version number of the FAQ.
+
+        New releases of the "Official" DOOM FAQ are uploaded to the
+following Internet FTP sites.
+
+        (1) ftp.uwp.edu              IN /pub/incoming/id
+                                     IN /pub/msdos/games/id/home-brew/doom
+        (2) infant2.sphs.indiana.edu IN /pub/doom/incoming
+                                     IN /pub/doom/text
+        (3) wuarchive.wustl.edu      IN /pub/MSDOS_UPLOADS/games/doomstuff
+
+        The file name of the upload will be "doom??.faq" where "??" is the
+version number of the FAQ.  This filename is for FTP sites only.  BBS
+filenames are below.
+
+        New releases of the "Official" DOOM FAQ are uploaded to Software
+Creations BBS (and other BBSes) under the file name "dmfaq??.zip" where "??"
+is the version number of the FAQ.
+
+Software Creations BBS:
+                        (a) (508)-365-2359 2400 baud
+                        (b) (508)-368-7036 9600-14.4k v.32bis
+                        (c) (508)-368-4137 14.4-16.8k HST/DS
+
+        ATTENTION: ALL BBSes, Compuserve, America Online, GEnie, and all
+other information services.  PLEASE conform to the naming standard of the
+"Official" DOOM FAQ when placing this file on your system.  The file name
+should be "dmfaq??.zip" where the "??" is the version number of the FAQ or
+"dmfaq??.txt" if the FAQ is a text file instead of PKZIPped.
+
+[1-4]: Adding to the FAQ
+========================
+        If you want something added to the FAQ, please send E-mail to
+"ap641@cleveland.freenet.edu" (no quotes), explaining what your addition is.
+It will be reviewed, and if accepted, added to the next FAQ version.  In
+the E-mail, please supply your name and E-mail address.
+        Please note that all submissions to the FAQ become the property of
+the author (Hank Leukart) and that they may or may not be acknowledged.
+By submitting to the FAQ, you grant permission for use of your submission
+in any future publications of the FAQ in any media.  The author reserves
+the right to omit information from a submission or delete the submission
+entirely.
+
+[1-5]: The DOOM Mailing List
+============================
+        The DOOM Mailing List is run by an automatic server.
+
+TO SUBSCRIBE:
+
+Send E-mail to "listproc@cedar.univie.ac.at", with NO subject.  In the body
+of the E-mail put the words:
+
+        subscribe dooml Space E. Marine
+
+(obviously, replace "Space E. Marine" with YOUR first and last name)
+
+TO UN-SUBSCRIBE:
+Send E-mail to "listproc@cedar.univie.ac.at", with NO subject.  In the body
+of the E-mail put the words:
+
+        unsubscribe dooml
+
+To POST a message to the whole list, send E-mail to
+"dooml@cedar.univie.ac.at".
+
+[1-6]: Acknowledgments
+======================
+          I'd like to thank id Software for creating such a GREAT
+game!  It definitely exceeds expectations.  I'd also like to thank them
+for helping me out, and getting involved with on-line users.  I'd like to
+thank the following on-line users for the following reasons:
+
+ID SOFTWARE IN ALPHABETICAL ORDER:
+
+John Romero (help@idsoftware.com)
+
+        What a guy!  He's been putting up with my infinite
+cross-examinations for six months now, and he still hasn't killed me!  He
+also read through the ENTIRE FAQ to give me a list of corrections for this
+release.  A BIG thanks, John!  (oh yeah, he also programmed that game --
+what was it called?! :))
+
+David Taylor (help@idsoftware.com)
+
+        Three cheers for David Taylor!  His once-in-a-while "idNews" Usenet
+postings always seem to cut down the amount of E-mail I get for a few
+hours.  He also, has put up with me, and answered numerous questions.
+
+Jay Wilbur (help@idsoftware.com)
+
+        You've got to admire this guy.  He puts his life and his family's
+life on the line everytime he posts a release date (or "within two weeks")
+on Usenet.  He's a great CEO, a great net representative, and handled the
+small island travel arrangements at a time in which we thought we might be
+pummeled. :)
+
+        And to everyone else at id Software, thanks for a great game!
+
+ALPHABETICAL ORDER:
+
+Christoph Anderson (psycho@asl.uni-bielefeld.de) - Enemy count info
+Marco Arriaga (marco@fidev.pwcm.com) - Novell Netware Lite information
+Kent Bentkowski (dpmh69a@prodigy.com) - DOOM Book information
+Barry Bloom (barry@noc.unt.edu) - Modem Initialization Strings
+Steve Bonds (sbonds@jarthur.claremont.edu) - IPX FAQ information
+Vesselin Bontchev (bontchev@fbihh.informatik.uni-hamburg.de) - Major help
+                                                            on grammatic and
+                                                            other problems
+Larry J. Brackney (brackney@ecn.purdue.edu) - Jaguar Specs
+Scott Browser (browersr@cnsvax.uwec.edu) - Information on SMARTDRV
+Jason Brunette (stimpy2129@aol.com) - Command line parameters
+Kevin Burfitt (zaph@torps.apana.org.au) - Command line parameters
+Tom Cannon (inkblot@leland.stanford.edu) - Location of the chain saw
+TC Cheng (tc@po.EECS.Berkeley.edu) - PAS information
+Scott Coleman (tmkk@uiuc.edu) - The TCPSetup DOOMer's FAQ
+Jay Cotton (jay@calc.vet.uga.edu) - The TCPSetup DOOMer's FAQ
+David Datta (datta.cs.uwp.edu) - Copyright notice/DOOM distribution
+Seth Delackner (dax@crl.com) - Command line parameters
+James Dicke (jdicke@carroll1.cc.edu) - DOOM DeathMatch WAD Ranking
+Vinc Duran (vincd@ile.com) - ATI Stereo F/X information
+Joakim Erdfelt (joakim.erdfelt@swsbbs.com) - Great DOOM Utilities, and help
+                                             with the FAQ
+Paul Falstad (pf@z-code.z-code.com) - HUGE amount of secret info (big
+                                      thanks!)
+Matt Fell (matt.burnett@acebbs.com) - DOOM Specs writer
+David Few (dfew@cix.compulink.co.uk) - OS/2 settings info
+Mark Harrop (harrop@telecom.jorn.gov.au) - Information classification
+Jarkko Tapio Heinonen (jtheinon@cc.helsinki.fi) - Small grammar help
+Fred Homewood (fred@meiko.com) - Novell Network Lite info
+John Iodice (jiodice@telesciences.com) - HUGE grammatic fixes list
+John Thomas Lemke (jtl10@ciao.cc.columbia.edu) - Frames per second info
+Henry Liang (liangh@eniac.seas.upenn.edu) - IHHD information
+Ian CR Mapleson (mapleson@cee.hw.ac.uk) - PS/2 Mouse information
+Bill McCormick (billmcc@microsoft.com) - WinDOOM information
+Samer Meshreki (meshreki@udel.edu) - Gravis UltraSound information
+Christian Metcalfe (uk05624@mik.uky.edu) - Weapon shot conversions
+Michael Millard (michael.millard@swcbbs.com) - Making sure the FAQ got
+                                               finished :)
+Neal Miller (millen3@rpi.edu) - For putting up with my seemingly inability
+                                to get his add-on software in correctly :)
+"Minstrel" (minstrel@u.washington.edu) - IPX Network info
+"Motop" (ekschult@vela.acs.oakland.edu) - Network card supply
+Tom Neff (tneff@panix.com) - DOOM Design FAQ, monster information
+Joe Pantuso (73633.2517) - Miscellaneous info, putting up with my seemingly
+                           inability to get the RGD Editor entry correct :)
+Elias Papavassilopoulos (ep104@cus.cam.ac.uk) - Cheat codes and parameters
+Walter Pullen (cruiser1@stein.u.washington.edu) - INCREDIBLE amount of
+                                                 secret info and saving me
+                                                 at the last second from
+                                                 definite DOOM :)
+Charlie Ray (exuchar@exu.ericsson.se) - DOOM: Opening a door to hell
+Tobey Reed (treed@world.std.com) - DOOM v1.2 information
+Owen Salava (osalava@vaxsrv2.royalroads.ca) - Keeping my nose to the grind-
+                                              stone and making sure my
+                                              mailbox is filled <g>
+Joost Schuur (zxmsu01@studserv.zdv.uni-tuebingen.de) - Miscellaneous info
+Wouter Slegers (wsbusr3@urc.tue.nl) - DOOM Secrets FAQ information
+Stanley Stasiak (stasiak@tartarus.uwa.edu.au) - Motion sickness/secrets
+Stephen Sprunk (ssprunk@nox.cs.du.edu) - Modem information
+Stephen Stibler (stibler@watson.ibm.com) - Two button mouse information
+Ajaipal S. Tanwar (tanwar@utxvms.cc.utexas.edu) - Secret level information
+Aaron Fredrick Tiensivu (tiensivu@student.msu.edu) - Command line parameters
+John Van Essen (vanes002@maroon.tc.umn.edu) - DOOM Mini FAQ/Miscellaneous
+Jim Urbas (jimu@point.cs.uwm.edu) - DOOM DeathMatch WAD Ranking
+Frans P. de Vries (fpdevries@hgl.signaal.nl) - The cool ASCII DOOM logo,
+                                               lots of grammatic help, and
+                                               never ending FAQ attention
+"Zhar" (cerberus@hade.eqinox.gen.nz) - Fixing the "*" search method
+
+        Forgive me if I am missing anyone, so many people have helped me!
+        #- THANK YOU! -#  If, for some reason, I did miss you, PLEASE send
+me E-mail!
+        Finally, I'd like to thank everyone who reads this FAQ, you
+are what the FAQ is for!
+
+[1-7]: Accurate Information
+===========================
+        An attempt has been made to make the information in this FAQ as
+accurate as possible.  Unfortunately, due to the fact that the game
+was recently released, and updates, add-ons, and new information are being
+worked on each second, it's hard to keep up.  I had to stop myself from
+adding to the FAQ, because if I didn't it would have never been released!
+The original press release dated from January 1993 listed a few things that
+didn't go in the final game.  Some of those things were impossible to do
+after rewriting the 3-D engine 4 times over (for speed and size); other
+things just made no sense with the rest of the design.  Trust id Software.
+They know what they are doing.  DOOM is one great game!
+
+=====================================
+=SECTION ONE= PRELIMINARY INFORMATION
+=====================================
+
+--------------------------
+CHAPTER [2]: What is DOOM?
+--------------------------
+
+        DOOM is a three dimensional, virtual reality type action game
+created by id Software.  In some ways, it is similar to Wolfenstein 3-D
+(id Software, Apogee).
+        In DOOM, you're a space marine, one of Earth's toughest, hardened in
+combat and trained for action.  Three years ago you assaulted a superior
+officer for ordering his soldiers to fire upon civilians.  He and his body
+cast were shipped to Pearl Harbor, while you were transferred to Mars, home
+of the Union Aerospace Corporation.
+        The UAC is a multi-planetary conglomerate with radioactive waste
+facilities on Mars and its two moons, Phobos and Deimos.  With no action for
+fifty million miles, your day consisted of suckin' dust and watchin'
+restricted flicks in the rec room.
+        For the last four years the military, UAC's biggest supplier, has
+used the remote facilities on Phobos and Deimos to conduct various
+secret projects, including research on inter-dimensional space travel.
+So far they have been able to open gateways between Phobos and Deimos,
+throwing a few gadgets into one and watching them come out the other.
+Recently however, the gateways have grown dangerously unstable.
+Military "volunteers" entering them have either disappeared or been
+stricken with a strange form of insanity--babbling vulgarities,
+bludgeoning anything that breathes, and finally suffering an untimely
+death of full-body explosion.  Matching heads with torsos to send home
+to the folks became a full-time job.  Latest military reports state
+that the research is suffering a small setback, but everything is
+under control.
+        A few hours ago, Mars received a garbled message from Phobos.  "We
+require immediate military support.  Something fraggin' evil is coming
+out of the gateways!  Computer systems have gone berserk!" The rest
+was incoherent.  Soon afterwards, Deimos simply vanished from the sky.
+Since then, attempts to establish contact with either moon have been
+unsuccessful.
+        You and your buddies, the only combat troop for fifty million miles
+were sent up pronto to Phobos.  You were ordered to secure the perimeter of
+the base while the rest of the team went inside.  For several hours, your
+radio picked up the sounds of combat: guns firing, men yelling orders,
+screams, bones cracking, then finally silence.  Seems your buddies are dead.
+        Things aren't looking too good.  You'll never navigate off the
+planet on your own.  Plus, all the heavy weapons have been taken by
+the assault team leaving you only with a pistol.  If only you could get your
+hands around a plasma rifle or even a shotgun you could take a few down on
+your way out.  Whatever killed your buddies deserves a couple of pellets in
+the forehead.  Securing your helmet, you exit the landing pod.  Hopefully you
+can find more substantial firepower somewhere within the station.  As you
+walk through the main entrance of the base, you hear animal-like growls
+echoing throughout the distant corridors.  They know you're here.  There's no
+turning back now.
+
+------------------------------------------------------------
+CHAPTER [3]: What makes DOOM different from Wolfenstein 3-D?
+------------------------------------------------------------
+
+[3-1]: Texture-Mapped Environment
+=================================
+        DOOM offers the most realistic environment to date on the PC.
+Texture-mapping, the process of rendering fully-drawn art and scanned
+textures on the walls, floors, and ceilings of an environment, makes the
+world much more real, thus bringing the player more into the game experience.
+Others have attempted this, but DOOM's texture mapping is fast, accurate,
+and seamless.  Texture-mapping the floors and ceilings is a big improvement
+over Wolfenstein 3-D.  With their new advanced graphic development
+techniques, allowing game art to be generated much faster, id brings
+new meaning to "state-of-the-art".
+
+[3-2]: Non-Orthogonal Walls
+===========================
+        In other games (such as Wolfenstein 3-D), walls were always joined
+at ninety degrees to each other, and were always eight feet thick.  DOOM's
+walls are at many angles, and of any thickness.  Walls have see-through
+areas, like windows.  This allows more natural construction of levels.  If
+you can draw it on paper, you can see it in the game.
+
+[3-3]: Light Diminishing/Light Sourcing
+=======================================
+        Another touch adding realism is light diminishing.  With distance,
+your surroundings become enshrouded in darkness.  This makes areas seem huge
+and intensifies the experience.  This also creates some amazing effects;
+sometimes the lights go out, and you'll have to look for a light switch or
+light amplification visors.  Light sourcing allows lamps and lights to
+illuminate hallways, explosions to light up areas, and strobe lights to
+briefly reveal things near them.  These features make the game
+frighteningly real.
+
+[3-4]: Variable Height Floors and Ceilings
+==========================================
+        Floors and ceilings can be of any height, allowing for stairs, poles,
+altars, plus low hallways and high caves-allowing a great variety for rooms
+and halls.
+        In DOOM, monsters can be shot on levels that are higher or lower than
+you are.  All you have to do is aim horizontally, and DOOM will do the rest!
+
+[3-5]: Environment Animation and Morphing
+=========================================
+        In DOOM, the world reacts to you.  Many surfaces animate.
+A glowing wall-plate may change in appearance when you touch it. Radioactive
+ooze could seethe and bubble.
+        In earlier versions of the FAQ, I talked about environment animation
+and morphing.  id Software removed information terminals, access stations,
+and wall weapon damaging.  DOOM does include "crushing ceilings," however.
+
+[3-6]: Palette Translation
+==========================
+        In earlier versions of the FAQ, I talked about many different
+types of palette translation.  Most of the palette translation has been
+removed from DOOM.  The only palette translations that are currently
+implemented in DOOM are for multi-player mode (other players are in
+different colors), invincibility mode and a few other special effects.
+
+[3-7]: Multiple Players
+=======================
+        Up to four players can play over a local network, or two players
+can play by modem or serial link.  DOOM v1.2 supports modem play.
+You can see the other player in the environment, communicate with him or her,
+and in certain situations you can switch to their view.  This feature, added
+to the 3-D realism, makes DOOM a very powerful cooperative game and its
+release a landmark event in the software industry.  This is the first game to
+really exploit the power of LANs and modems to their full potential.  In
+1994, id Software fully expects to be the number one cause of decreased
+productivity in businesses around the world.  See Chapter [8] for more
+information on multi-playing.
+
+[3-8]: Smooth, Seamless Gameplay
+================================
+        The environment in DOOM is frightening, but the player can be at
+ease when playing.  Much effort has been spent on the development end to
+provide the smoothest control on the user end.  And the frame rate (the rate
+at which the screen is updated) is high, so you move smoothly from room to
+room, turning and acting as you wish, unhampered by the slow jerky motion of
+most 3-D games.  On a 386DX, the game runs well, and on a 486/33, the normal
+mode frame rate is almost as fast as television.  This allows for the
+most important and enjoyable aspect of gameplay: immersion.
+
+*3-9*: New Monsters and Artificial Intelligence
+===============================================
+        Wolfenstein 3-D is basically made up of a lot of closed rooms.  When
+you open a door, the guards get a chance to see you and opening the door
+connects your sound area to the revealed room's sound area, so a gunshot will
+be heard in both places. Guards in both places will respond to this kind of
+action.  In DOOM it's much more complex.  DOOM isn't made up of a bunch of
+rooms; it's a cohesive world.  You might blast your shotgun and the sound
+could travel through a window or slime-river tunnel to another entirely
+different area and alert some monsters.  Then, they'll come looking for
+you!  Opening doors, going down stairs, wading through slime, etc.  You are
+still able to get the drop on them from behind, just like in Wolfenstein
+3-D -- but you have to be sneakier about it.
+        There is a huge amount of enemies in DOOM and DOOM II.  Here is a
+list:
+
+        FORMER HUMANS (dudes in filth-covered combat suits):  Just a few days
+ago, you were probably swapping war stories with one of these guys.  Now it's
+time to swap some lead upside their head. They are the weakest of all
+enemies.
+
+        FORMER HUMAN SERGEANTS (dudes in black armor, also filthy):  
+Same as above, but much meaner and tougher.  These walking shotguns 
+provide you with a few extra holes if you're not careful!
+
+        IMPS (brown thorny hominids):  You thought an imp was cute 
+little dude in a red suit with a pitchfork.  Where did these brown 
+bastards come from?  They heave balls o' fire down your throat and take 
+several bullets to die.  It's time to find a weapon better than that 
+pistol if you're going to face more than one of these S.O.B.s.
+
+        DEMONS (pink horrors, vaguely humanoid):  Sorta like a shaved 
+gorilla, except with horns, a big head, lots of teeth, and harder to 
+kill. Don't get too close or they'll rip your fraggin' head off.
+
+        SPECTRES (vague, half-formed shapes):  Great.  Just what you 
+needed.  An invisible (nearly) Demon.
+
+      + LOST SOULS (flying skulls): Dumb.  Tough.  Flies.  On fire.  
+Flying skills with a hot temper.  They like to go for a screaming 
+head-on collision.
+
+      + CACODEMONS (gigantic floating one-eyed heads):  They float in the
+air, belch ball-lightning, and boast one Hell of a big mouth.  You're toast
+if you get too close to these monstrosities.
+
+        BARONS OF HELL (you'll know `em when you see `em):  Tough as a dump
+truck and nearly as big, these goliaths are the worst thing on two legs since
+Tyrannosaurus Rex.  Watch out for the green plasma they fling at you.
+
+      + CYBERDEMON (rocket shooting colossus):  When you get to the end of
+the second episode of DOOM, you'll know.  Get ready to see this guy a 
+lot more often in DOOM II.
+
+      + SPIDER MASTERMIND (huge robotic chaingun shooting spider):  It 
+will make you wish you never were playing DOOM in the first place.  
+Watch for it at the end of the third episode of DOOM, and numerous times 
+in DOOM II.
+
+      # HEAVY WEAPON DUDE (overweight sergeants with chain guns):  These
+guys are probably the first new enemy you will encounter in DOOM II. 
+They are more disgusting looking that sergeants, and are also more 
+deadly due to their chain gun.
+
+      # HELL KNIGHT (brown colored Baron of Hell):  Slightly easier to 
+kill than our friend the Baron, but appear in larger numbers.
+
+      # ARACHNOTRON (toddler version of the Spider Mastermind):  Smaller 
+than the Spider Mastermind, and a lot harder to kill, but there are a 
+lot more of these guys.  Watch for its BFG9000-like green plasma.
+
+      # PAIN ELEMENTAL (even more disgusting huge Cacodemon-like blobs):  
+Watch out for these guys, they fly around and fire Lost Souls at you.  
+If you don't kill them quick enough, the Lost Souls will eat you for 
+lunch.
+
+      # REVENANT (skeletons with a bad temper):  These huge skeletons 
+are just cruel.  They punch and kick the life out of you, and also enjoy 
+launching flaming rockets into your torso.
+
+      # MANCUBUS (overweight walking blob with guns for arms):  He is 
+fat, ugly, and like shooting enormous fireballs into you from his arms.
+
+      # ARCH VILE (flaming spirits):  Not only does he summon the fire 
+elementals to watch you go up in flames, he revives already dead demons 
+while he's at it.
+
++:  Not found in the shareware version of DOOM
+#:  Only found in DOOM II
+
+
+*3-10*: Weapons
+===============
+        Here's a list of weapons that are in DOOM.  Don't try using these at
+home. :)
+
+        (1) Fist
+        (2) Chain Saw
+        (3) Pistol
+        (4) Shotgun
+      # (5) Super Shotgun (double barreled)
+        (6) Chain Gun
+        (7) Rocket Launcher
+      + (8) Plasma Rifle
+      + (9) BFG9000
+
++: Denotes a weapon not implemented in the shareware version.
+#: Denotes a weapons found only in DOOM II.
+
+[3-10-1]: What does BFG9000 stand for?
+--------------------------------------
+        Being the most powerful weapon, the only thing BFG9000 could stand
+for would be "Big Fraggin' Gun." :)
+
+------------------------------
+CHAPTER [4]: Who created DOOM?
+------------------------------
+
+        DOOM was created by id Software, and is also published by
+id Software.
+        Id Software is made up of the following dedicated people:
+
+        - John Romero     Coder         -
+        - John Carmack    Coder         -
+        - Dave Taylor     Coder         -
+        - Adrian Carmack  Artist        -
+        - Kevin Cloud     Artist        -
+        - Jay Wilbur      CEO           -
+        - Sandy Peterson  Designer      -
+        - Shawn Green     Tech Support  -
+        - American McGee  Tech Support  -
+        - Robert Prince   Music         -
+
+Note:  Apogee has NOTHING to do with DOOM.
+
+[4-1]: How can I contact id Software?
+=====================================
+        id Software can be contacted via the Internet.  If you would like to
+ask any questions about DOOM (that are not answered in here), send E-mail to
+"help@idsoftware.com".  Id Software can also be reached at their 800 number.
+The number is (800)-ID-GAMES.  This number is for ordering games ONLY.  This
+number is not for technical support or inquiries.
+
+---------------------------------------------------------------------
+[5]: What are the differences between the different releases of DOOM?
+---------------------------------------------------------------------
+
+(5-1): What is the shareware release?
+=====================================
+        The shareware version of DOOM only includes one of the three
+missions of DOOM.  Each mission contains eight levels and a secret
+level.  The shareware version contains network support and modem
+support.  The shareware version does NOT include the Plasma Rifle and
+the BFG9000 weapons. On December 10th, 1993, v1.0 was released.  On
+December 16th, 1993, v1.1 was released.  On February 17th, 1994, id
+released v1.2 of DOOM.  This version fixed many bugs and added new
+features, including modem support. Unfortunately, this revision added
+many new bugs.  On June 28th, 1994, v1.4 was released.  This version was
+only an "Internet Beta version," as was used to find bugs before the
+pending released of v1.5 of DOOM.  Then, on July 8th, 1994, v1.5 was
+released as another "Internet Beta version."  Both version 1.4 and 1.5
+were released without registered version patches. In early August, v1.6
+was released as yet another "Internet Beta version." FINALLY! In early
+September of 1994, v1.666 made its debut!  The new features of v1.4,
+v1.5, and v1.666 are all outlined in Chapter [5-3].
+
+[5-2]: What is the mail-order release?
+======================================
+        The mail-order release of DOOM includes all three missions of DOOM.
+Each mission contains eight levels and a secret level.  This version includes
+all weapons.  All mail-order releases ordered July of 1994 are older
+versions.  It is recommended that you upgrade to v1.666 if you wish modem
+support, Nightmare mode, DeathMatch v2.0, and various other bug fixes.
+
+[5-3]: What makes the six versions different?
+=============================================
+        Seven different versions of DOOM have been released: v1.0 (which
+has the v0.99 operating system), v1.1, v1.2, v1.4, v1.5, v1.6, and
+v1.666.  Version 1.0 was the initial December 10th, 1993 release.
+Version 1.1 was the first upgrade of DOOM, released on December 16th,
+1993.  Although this version fixed many bugs and compatibility problems,
+it introduced many new ones. Version 1.2, released on February 17th,
+added modem play, Nightmare mode, and better use of networks, but again
+introduced many new bugs.  v1.4 of DOOM was a Beta version released
+exclusively on the Internet, and was only used for finding bugs before
+the pending v1.5 release.  v1.5 followed, which again was released as an
+Internet Beta version to find bugs for the pending v1.6.  v1.6 was then
+released as another Beta, and finally v1.666 was released in early
+September which fixed some modem play problems and other miscellaneous
+sound code and control bugs.
+        Note: id reports that v1.8 of DOOM will be released in the near 
+future, and DOOM II has a version v1.7 and v1.7a.
+
+        v1.4/v1.5/v1.666 new features:
+
+        - New 14.4k and 28.8k modem support
+        - Better serial support
+        - New and improved SETUP.EXE with the following features:
+                + Phone number list
+                + Modem string database
+                + Level warp key (F1)
+                + Up to eight digital channels instead of four
+        - New DeathMatch v2.0 rules (-ALTDEATH parameter):
+                + All objects respawn after 30 seconds
+                + Suicide subtracts a frag from your score
+                + Negative frags are now possible
+        - You can type "+" and "-" in chat mode
+        - The "Official" DOOM FAQ is now included
+        - Microscopic map bugs fixed and some elements changed in certain
+          maps for network play
+        - Recording multiplayer demos is now possible
+        - Recorded demos do NOT end when you die or when the level ends.
+          You must press "Q" or quit from DOOM to halt recording.  The
+          default demo buffer is 128K, but it can be increased by using
+          the "-MAXDEMO <#k>" command-line parameter.  "-MAXDEMO 1024"
+          would allocate one megabyte for a demo recording buffer!
+        - When playing back Multiplayer demos, you can use F12 and TAB
+          keys to access the other player's views and watch everyone
+          on the automap.
+        - You can NOT use external files with the shareware version any
+          longer.  You must register first.
+        - You can now reload maps using the IDCLEV<e#><m#> cheat if you are
+          map editing on a LAN
+        - Supports RESPONSE files for up to 100 command-line arguments.  A
+          response file is a text file that contains all the command-line
+          arguments you which to pass to DOOM.  An example would be:
+
+            ---- start of file ---- (don't type this line)
+            -nomonsters
+            -deathmatch
+            -altdeath
+
+            ---- end of file ---- (don't type this line)
+          If you name this file RESPONSE.TXT, when you invoke DOOM, you
+          would type "DOOM @RESPONSE.TXT" and add any additional
+          command-line parameters afterwards.
+        - Sound Blaster AWE32 sound support
+        - Sound does NOT work under Windows or OS/2 yet.  A new version is
+          being test and will be released when it is stable.
+        - new FAST parameter allows optional fast enemies
+        - new TURBO parameter allows the marine to move more quickly
+          (this is considered cheating and is only meant for DeathMatch play)
+        - the DEVPARM parameter is no longer needed to record demos
+
+        NOTE: Saved games from versions before v1.666 do not work with v1.666.
+
+        Bug fixes since v1.5:
+
+        - Miscellaneous sound code, serial code, and control fixes
+        - IDKFA and shotgun no longer crashes the game
+
+        Bug fixes since v1.4:
+
+        - SERSETUP has been rewritten-- AGAIN!
+        - Help screen now mentions F11:Gamma Correction.
+        - Sprite graphics can now be used in PWADs.
+        - A bug that caused some monsters to teleport outside of the levels
+          has been corrected.
+        - Mysterious DeathMatch bug (since v1.0) that caused random objects
+          to reappear but not be gettable has been corrected.
+        - Increased 64K of savegame buffer space for PWAD developers.
+        - SERSETUP COM port setting > 38400 has been fixed.
+        - Response file bug fixed.
+        - SETUP lets you type ENTER for a control key.
+        - New GUS instrumnet mapping file for 1mb GUS cards only.
+
+        Bug fixes since v1.2:
+
+        - Now more than two people can play over a network without crashes.
+        - No more PS/2 mouse bug (player loses control of character,
+          character spins, game locks, etc.)
+        - Saving a game under a open door, restoring it, then pressing
+          space no longer causes the game to crash.
+        - Sound code rewritten.
+        - Serial game difficulty selection fixed in SETUP.EXE.
+        - map bug fixes including two-sided linedef bug and faulty
+          SKY1 ceiling texture mapping
+        - gun projectiles (rockets, plasma, rockets) will no longer trigger
+          linedefs
+
+        It is recommended that you upgrade to v1.666 if you have not already
+done so.
+
+(5-4): What is the commercial release?
+======================================
+        The commercial version of DOOM is called "DOOM II: Hell on
+Earth" and is now available in stores!
+        DOOM II is finished and is now available to registered users of
+the original DOOM.  It can be ordered directly from id or from GT
+Interactive Software at 1-800-332-4300.  It costs $44.95 per copy.
+        DOOM II includes these features:
+
+        * 30 levels plus 2 secret levels
+        * Lots of graphics
+        * All new music
+        * More sound effects
+        * Runs a little faster than original DOOM due to further code
+          optimizations!
+        * New enemies
+        * Totally killer DeathMatch-designed levels!
+
+[5-5]: I bought DOOM in a store, is it illegal?
+===============================================
+
+        Here is accurate information regarding DOOM's legality.
+
+        (1) DOOM purchased directly from (800)-ID-GAMES is NOT illegal.
+        (2) The registered version of DOOM purchased in ANY retail stores
+within the United States is illegal.
+        (3) The registered version of DOOM purchased on CD-ROM ANYWHERE
+is illegal.
+        (4) The registered version of DOOM purchased in retail stores
+OUTSIDE of the countries listed below is illegal.
+
+                Australia
+                New Zealand
+                Hong Kong
+                Taiwan
+                Singapore
+                Netherlands
+                UK
+
+        (5) The registered version of DOOM purchased in retail stores in
+Canada is illegal.
+        (6) The shareware version of DOOM purchased anywhere (on CD-ROM
+or otherwise) is LEGAL.
+
+        I hope this clears it up.  If you own an illegal copy of DOOM,
+please E-mail to "help@idsoftware.com" to report the distributor,
+date of purchase, and price.  Calling (800)-388-PIR8 is also allowable
+for people without Internet access.
+
+        None of this information applies to DOOM II, which is sold in 
+stores.
+
+(5-6): What is WinDOOM?
+=======================
+
+        Here is the latest information on WinDOOM, direct from Microsoft.
+
+- WinDOOM is a joint effort of id Software and Microsoft.  Microsoft is doing
+  most of the porting work.
+- WinDOOM is a Win32 application.  It runs under Windows NT and Windows 4.0.
+- WinDOOM uses the recently announced WinG libraries.
+- WinDOOM supports full music and sound and supports all Windows MIDI and
+  WAVE devices.
+- WinDOOM has variable resolution.  WinDOOM can render the display at
+  320x200 through 640x400.  Resolutions greater than 640x400 are
+  performed via "stretching" (this is a limitation of the DOOM engine)
+- WinDOOM supports network play via WinSOCK (TCP/IP) and NetBIOS (NetBeui,
+  IPX, etc.)
+- WinDOOM supports any display with at least 256 colors.
+- WinDOOM is multithreaded so if you're running under a multiprocessor
+  machine you'll see a significant speed increase.
+- WinDOOM will support DEC Alpha and MIPS RISC machines.
+
+*5-7*: What other DOOM ports are in the works?
+==============================================
+        Here is the status on all the latest DOOM ports.  This is DIRECT 
+from id Software, opinions conveyed in here are not nessecarily the 
+opinions of Hank Leukart.
+
+QNX: DOOM for the QNX OS is anonymously ftp'able from quics.qnx.com.
+It's compiled with Pentium optimizations and supports sound, music,
+the VGA console and X Windows with pixel doubling and tripling.
+We don't support this version, QNX Software Systems did the port.
+This version will run the shareware, registered, or doom2 wadfile.
+The files to ftp are:
+
+
+  /usr/free/doom/qnxdoom.pax.gz - Console and X versions of QNX DOOM
+  /usr/free/doom/doom1.wad.gz   - DOOM v1.666 wad file
+  /usr/free/doom/qnxdoom.faq    - Installation instructions and other
+  details
+
+
+OS/2: Still working, no dates yet. IBM guys are handling this.
+This is how this will work: You will be able to download the
+OS/2 version from most BBSs and ftp sites. It will work with
+your registered wad or the shareware one. NO CHANGE. STILL NO CHANGE.
+
+SGI Irix v5.2:  ftp.uwp.edu:/pub/msdos/games/id/sgixdoom.tar.Z.
+It is integrated with the v1.6ish DOOM version.  It supports
+pixel-doubling, -tripling, -quadrupling as well as 16-bit sound
+for clearer mixing.  Now compiled with -mips1 flag. Do not send
+us mail about this. We will delete it. NO CHANGE.
+
+LINUX: the linux version is at sunsite.unc.edu:/pub/Linux/Incoming
+and may be moved to whatever appropriate directory later. Do not
+send us mail about this. We will delete it. NO CHANGE.
+
+JAG: It's out now. Go buy it. Everyone likes it.
+
+MAC: We have found a team to do this. There is no release date.
+We just got some Power PCs to test the beta
+version on. It should be here soon. Please do NOT ask to test
+this. There is no more info on this at this time. NO CHANGE.
+
+WINDOWS: We just got a beta of this. Looks AWESOME. Still no
+release date. The MICROSOFT guys are working on this. NO CHANGE.
+
+NEXTSTEP: There is a version 1.2 available from cs.orst.edu. There
+will not be another patch until we send out the finished version.
+Omnigroup is working on a new NEXTSTEP release of
+DOOM with interceptor direct framebuffer access, sound,
+customizable controls, and lots of other features.
+A DOOM II release will also be available.
+URL for the info page at Omni's WWW site:
+  http://www.omnigroup.com/Software/Doom/
+
+Sega 32X: Released. Everyone is spooging over this one, too.
+Buy it.
+
+There will never be a port to these machines:
+Amiga, Sinclair 2000, Apple //gs, TRS-80.
+
+----------------------------------------------------------
+CHAPTER [6]: Where can I get DOOM and related information?
+----------------------------------------------------------
+
+[6-1]: How can I get the shareware release?
+===========================================
+
+*6-1-1*: What are the file names?
+---------------------------------
+        DOOM is released in two formats, a two file 1.44mb format, and a 
+one file 2mb format.  The 2mb format is released under the name 
+"dm1666.zip".  The 1.44mb file names are "dm1666a.zip" and 
+"dm1666b.zip." If you got DOOM before September of 1994, it is 
+recommended that you upgrade to v1.666 if you wish all of its new 
+features and bug fixes. A patch under the file name "dm1666sp.zip" is 
+available to upgrade the v1.2 shareware version to v1.666.  A patch 
+under the file name "dm1666rp.zip" is available to upgrade the 
+registered version to v1.666.  Additionally, a file named "altdoom1.zip" 
+is available for those people whose computers do not work with the DOOM 
+DOS Extenders, but only for DOOM v1.1. NOTE: Registered version patches 
+for v1.4, v1.5, and v1.6bt were NEVER released.
+        There is NO shareware version of DOOM II, however, there are 
+patches to upgrade DOOM II to v1.7a.  These are available under the file 
+names "doom2p16.zip" (if your DOOM II is v1.666) and "doom2p17.zip" (if 
+your DOOM II is v1.7).
+
+[6-1-2]: How can I get DOOM using FTP?
+--------------------------------------
+        Here is a list of sites DOOM is on.  Choose the one closest to you
+for fastest delivery.
+
+        andyspc.rh.uchicago.edu: /pub/doom
+        cactus.org: /incoming (will be moved to /pub/IHHD/multi-player)
+        charm.tn.cornell.edu: /pub/doom
+        ftp.cc.umanitoba.ca: /wolf3d/incoming (will be moved to pub/doom)
+        ftp.demon.co.uk: /pub/ibmpc/games/id
+        ftp.sun.ac.za: /pub/msdos/id
+        ftp.uml.edu: /msdos/Games/ID
+        ftp.uwp.edu: /pub/msdos/games/id
+        ftp.funet.fi: /pub/msdos/games/id
+        ftp.orst.edu: /pub/doom/id
+        lemming.uvm.edu: /incoming (only the patch from 1.1 to 1.2)
+        wuarchive.wustl.edu: /pub/MSDOS_UPLOADS/games/doom
+
+        There is no shareware version of DOOM II.
+
+[6-1-3]: How can I get DOOM using AFS?
+--------------------------------------
+        DOOM can get received from the following AFS site.
+
+        /afs/andrew.cmu.edu/usr23/dsa3/ftp
+
+[6-1-4]: How can I get DOOM on a BBS?
+-------------------------------------
+        DOOM is on id Software's official BBS, Software Creations.  DOOM is
+located in the id Software directory.  Choose the appropriate phone number
+for your modem.
+
+        (a) (508)-365-2359 2400 baud
+        (b) (508)-368-7036 9600-14.4k v.32bis
+        (c) (508)-368-4137 14.4-16.8k HST/DS
+
+        Software Creations can also be telnetted to using the site name 
+"swcbbs.com."
+
+*6-2*: How can I get the mail-order release?
+============================================
+        The mail-order release of DOOM is available directly from id
+Software.  To order, call id Software's order number, (800)-ID-GAMES.
+This number is for ORDERING ONLY, not for inquiries or technical support.
+The mail-order version of DOOM costs $40.00.  If you live out of the United
+States, you can still order DOOM by an out-of-country shareware
+distributor.
+
+*6-3*: How can I get the commercial release?
+============================================
+        DOOM II was released at the beginning of October.  It can be 
+purchased in your local software store or ordered directly from GT 
+Interactive (DOOM II's distributors) at (800)-332-4300 in the United 
+States.
+        There is a patch to v1.7a of DOOM II available on the Internet.
+If your version of DOOM II is:
+
+        v1.666          ftp.uwp.edu     /pub/msdos/games/id/doom2p16.zip
+        v1.7            ftp.uwp.edu     /pub/msdos/games/id/doom2p17.zip
+
+[6-4]: How can I get the DOOM Specs for creating add-on utilities?
+==================================================================
+        id has made the decision not to release their own DOOM specs.
+        The Unofficial DOOM Specs, however, written by Matt Fell and
+distributed by myself, are available.  See Chapter [15-24] for more
+information.
+
+[6-5]: Where can I get the serial play and node building source code?
+=====================================================================
+        The serial play source code is available on the FTP site
+"ftp.uwp.edu" in the directory "/pub/msdos/games/id" under the filename
+"sersrc.zip."
+        The node building source code is available on the FTP site
+"ftp.uwp.edu" in the directory "/pub/msdos/games/id" under the filename
+"doombsp.zip."
+
+[6-6]: What books about DOOM are available?
+===========================================
+
+        Killer DOOM: Tips & Tricks by Brady Publishing
+        Author: Robert Waring
+        Price : $9.95
+        Order : (800)-428-5331
+
+        The Official DOOM Survival Guide
+        Author: Jonathan Mao Mendoza
+        Price : $19.95 ($15.00 if ordered directly from id)
+        Order : (800)-ID-GAMES
+        ISBN #: 0-7821-1546-2
+
+        DOOM Battlebook: Secrets of the Games series by Prima Publishing
+        Author: Rick Barba
+        Price : $14.95
+        ISBN #: 1-55958-651-6
+
+        Watch for a number of new books about DOOM and DOOM II to be 
+released in early 1995.  You may even see a cool DOOM editing book 
+written by someone you know. :)
+
+*6-7*: Where can I find World Wide Web sites about DOOM?
+========================================================
+
+The HTML version of the DOOM FAQ is at:
+        http://venom.st.hmc.edu/~tkelly/doomfaq/
+
+The DOOMGate is located at:
+        http://www.cedar.buffalo.edu/~kapis-p/doom/DoomGate.html
+
+Here are all the DOOMWeb sites to date:
+
+        file://ftp.netcom.com/pub/vhold/doom/doom.html
+                by Marty Price (vhold@netcom.com)
+        http://lilly.ping.de/~sven/doom.html
+                by Sven Neuhaus (sven@fuzzy.ping.de)
+        http://www.cis.ksu.edu/~trm/doom.html
+                by Tim McCune (trm@ksu.ksu.edu)
+        http://www.cs.hmc.edu/people/tkelly/docs/doom/index.html
+                by T.J. Kelly (me, TJ@hmc.edu)
+        http://www.cedar.buffalo.edu/~kapis-p/doom/DOOM.html
+                by Piotr Kapiszewski (kapis-p@cs.buffalo.edu)
+        http://www.cs.indiana.edu/games/doom/doom-home.html
+                by Bill Perry (wmperry@spry.com)
+        http://cornelius.ucsf.edu/~troyer/sgidoomfaq.html  
+        (The SGI DOOM FAQ)
+                by John Troyer (troyer@cgl.ucsf.edu)
+        http://hp11.zdv.uni-tuebingen.de:2611/doom/doom.html
+                by Joost Schuur (lothlhwI@irc)
+        http://www.cs.umd.edu/~lgas/computers/doom.html
+                by John Evans (lgas@cs.umd.edu)
+        http://www.catt.ncsu.edu/users/deftly/www/doom.html
+                by Randal Wilson (deftly@catt.ncsu.edu)
+
+----------------------------------------
+CHAPTER [7]: What is needed to run DOOM?
+----------------------------------------
+
+*7-1*: What is REQUIRED to run DOOM?
+====================================
+        DOOM requires a 386sx IBM compatible computer running MS-DOS v3.3 or
+higher, VGA (320x200x256) graphics, and 4mb of RAM.  The shareware version of
+DOOM needs about 4.8mb of hard drive space.  The mail-order version needs
+about 12mb of hard drive space.
+        DOOM II requires a 486 with at least 17mb of hard drive space.  
+I have seen it RUN on a 386, but it runs too slow.
+        DOOM ports for the Atari Jaguar, Linux/X, Irix/X, Windows, OS/2 PM,
+MacOS, SEGA 32X (Mars), QNX, FreeBSD, Solaris, and UNIX are also planned.
+
+*7-2*: What sound cards does DOOM support?
+=========================================
+        DOOM supports general MIDI, Adlib, Sound Blaster, Sound Blaster Pro,
+Sound Blaster 16, Roland Sound Canvas, Gravis UltraSound, WaveBlaster, Pro
+Audio Spectrum 16, Sound Blaster AWE-32, and compatibles.
+
+[7-3]: What game controllers does DOOM support?
+===============================================
+        DOOM supports keyboard, mouse, joystick, and trackball (functioning
+as a mouse).
+        DOOM also supports the Gravis Gamepad and Logitech Cyberman.
+
+----------------------------------------------------
+CHAPTER [8]: How can I use multiple players in DOOM?
+----------------------------------------------------
+
+        DOOM supports 2-4 players in a multi-player mode. DOOM is
+playable over networks, modems and by serial link.
+
+Note: For playing the registered DOOM over networks or by modem, EACH user
+      MUST BUY his/her own individual copy of the game.
+
+[8-1]: How does the multi-player gameplay work?
+===============================================
+        In DOOM, players are able to see each other, and watch each other
+jerk in pain as they are hit during the game.  Players are able to watch
+others get hurt, die, and move throughout the labyrinth.  DOOM allows
+players to play together, working as a team.  In this cooperative mode,
+players can see each other on an "automap" and switch to each other's view.
+DOOM also allows players to play against each other, in DeathMatch mode.
+
+[8-1-1]: How does pausing, saving, and loading work?
+====================================================
+        In DOOM, some things change when playing with more than one player.
+        When you activate the Options menu or submenus, the game KEEPS
+RUNNING so that other players can continue with the action.  So, it is best
+to find a safe place before adjusting screen size, sound, etc.
+        A player may pause the game by pressing the PAUSE key, but any other
+player can unpause the game by pressing the PAUSE key again.  Make sure it is
+okay with your buddies before taking a breather.
+        When you do a save game during network/modem play, it saves on every
+player's system in the save game slot you select, writing over whatever was
+there.  Before saving the game, players should agree on a safe slot to save
+it in.
+        You cannot load a saved game while playing a multi-player game. To
+load a game, everyone must quit from the current game and restart the game
+from a saved game.  To start a game from a saved game, you can either
+select it from the SETUP program or identify it as a command line parameter.
+
+[8-1-2]: What are the different uniform colors for?
+---------------------------------------------------
+        In network/modem games, each player's uniform is a different color.
+The color of your character is the color behind your face on the status bar.
+The colors are BROWN, INDIGO (black), GREEN, and RED.
+        These are used to identify between players during game play, and
+to chat with others using Chat Mode.
+
+[8-1-3]: How does a player see what others are doing?
+-----------------------------------------------------
+        If you're playing in cooperative mode, press F12 to toggle through
+the other players' viewpoint(s).  You still retain your own status bar at
+the bottom, and if your view reddens from pain it is YOU, not your partner,
+who has been hit.
+
+[8-1-4]: How do players communicate using Chat Mode?
+----------------------------------------------------
+        In a multi-player game you can communicate with other players in the
+Chat Mode.  To enter into Chat Mode and broadcast a message to all the other
+players, press the letter "T".  A cursor will appear where your messaging is
+normally placed.  To broadcast to a specific player, instead of pressing
+"T", you'll need to press the first letter of the player's color: (B)rown,
+(I)ndigo, (G)reen, and (R)ed.  For example, to send a message to the brown
+character, you would press the letter "B".
+        In DOOM v1.2, a macro capability was added.  After defining
+ten macros in SETUP.EXE, pressing the player color, and then
+"ALT-<macro number>" will send a macro.
+
+[8-1-5]: How do the weapons work?
+---------------------------------
+        When a player runs over a weapon, he picks it up, but the weapon
+remains in the game for other players to take.  Shotguns dropped by former
+human sergeants are removed from the game after being picked up or smashed.
+        In DeathMatch v2.0 (use the ALTDEATH parameter), weapons are
+removed from the playing field from thirty seconds and then reappear when
+playing DeathMatch mode.
+
+[8-1-6]: What happens when a player dies?
+-----------------------------------------
+        If you die and restart in the level, previously taken items and
+destroyed monsters don't reappear unless you are playing in DeathMatch
+v2.0.  Even though you've died, other players have survived.
+
+[8-1-7]: Can players exchange supplies?
+---------------------------------------
+        Players cannot exchange supplies.
+
+[8-1-8]: Miscellaneous
+----------------------
+        In Cooperative mode, each player begins in the same area.  In
+DeathMatch mode the players begin in completely different areas--if you want
+to see your buddy you'll need to hunt him down.  Plus, each time you die,
+you'll start in one of several random locations.
+        Unlike in single-player or Cooperative mode gameplay, in DeathMatch
+mode the players start at each location with the keys necessary for opening
+any locked door in that area.
+        In DeathMatch mode the ARMS section on the status bar is replaced
+with "FRAG."  The FRAG section displays the number of times you've killed
+your opponents.
+        In Cooperative mode the Automap works the same way it does in
+single-player mode.  Each player is represented by a different color arrow.
+In DeathMatch mode you won't receive the pleasure of seeing your opponents on
+the map.  Just like the monsters, your friends could be just around the
+corner, and you won't know it until you face them.
+
+[8-2]: What exactly is "DeathMatch" mode?
+=========================================
+        DOOM has a "DeathMatch" mode where every player is out for
+himself.  At the beginning, the level is infested with enemies and power-ups.
+In this mode, players can't see the other players in the Automap, nor switch
+to their view.  Players are not able to view other's health in the mode,
+because of the disadvantage this can cause.
+
+[8-3]: How does DOOM work with networks?
+========================================
+        DOOM supports the IPX (Novell Netware) protocol in the initial
+shareware version.  Using this network support, DOOM can be played in a
+workplace type environment.
+        To start network mode:
+        (1) Launch DOOM from the SETUP program, by going to the directory in
+which you installed DOOM, typing SETUP, and pressing the ENTER key. Unlike
+playing DOOM in single player mode, DOOM in multi-player mode must be run
+either from the SETUP program or by using the command line parameters.
+        (2) The SETUP program allows you to configure the information that
+is necessary for the multi-player game. The SETUP is simple to use.
+        (3) Start the game!
+
+(8-3-1): What are the network command line parameters for DOOM?
+---------------------------------------------------------------
+-LOADGAME allows you to start DOOM from a specified save game.  Instead of
+using the saved game name, simply enter the number (0-5) that corresponds to
+the slot you saved the game to on the SAVE GAME screen.
+-loadgame <# of the game>
+
+-DEATHMATCH starts DOOM as a DeathMatch game.  If you don't enter DEATHMATCH
+as a command line parameter, DOOM will default to Cooperative mode.
+-deathmatch
+
+-SKILL sets the skill level (1-5) you wish to play.
+-skill <# of skill level>
+
+-EPISODE sets the episode (1-3) you wish to play.  The default episode is
+Episode One, Knee-Deep in the Dead.
+-episode <# of the episode>
+
+-CONFIG allows you to use your configuration file from any directory you
+choose.
+-config <pathname> ex. -config f:\doom\data\myconfig.cfg
+
+-NOMONSTERS allows you to start playing with NO MONSTERS running around!
+This is great for DeathMatch where, really, the monsters just get in the
+way.
+-nomonsters
+
+-RESPAWN tells DOOM that, yes, you are a badass, and yes, you want all the
+monsters to respawn 8 seconds after you kill them.  The NIGHTMARE skill
+level already does this.  Note that using -respawn and -nomonsters at the
+same time is a dumb thing to do.
+-respawn
+
+-ALTDEATH uses DeathMatch v2.0 mode.
+-altdeath
+
+-FAST uses fast monsters, as in Nightmare mode
+-fast
+
+-MAXDEMO determines the maximum size of a recorded demo
+-maxdemo <size in K>
+
+
+-TURBO increases the speed of the marine (this is considered cheating in
+single player mode and is meant for DeathMatch only)
+-turbo <speed increase 1-255>
+
+[8-3-2]: How does DOOM determine player colors?
+-----------------------------------------------
+        The player numbers and colors are determined by the ethernet node
+address. The lower the number, the lower number you will be assigned in a
+multi-player game.   The lowest number gets green, and the highest number
+(with four players) gets red.  To change the player numbers in a net game,
+insert the line :"NODE ADDRESS xxxxxxxxxxxx" under the Link Driver section of
+your net.cfg before you load LSL.
+
+[8-3-3]: How can I use DOOM on Novell Netware Lite?
+---------------------------------------------------
+        Hwere is information on how to play DOOM on a Novell Netware Lite
+network.  Novell does not approve of or recommend the following drivers.
+
+HOST/CLIENT (1) Load the LSL.  (LSL.COM)
+HOST/CLIENT (2) Load your card driver.  (example: 3C5X9.COM)
+HOST/CLIENT (3) Load your server.  (SERVER.COM)
+HOST/CLIENT (4) Load your client.  (CLIENT.COM)
+CLIENT      (5) Log into the network.
+CLIENT      (6) Map the hosts to the hard drive.  (refer to NWL Manual)
+HOST        (7) Run DOOM's SETUP.EXE, configure, and press F10.
+CLIENT      (8) Change to mapped DOOM directory, and run SETUP.EXE,
+                using the same options as used on the host.
+            (9) PLAY DOOM!
+
+Note: It is illegal to use the Registered DOOM on only one server.  You
+      must buy a seperate copy of the game for each player.
+
+[8-3-4]: How can I use DOOM on other types of networks?
+-------------------------------------------------------
+        It does not matter what type of network you use for DOOM, whether it
+is Lantastic, Windows for Workgroups or other networks.  netDOOM uses the
+cards at such a low level that it does not need the network services.  It
+only needs the ODI/IPX drivers.
+        This being the case, netDOOM works fine with any Ethernet or any
+other cabling system. Naturally, you can not use any normal network services
+at the same time.
+
+        There are a number of ways of getting IPX working with a given
+ethernet card.  One is to use a dedicated IPX driver for the card,
+another is to run an IPX converter over some other standard such as
+NDIS, ODI, or the packet driver standard.  If one method fails to
+work, try another one!  I have had good reliability with the IPX
+over Packet driver method, though it can sometimes be a challenge
+to get it running...  If you are already using Novell, then the IPX
+over ODI might be simpler to set up, though I have found it less
+reliable.
+
+        Before I get going, let me plead with everyone NOT TO USE DOOM 1.1
+OR 1.0 ON ANY NETWORK OTHERS ARE TRYING TO USE!!  Doom 1.666 is now
+available, so please use it rather than 1.1 or 1.0.  DOOM 1.0 and
+1.1 really screw up networks.
+
+Now that I have all my disclaimers out of the way... :)
+
+        To use this method of installing IPX you need two files, both of
+which are in the file PKTD11.ZIP, which can be had from
+oak.oakland.edu as/pub/msdos/pktdrvr/pktd11.zip.  I have seen some
+problems with this version (11) of the drivers, however, so it
+would be wise to test out the packet driver after it is loaded, or
+perhaps to try one which comes direct from the ethernet card
+manufacturer. (i.e. 3c5x9pd.com from ftp.3com.com)
+
+        If you have problems with these drivers, I have put together a
+collection of older versions of IPX and packet drivers which seem
+to work better with DOOM.  This package will be uploaded to
+ftp.uwp.edu as OLDIPX.ZIP.  (see Chapter [14-6])
+
+        The first file is specific to your ethernet hardware.  It is the
+packet driver software that converts packet-driver calls to
+commands your ethernet card can understand.  The INSTALL.DOC file
+included with the packet driver collection has details about which
+cards are supported and what sort of command-line parameters are
+needed for each packet driver.  I always load the packet driver
+using interrupt 0x60, a popular convention.  These drivers will not
+work well under Windows without tweaking, so read the INSTALL.DOC
+file for details.  There are also some useful packet utilities
+included.  Again details are in INSTALL.DOC.  (Got the hint yet? :)
+
+EXAMPLES:
+
+     3Com 503 card on interrupt 5, I/O port 0x300, and the
+     internal transceiver. (twisted pair RJ-45 connector ON
+     THE CARD or coaxial BNC connector-- NOT the 15-pin AUI
+     connector) The shared memory area is automatically
+     determined-- but be sure to exclude the region from your
+     expanded memory manager, if used!
+
+          3C503.COM 0x60 0x5 0x300 1
+
+     3Com 509 card: These cards are entirely
+     software-configurable through the config/diagnostics on
+     your EtherDisk that came with the card.  If you have lost
+     the disk, all the needed files are available from
+     ftp.3com.com.
+
+          3C509.COM 0x60
+
+     AT&T StarLan cards: Almost like the 503 except the memory
+     location must be specified.
+
+          AT&T.COM 0x60 0x2 0x360 0xD000
+
+        Once the packet driver is loaded and reports things correctly
+(i.e. it does not give your ethernet address as
+FF:FF:FF:FF:FF:FF...) then just run PDIPX.COM to load IPX support.
+The PDIPX.COM program is included with PKTD11.ZIP, but it is
+contained in a .ZIP file INSIDE of PKTD11.ZIP called PDIPX103.ZIP.
+Run the .COM file with no parameters.
+
+        If you have problems with an "invalid mode" when loading PDIPX, you
+probably are trying to run other network software at the same time
+as the Packet Driver/IPX combination.  Strip down your CONFIG.SYS
+and your AUTOEXEC.BAT files to those shown below.  Do not load any
+additional TSR's!  Once this bare-bones configuration works, you
+can begin adding TSR's.  if your problems persist, try using the
+older versions of the packet driver and IPX-to-PD converter.  (They
+should be on ftp.uwp.edu.)
+
+        If nothing seems to work, try running the diagnostic program
+PKTWATCH.COM after getting everything set up.  If your screen fills
+with scrolling multicolor hexadecimal numbers then the packet
+driver is working OK.  If it just flashes a cursor at you, then you
+have problems UNLESS you are wired directly to another computer.
+Hook your computer back up to an active network and see if you can
+receive anything then.  If you do not have an active network
+available, start DOOM on the OTHER computer while running PKTWATCH
+on the original computer.  Of course, the other (sending) computer
+needs to have IPX set up as well.
+
+        The simplest way to get all the drivers you need loaded and to
+exclude other drivers which may interfere is to create a boot disk
+with the correct startup files.  For example:
+
+     CONFIG.SYS
+          device=a:\himem.sys
+          dos=high,noumb
+          files=30
+          buffers=30
+
+     AUTOEXEC.BAT
+          prompt [DOOM Setup] $p$g
+          a:\3c503.com 0x60 0x5 0x300 1
+          rem change the above according to your card.
+          a:\pdipx.com
+
+        The ONLY line that will vary with what card you have is the
+"3c503.com" line.  I encourage you NOT to load an EMS driver since
+so many cards use shared memory and it is sometimes difficult to
+ensure that the proper area, and only the proper area, is excluded.
+DOOM runs just fine with XMS, and you have the added benefit of
+loading DOS high to make room for things like mouse drivers.  DOOM
+does not NEED XMS to run, though.  Also, I like to change the DOS
+prompt to reflect my configuration whenever I am using a bizarre
+setup.
+
+        It might be a good idea to also scan your bootable floppy for
+viruses BEFORE booting the networked computer with it.  (Scan it on
+the NETWORKED computer, not your own...)  There are a number of
+common viruses spread by booting computers from infected disks.
+(Stoned, Form, and Michelangelo to name a few.)  Let's not give
+DOOM a bad name by booting network computers from infected disks!
+(btw, F-prot from oak.oakland.edu as /pub/msdos/virus/fp-211.zip is
+an EXCELLENT antivirus program. <plug>)
+
+        You must make sure that all of the networked computers using DOOM are
+using the same frame type.
+
+[8-3-5]: How can I set up a small inexpensive DOOM network?
+-----------------------------------------------------------
+        All that is required for network play is a network card for each
+computer, a T-plug for each computer (usually supplied with your network
+card), and some cable.  A server is not necessary.  Here is a good supply of
+inexpensive eight bit network cards for DOOM play.
+
+Corporate Systems Center                PHONE: (408)-734-DISK
+1294 Hammerwood Avenue                    FAX: (408)-745-1816
+Sunnyvale, CA 94089
+
+        Brand new 16-bit cards priced at only US$49.00 each.  When calling,
+tell your service person that you would like to run DOOM.  Corporate Systems
+will send you the cards mentioned here.
+
+[8-4]: How can I play DOOM by serial link?
+==========================================
+         DOOM works in two player mode by modem or null modem.  The
+minimum baud rate to play DOOM is 9600 bps.
+        Shareware versions 1.0 and 1.1 do NOT support play by modem or
+serial link.  It is recommended that you upgrade to v1.666 of DOOM.
+        Using this mode is similar to network mode.
+        To use a serial link connection, run the DOOM setup and choose "Run
+Network/Modem/Serial Game."  Then, choose the type of connection you plan
+to make.  Then, configure the game to your liking, and choose the connect
+method.
+        Note that to run null-modem game, you must have a null-modem cable
+plugged into a serial port on both computers and each computer runs
+SETUP.EXE with identical parameters.
+        If you are using a modem, you will most likely need to edit the
+MODEM.CFG file in the DOOM directory.  The first line of the file is an
+initialization string.  Pull out your modem manual, and do the following.
+
+        (1) Find the code that turns off error correction.
+        (2) Find the code that turns off data compression.
+        (3) Find the code that locks your modem at 9600 baud.
+        (4) Find the code that turns off all hardware and software flow
+            control.
+        (5) Create an "AT" initialization string with all these codes and
+            put it into the MODEM.CFG.
+
+        To find an already created initialization string for your modem, look
+in Chapter [18-3] of this FAQ.  If one is not listed for your modem, you will
+have to dig up your modem manual for the correct settings.
+        The second line is a hangup string used when you quit DOOM.
+        If you STILL cannot get the modems to connect, both of you should
+run your favorite terminal programs, and connect with 9600, no error
+correction, no data compression, and NO HARDWARE FLOW CONTROL.  Then just run
+SETUP.EXE with the "Already Connected" option in the configuration box.
+
+[8-5]: How can I play DOOM over the Internet?
+=============================================
+
+(8-5-1): How can I play DOOM using IHHD?
+----------------------------------------
+        Enter IHHD -- the Internet Head to Head Daemon designed by Jim
+Knutson.  With this brilliant little piece of code, multiplayer gaming has
+soared to new heights.  With IHHD, you'll be able to play Head to Head
+against other human opponents all over the world, with the only cost to you
+being the regular prices you pay to connect to or use your Internet host.
+Best of all, it's free.
+
+        First of all, your host needs to be running UNIX as its operating
+system.  If you aren't sure what your host is running for its operating
+system, check the information given at the login prompt or send mail to
+your administrator.
+
+        Other than that, you should be able to run IHHD with ease.  Your
+first order of business is to get the IHHD software.  It is available via
+anonymous FTP at "rex.pfc.mit.edu" in the "pub/IHHD/src" directory.
+
+        To get it:
+
+        (1) FTP to rex.pfc.mit.edu  ("ftp rex.pfc.mit.edu" at UNIX prompt)
+        (2) At the login prompt, enter "anonymous"
+        (3) At the password prompt, enter your E-mail address
+        (4) At the command prompt, type "cd pub/IHHD/src"
+        (5) Type "binary"
+        (6) Type "get dialer1.6.4.shar"
+        (7) Type "bye"
+
+        If you followed the above steps, you should now have the
+"dialer1.6.4.shar" file in your home directory.  Type "ls" at your host's
+command prompt to verify its existence.  If you don't see it, try the
+above steps again or call for help.
+
+        Next, if you've successfully retrieved the "dialer1.6.4.shar" file
+from the FTP site, you need to prepare the IHHD to run on your UNIX system.
+For UNIX veterans, the "dialer1.6.4.shar" file is in fact a shar file, and
+contains a makefile for easy compiling on your system.  For the rest of
+us, follow these steps to get the IHHD up and running:
+
+        (1) Create a directory to put the IHHD software in.
+            Type "mkdir IHHD" at the command prompt.
+        (2) Move the IHHD file to the new directory.
+            Type "mv dialer1.6.4.shar IHHD"
+        (3) Go to the IHHD directory.
+            Type "cd IHHD"
+        (4) Unpack the IHHD files.
+            Type "sh dialer1.6.4.shar"
+        (5) Compile the IHHD software to run on your system.
+            Type "make"
+        (6) You should now see a whole mess of files in the IHHD directory.
+            The important filenames you're looking for should be:
+                "dialer"
+                "tcpdialer"
+                "tcpanswer"
+                "call"
+                "showlog"
+        (7) If you've got these, you're cool.  Otherwise, try the above
+            steps again, re-retrieve the "dialer1.6.4.shar" file from
+            "rex.fpc.mit.edu" using the instructions above, or call for help.
+
+If everything checks out, you're ready to rumble!
+
+Here's how you get connected using IHHD:
+
+        (1) Set up a time to play with another Internet DOOM player.
+            Ideally, you should use E-mail to make the prior arrangements.
+
+            Make sure you and your opponent use the same baud rate and line
+            settings for your modems.
+
+            Make sure data compression, error correction, and hardware
+            flow control on your modem are off.  Look at the modem
+            initialization strings section in this FAQ for more help.
+
+        (2) When it's time to play, start your favorite terminal program
+            and call up your Internet host using your modem.  Make sure that
+            your baud rate and line settings correspond to your opponent's.
+
+        (3) Login to your Internet host normally.
+
+        (4) Contact the other player by sending a short E-mail message
+            indicating that you are on the net and ready to play.
+
+        (5) Once you both establish that you're there and ready to go,
+            return to your UNIX prompt.
+
+        (6) Type "cd IHHD" to enter your IHHD directory.
+
+        (7) You may have to type "terminal download," if you do not have it
+            activated already.
+
+        (8) Type "dialer opponent's.host" to start the IHHD connection.
+            For example, if you were playing against knuston@cactus.org,
+            you would type "dialer cactus.org" to initiate the connection.
+
+            Another way is to type "tcpdialer opponent's.host" while your
+            opponent types "tcpdialer -answer".  Or reverse roles, where
+            you type "tcpdialer -answer" while your opponent types "tcpdialer
+            your.host".  Don't ask me what the difference is; I don't know.
+
+            So, to recap, there are two methods of IHHD connection.
+            Method 1: dialer.  You each type "dialer other.guy's.host"
+            Method 2: tcpdialer.  One of you types "tcpdialer other.guy's.host"
+                      while the other types "tcpdialer -answer".
+
+        (9) Regardless of which method you use to connect, type short text
+            messages followed by a carriage return until you see your opponent
+            acknowledge you.  Unless you have "local echo" set to ON in your
+            serial settings, you will not see the text you type.
+
+       (10) If you don't see your opponent after a reasonable amount of time,
+            exit dialer or tcpdialer by pressing "CTRL-C" (i.e. hitting
+            the "CTRL" and "C" key simultaneously.)  Contact your opponent
+            again by E-mail and agree to try the other method of
+            connecting.
+
+       (11) If you're connection looks fine and your opponent has acknowledged
+            you and you have acknowledged him, exit your terminal program
+            and change to your DOOM directory.  Run SETUP.EXE, and select
+            "Run Network/Modem/Serial Game."  On the next menu, choose
+            "Modem."  Finally, configure all of the options to your liking,
+            select "Already Connected," and press F10.
+
+       (12) If everything goes well, DOOM will start up and bring you to
+            your first game over the Internet!  Congratulations, you are
+            now connected by IHHD.  You can now proceed to play DOOM as if
+            you were connected via a regular phone line.
+
+        If you are having trouble getting DOOM to work with your modem, you
+may want to download one of the many third-party serial drivers for DOOM.
+(see Chapter [15])
+
+        Unfortunately, because of the nature of the Internet, delays and
+warping may occur with your IHHD connection, depending on the quality of the
+connection between your and your opponent's host machines.  These delays
+are often sporadic, and depend largely on what's going on on the Internet
+at that particular times.  Then again, you might just be extremely unlucky
+and have a cruddy Internet connection.
+
+        To gauge the quality of the connection, try to "ping" your opponent's
+computer from your host.  At the UNIX prompt, type "ping -s opponent's.host".
+You should get a listing of "ping times", which you may stop at any time by
+pressing "CTRL-C".  Try pinging some other hosts you know to get an idea of
+how much ping times vary, and use this data to guesstimate the quality of the
+connection between your host and your opponent's.
+
+        Another way to judge the quality of your connection is to simply look
+at the other player.  If he's jumping all over the place, you've got a
+cruddy connection.  If he's relatively smooth and steady, you've got a good
+connection.
+
+        If all else fails, burn incense and sacrifice a beautiful young virgin
+princess to the net.gods.  No, wait.  Better yet, send me a virgin.  E-mail
+me for an address.
+
+*8-5-2*: How can I play DOOM using iDOOM?
+-----------------------------------------
+
+                    The TCP/IP Internet DOOMer's FAQ
+                    by Scott Coleman (asre@uiuc.edu)
+                  and Jay Cotton (jay@calc.vet.uga.edu)
+                            updated 10/16/94
+                        
+
+Introduction
+
+id Software's DOOM is truly the Killer App of the MS-DOS world.
+DOOM's popularity is so immense, it has been estimated that DOOM
+is installed on more PCs than OS/2 and Windows NT combined, and
+DOOM's creators commute to work in Ferarris. Interest in the game
+has been so great that it has been hacked, reverse-engineered,
+dissected, and enhanced more than any other game in PC history.
+And now, as more and more people become hooked into the Internet,
+DOOM is rapidly becoming the Killer App of the Internet, as well.
+
+     Internet DOOM play is currently at the "clever hack" stage.
+DOOM, as released by iD, supports only IPX network play and
+serial play between two machines. As a result, the DOOM
+documentation doesn't include any information about DOOMing
+across the Internet. Of course, this also means that DOOMers
+can't call id for help. The result of all this is many curious
+people asking the same question: How do I play DOOM over the
+Internet? Enter this document. In the pages that follow, we will
+attempt to answer the most frequently asked questions about
+Internet DOOM, including what you need, how to set it up, and how
+to find new fragbait - er, I mean, opponents.
+
+     DOOM across the Internet is made possible by a neat little
+freeware program called iDOOM. iDOOM uses the UDP protocol (part
+of the TCP/IP protocol suite) to send DOOM game information
+between multiple machines on the Internet. It is based on the
+WATTCP TCP/IP kernel written by Eric Engelke of the University of
+Waterloo. By some strange coincidence, the authors of this
+document are also the creators of iDOOM, and we have used the
+program to play Internet DOOM sessions with opponents from as far
+away as Estonia. In writing this FAQ, we hope that sharing some
+of our experience will make it easier for you to get connected in
+your own Internet DOOM sessions. NOTE: Throughout this document,
+we will refer specifically to games of DOOM played over the
+Internet via a DIRECT CONNECTION, i.e. no modems are involved
+anywhere in the link. Note that IHHD, SLIP and PPP connections
+all involve modems at some point. Although other methods of
+connecting two DOOM machines together across the Internet exist,
+this document will focus on direct net connections using the
+iDOOM network driver program.
+
+ Getting Prepared
+
+     Q1: I want to play DOOM over the Internet using iDOOM. What
+hardware do I need?
+
+     To successfully play DOOM across the Internet, you will need
+the following hardware:
+
+     * A machine capable of playing DOOM (D'OHH!) 
+
+     * A network interface card (NIC). And not just any old NIC,
+     mind you - your NIC must be supported by a packet driver if
+     you wish to use it to play Internet DOOM. Usually this means
+     that your NIC must be an ethernet card, although iDOOM has
+     been successfully played over token ring. This document
+     assumes that your PC is already equipped with a suitable
+     NIC, although it may currently be in use for some other
+     non-TCP/IP function (such as a node on a Novell network).
+
+     * A direct connection to the Internet. If there is a modem
+     somewhere in the link between your PC and your opponent's
+     PC, this FAQ is not for you. Although it is possible to play
+     Internet DOOM over a modem link (either by dialing up to a
+     UNIX machine and using IHHD or via SLIP/PPP), such
+     connection methods are beyond the scope of this document.  
+           
+     Q2: OK, I've got all the hardware. What software do I need? 
+               
+     In addition to the hardware requirements, some software is
+also required to round out your the package. Before you can play,
+you'll need to pick up the following:
+
+     * DOOM 1.2 or higher (1.7 is STRONGLY recommended, since
+     this version seems to have solved some problems related to
+     network games). DOOM versions 1.1 and below are incapable of
+     using iDOOM.
+
+     * A packet driver written specifically for your ethernet
+     card. The Packet Driver is what lets iDOOM (and therefore
+     DOOM) "talk" to your NIC.
+
+     * iDOOM.EXE, the Internet driver for DOOM.  
+     
+     * The WATTCP Applications. These are not absolutely
+     necessary, but can definitely be useful for debugging and
+     testing your setup. 
+
+     Q3: Hold on - I don't have some of this software! Where can
+I get it?
+
+     * To obtain iDOOM: Log on to ftp.vet.uga.edu via anonymous
+     ftp. Change to directory /pub/doom. Download the file
+     IDOOM11.ZIP. Version 1.1 is the latest version of iDOOM as
+     of this writing. 
+
+     * Many ethernet cards come with the appropriate packet
+     drivers on a utilities diskette packaged with the card. If
+     your card does not come with a packet driver, there is an
+     excellent collection of freely available packet drivers
+     called the Crynwr (nee Clarkson) Packet Driver collection.
+     You can obtain it via anonymous ftp from oak.oakland.edu.
+     Change to the /pub/msdos/pktdrvr subdirectory and download
+     PKTD11.ZIP and PKTD11C.ZIP. The files PKTD11A.ZIP and
+     PKTD11B.ZIP contain source code and example programs for the
+     packet drivers - you won't need these in order to play
+     iDOOM.
+
+     * To obtain the WATTCP applications, ftp to
+     dorm.rutgers.edu, change to the /pub/msdos/wattcp/
+     subdirectory, and download file APPS.ZIP.
+               
+     Q4: OK, I've got everything, now what do I do to set it up? 
+
+     Setting your computer up for TCP/IP access is very
+straightforward. As an illustration, I'll be taking you through
+the steps necessary to set up a PC with an SMC ethernet card and
+the IP address 128.192.23.5. You'll of course need to substitute
+your own specific information in place of the examples given
+here. All set? OK, let's get started.
+
+     Step 0: START WITH A CLEAN BOOT!!!!! Set up your CONFIG.SYS
+and AUTOEXEC.BAT files to load as few drivers as possible. This
+includes such things as memory managers (HIMEM, EMM386, QEMM,
+etc.) and network drivers (e.g. LSL, IPXODI). DOOM doesn't need
+the former, and the latter will probably conflict with the packet
+driver. We recommend that you prepare a boot floppy with a
+CONFIG.SYS containing only a FILES=20 line, and an AUTOEXEC.BAT
+containing only the line "prompt=$p$g".
+
+     Step 1: Set up the packet driver. Determine your ethernet
+card's IRQ setting, it's base I/O port setting, and it's memory
+address setting (if any). You should be able to determine this by
+looking at the card itself and consulting the user manual. You'll
+need some if not all of this information, depending upon which
+packet driver you use and/or type of hardware you have (for
+example, some IBM computers with the MicroChannel bus can
+determine the settings on the card automatically without you
+having to supply them on the packet driver command line). Unzip
+the appropriate driver from Crynwr Packet Driver collection
+archive. In our example case, the packet driver is called
+SMC_WD.COM. By looking at the jumpers on the card and consulting
+the manual, I determined that the card has been set to IRQ 7,
+Base I/O port address 300h, and the base memory address is at
+segment d800h. For this example, I have chosen to use interrupt
+60h for the packet driver. Packet drivers typically operate on an
+interrupt in the range of 60h to 80h inclusive; since nothing
+else in my sample system happens to be using the first available
+interrupt (INT 60h), I chose that. Thus, to load my packet
+driver, I use the command line
+
+
+     SMC_WD 0x60 0x7 0x300 0xd800
+
+where 0x60 is the packet driver interrupt, 0x7 is the IRQ setting
+on the card, 0x300 is the I/O port base address, and 0xd800 is
+the memory base address (NOTE: all numbers are in C-style HEX
+notation). Don't worry if you don't understand what all this
+stuff means - as long as you use the correct numbers, your packet
+driver should work. NOTE: If your PC is currently part of a
+Novell network (e.g. Netware, Netware Lite, Personal Netware) the
+parameters you need can be found in a file called NET.CFG,
+usually located in your \NOVELL, \NWLITE or \NWCLIENT
+subdirectories (along with all the other drivers needed by
+Novell). 
+
+     At the very minimum, the packet driver should give a sign on
+message and report the ethernet address of your NIC when you load
+it. Chances are that if your NIC has been functioning properly
+for other tasks (e.g. as a node on a Novell network) then you'll
+have no problems here. If not, or if there are any error or
+warning messages, something is wrong. One possibility is that one
+of the settings on your NIC is in conflict with those of another
+expansion card in your system. No two cards can have the same
+IRQ, I/O port, or memory address settings, nor can the memory
+areas of two cards overlap. Whatever the cause, you'll need to
+find and correct the problem before continuing.
+
+     Step 2: Set up your WATTCP.CFG file. Your WATTCP.CFG file
+contains important parameters used by the WATTCP TCP/IP kernel.
+These values MUST be entered correctly if you wish to make a
+connection with another DOOM PC. In preparation for this, you'll
+need several bits of information. Contact the network
+administrator for your site and find out the IP address for your
+machine, the IP address for your gateway or router, the IP
+address of at least one Domain Name Server local to your site,
+and your netmask value. The three IP addresses will each consist
+of four groups of digits separated by periods. In our example,
+the machine's IP address is 128.192.23.5, the gateway is
+128.192.23.1, the netmask is 255.255.255.0, and the nameserver
+address is 128.192.44.67. NOTE: it is important to use the
+numeric IP addresses, not the actual host names. NOTE: If you
+have other Internet programs currently installed on your machine,
+such as a Gopher client or the Trumpet newsreader, you can
+probably find the information you need in the configuration files
+used for those programs. If the application is based on the
+Waterloo TCP package, it will have it's own WATTCP.CFG, in which
+case you can simply copy it over to your DOOM directory. When you
+have collected all this information, unzip the iDOOM distribution
+archive (e.g. IDOOM11.ZIP) into your DOOM (or DOOM2) directory.
+Use your favorite ASCII text editor to edit the file called
+WATTCP.CFG. Edit or add the following lines in WATTCP.CFG:
+
+my_ip=
+gateway=
+nameserver=
+netmask=
+
+     On our example machine, the WATTCP.CFG file looks like this: 
+     
+my_ip=128.192.23.5
+gateway=128.192.23.1
+netmask=255.255.255.0
+nameserver=128.192.44.67
+
+     Save the changed file and exit back to DOS.
+
+     If you know your machine's IP address, but you can't
+determine the other values, you can often get away with some
+educated guesswork. For instance, the gateway for a subnet
+usually has an IP address ending in .1, as is the case with our
+example. Thus, if your IP address is xxx.yyy.zzz.www, try setting
+your gateway's IP address to xxx.yyy.zzz.1. As for the subnet
+mask, a common value for this parameter is 255.255.255.0. In some
+cases, the gateway value can be something like xxx.yyy.1.1 with a
+corresponding netmask value of 255.255.0.0 - if one doesn't work,
+it can't hurt to try the other. Finally, if you don't know your
+nameserver's IP address, you can probably get by without it for
+the purposes of DOOM playing. Since you'll be specifying IP
+addresses for all of your opponents' machines, a nameserver
+lookup won't be necessary to resolve their addresses. 
+
+     Step 3: Test your TCP/IP setup. Load your packet driver with
+the appropriate interrupt, IRQ, I/O and memory addresses. Next,
+unzip the TCPINFO and PING programs from the WATTCP apps archive
+into your DOOM directory. At the DOS prompt, type:
+
+          TCPINFO    
+
+and press the <Enter> key. If your WATTCP.CFG values are set up
+correctly, and if your packet driver and net connection are
+functional, you'll see a couple of screens of information about
+your system, including your ethernet address and the parameters
+you specified in the WATTCP.CFG file. 
+
+     If everything looks OK, the next step is to use the PING
+program to attempt to establish contact with your subnet gateway.
+At the DOS prompt, type
+
+     PING <yourgateway's.numeric.ip.address>
+
+and press the <Enter> key. After a brief delay, you should see a
+message telling you that the host is responding, as well as the
+round trip time for PING's test packets. If you see the "Timeout"
+error message, then something is wrong with your setup; if your
+PC is unable to reach your gateway, it will be unable to reach
+the rest of the Internet as well, since all network packets which
+are sent to nodes outside of your local area network must pass
+through your gateway. For our sample system, we would type:
+
+          ping 128.192.23.1
+
+If your gateway PING was successful, try PINGing your Domain Name
+Server (at the IP address you specified in WATTCP.CFG) as well as
+some well-known site on the internet (e.g. infant2, which is at
+IP address 129.79.234.115). These will test your machine's
+ability to connect with other machines outside of your subnet as
+well as those outside of your site. All of these PINGs should
+result in a "host responding" message with a response time. If
+any of these attempts fails, recheck your entries in WATTCP.CFG
+and/or get some help from your network administrator. Examples
+for our test system:
+
+     ping 128.192.44.67
+
+and
+
+     ping 129.79.234.115
+
+
+Put Me in, Coach - I'm Ready to Play! 
+     First, go find up to three of your most patient frag
+buddies. Since this is your first attempt at Internet DOOM, it's
+best to try and find someone on your local network who's willing
+to put in a little frag time with you. Connections on your local
+net will be faster and less problematic, whereas if you attempt a
+long distance connection your first time out, you'll have a hard
+time discerning problems caused by distance from problems caused
+by an incorrect configuration.
+
+     Decide amongst yourselves which machine will be the "server"
+(the remaining machines in the game will all be "clients"). The
+server machine (and there can only be ONE server per game) acts
+as the coordinator for that session. The player operating the
+server is in some sense "the boss" - she can decide when to start
+the game, which parameters (e.g. -altdeath, -nomonsters, -warp, -
+skill, etc.) will be used, whether to kick a player out, and so
+on.
+
+     The server starts iDOOM as follows:
+
+iDOOM -server [other game parameters]
+
+     Once the server has started iDOOM running, the clients (all
+remaining players) can then connect to the server. Each client
+invokes iDOOM using the command line:
+
+iDOOM -client <server_address>
+
+     As an example, consider several computers which are part of
+a local area network in a computer lab. In this lab there are
+identical machines sitting side by side, with sequential IP
+addresses, i.e. 128.192.23.4, 128.192.23.5, and 128.192.23.6.
+After stepping through the basic configuration process outlined
+above on all test machines, my frag buddies and I are ready to
+begin. First, we all agree to play our favorite DEATHMATCH level,
+DOOM I episode 1 map 5. We also agree to play in -altdeath mode,
+with -skill 5 and -nomonsters. On my machine, which we decided
+will be the server, I type:
+
+iDOOM -server -warp 1 5 -altdeath -skill 5 -nomonsters
+
+     The iDOOM screen comes up, and a message is displayed
+informing me that iDOOM is entering server mode. This screen is
+divided into several sections: the credits, the output window,
+the status bar, and the input line. At the top of the screen is
+the name of the program, its version number, and the copyright
+notice. The large area beginning with the second screen line and
+continuing to the 22nd screen line is the output window. Here is
+where iDOOM will display all status messages as well as the chat
+text entered by the other players. Below the output window is the
+status bar, where the current game settings are displayed. Below
+the status bar is the input line where all the text I type on my
+keyboard will appear. Finally, the bottom line of the screen
+lists significant contributors to iDOOM.
+
+     Once my iDOOM server is up and running, all the other
+players can connect to it. The other guys type:
+
+iDOOM -client 128.192.23.5
+
+     Each client's screen layout is identical to that of my
+server. iDOOM displays a message confirming that it is entering
+client mode and connecting to the server. As each client's
+connection is established, the arrival of each player is
+announced by the server. 
+
+     During this phase of the game setup, all players who have
+connected thus far can type messages to each other using iDOOM's
+built-in chat facility. To send a message to the other players in
+the game, I simply type my message on the keyboard. My keystrokes
+appear in the input line at the bottom of the screen, and when I
+press <ENTER>, the text will be echoed to the screens of all
+players (along with an indication of who sent the message). The
+identical procedure can be used to send messages from each of the
+client machines. The server itself will also send messages.
+Messages from the server will begin with three asterisks ("***"). 
+
+     When a client connects to the iDOOM server, the client
+receives a message containing the game parameters which will be
+used during that session. These game settings will be displayed
+on the status bar. The settings are abbreviated to ensure that
+they will all fit within the available space. These game settings
+may be changed interactively at the server console.
+
+     My friend sees that I have selected E1M5 as the default
+episode and map for our game. He reminds me that we've been
+playing that one a lot lately, and suggests we change to E2M2
+since we haven't played that one in a while. I agree, and issue
+the commands /episode 2 and /map 2 to change the level. Our
+status lines are immediately updated to reflect these changes.
+
+     Once I have determined (via the chat facility) that everyone
+is ready to begin the game, I press the F10 key. The iDOOM server
+signals the clients that the game is beginning, the chat facility
+is shut down, and iDOOM sets up the connections which will be
+used for the actual game. Once these network links are
+established between all the machines, the message "Prepare to
+meet your DOOM!" is displayed, followed by the usual DOOM startup
+information. Shortly thereafter, the screen melts away and there
+we are, in E1M5, pistols at the ready! 
+
+     Give your buddies a good thrashing - you've earned it! Now,
+after you've gotten DOOM working on your own subnet, you're ready
+for the final step. Find a partner who is also capable of playing
+Internet DOOM. Watch the posts in alt.games.doom, or tune into
+the #doom, #tcpdoom or #iDOOM channels on irc. You and he will
+negotiate game parameters, such as which map to play, which skill
+level, and so on. You'll also decide on who will be the server
+and who will be the clients (experienced DEATHMATCHers will often
+try very hard to avoid being the server, since that player's
+uniform is colored day-glo green and is easier to spot in a
+DEATHMATCH). Now simply add the parameters you've agreed on to
+the iDOOM server command line you used before. A typical          
+command line will look something like
+
+          iDOOM -server -skill 5 -nomonsters -deathmatch 
+
+Oh Oh - It's Not Working!
+
+          OK, so you've done everything, just like I've shown
+you, but you're still having problems. The following are some
+suggestions to try in case of trouble.
+
+     Q: When I try to connect to the iDOOM server it returns to
+DOS saying "Server is not responding" or "Remote reset
+connection."
+
+     A: This means that the player on the server machine hasn't
+yet  started the iDOOM server. The server must be started before
+the clients try to connect to it. Try again in a few seconds.
+
+
+     Q: I keep seeing an "ICMP: port unreachable" message on my
+screen.
+
+     A: This message is generated by the other machine when the
+port being requested by the sender is unavailable on the          
+destination machine. I've seen this happen in some cases when I
+started iDOOM before the other player did. Once the other iDOOM
+was running, the ICMP: messages went away, and the game linked up
+normally. If you see this message, you might also want to try
+using a different port (see the iDOOM documentation on the -port
+command line parameter). 
+
+     Q: The music starts up fine, but all I see is a BSOD (Black
+Screen of Death).
+     Q: My machine displays "sending network start info" or
+"listening for network start info" and then locks up. 
+
+     A: This problem can have several causes. Perhaps the server
+specified a DOOM II game, but one of the players didn't have DOOM
+II. Perhaps one of the other players' machines is slower than the
+others, or has a fragmented disk and takes a longer time to load
+DOOM at startup. Or perhaps some packets were lost - iDOOM uses
+UDP (user Datagram Protocol) packets to exchange game information
+between all machines in the game. UDP packets are not guaranteed
+to reach their destination, and there is no mechanism for the
+sender to even be informed that what it sent never made to the
+destination machine. iDOOM is designed to compensate for these
+lost packets to the extent possible, and occasionally this
+detection and correction takes a few extra seconds. You should
+always wait for at least 30 - 45 seconds for the other DOOM
+engines to sync up before you abort the setup. 
+
+                        Frag Servers/Frag Trackers
+
+     Frag Servers are a recent development. They facilitate iDOOM
+connections between multiple players quickly and easily and with
+a minimum of command line typing. Current versions of the Frag
+Servers are very similar to the server built into iDOOM. NOTE: An
+iDOOM client can NOT connect to a Frag Server. Frag Servers have
+their own client program which then loads iDOOM as the network
+driver. 
+
+     As of this writing, the latest version of the frag
+client/server package is TCPSRV12.ZIP, available from one of the
+infant2 mirrors in the /pub/doom/multi_doom/net directory. A
+couple of the more popular fragservers can be found at
+ararat.cs.ucdavis.edu and patriot.et.buy.edu. Both of these
+support 2, 3 and 4 player games on ports 1666, 1667, and 1668
+respectively.
+
+     Future versions of the Frag Servers (which will be known as
+Frag Trackers) will serve as online meeting places where DOOM
+players can log on, see a list of games which are awaiting
+players, and either join an existing game or register a new game.
+Waiting players will be able to send chat messages to each other,
+negotiate and set game parameters, check connection quality, etc.
+Although this exciting capability does not exist in the current
+Frag Servers, it will be available sometime in the near future,
+and will revolutionize the way Internet DOOM is played.
+
+[8-6]: How can I setup DOOM to be played on a multi-player BBS?
+===============================================================
+     Applied Personal Computing, Inc. has recently developed a platform that
+allows almost any multiline BBS to host 2-4 player network DOOM games.
+
+     The APCi MultiPlayer Game Server allows gamers to create a simulated
+IPX network just by dialing the host BBS at high speed.  APCi MultiPlayer
+Game Client software makes use of the APCi MultiPlayer Game Server very
+intuitive for even the newest user of online services.  Best of all,
+all APCi MultiPlayer Game Client software is FREEWARE and includes any
+and all information desired about the supported game.
+
+     For more information regarding the APCi MultiPlayer Game Server, or to
+witness the APCi MPGS in action, call the APCi BBS at (618) 632-7664.  You
+may also contact APCi at 1-800-535-APCi.  More information can also be
+requested from Kevin Sawyer (sawyerk@delphi.com).
+
+(8-7): Where can I find multi-player partners?
+==============================================
+        A good place to find people to play with is on Usenet is the
+"alt.games.doom" newsgroup or on IRC on the #DOOM channel.

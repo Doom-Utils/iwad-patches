@@ -1,0 +1,701 @@
+==============================
+=SECTION FOUR= TROUBLESHOOTING
+==============================
+
+--------------------------------------------
+CHAPTER [17]: Why won't DOOM work correctly?
+--------------------------------------------
+        This chapter helps you if you cannot get the game to function as it
+should.
+
+[17-1]: How can I use SMARTDRV.EXE with DOOM?
+=============================================
+         Some people have been complaining about problems with DOOM and
+SMARTDRV.EXE.  DOOM is not completely compatible with SMARTDRV.EXE, but
+here is how you can get it to work.  Try putting the following command in
+your CONFIG.SYS (This will not work in the AUTOEXEC.BAT):
+
+            DEVICE=C:\DOS\SMARTDRV.EXE DOUBLE_BUFFER
+
+        The double buffering uses memory differently than the normal
+SMARTDRV.EXE commands.  This command will take up 2k of conventional RAM and
+cannot be loaded into high memory.  This has been tested on two machines that
+did not work with SMARTDRV.EXE, and this corrected the problem.
+
+[17-2]: Why am I getting an "OUT OF MEMORY" error with DOOM?
+============================================================
+        If you are receiving an "OUT OF MEMORY" error when attempting to run
+DOOM, you might want to attempt any of the following:
+
+        (1) DOOM requires at least 4mb of RAM.  Check to make sure you have
+at least this amount.
+        (2) If you are using MS-DOS v6.xx, try holding down the LEFT SHIFT key
+during bootup.  This will stop all your TSRs from loading.  Remember to
+reinstall your mouse driver, however.
+        (3) If you are using MS-DOS v5.0, rename your AUTOEXEC.BAT to stop all
+your TSRs from booting.
+        (4) If you are using MS-DOS v6.xx, try running MEMMAKER to free up more
+RAM at bootup time.
+        (5) If you are using MS-DOS v6.xx, create a boot menu.  For details
+on creating a boot menu, type "HELP MENUITEM" at your MS-DOS prompt.
+        (5) Try running DOOM without using HIMEM and EMM386.  If you are
+using a different memory manager, try removing it instead.
+
+
+[17-3]: Why does DOOM crash when I start it?
+============================================
+        Your motherboard may not be compatible with the DOS extender that
+DOOM uses.  Try getting DOOM v1.2.  If that still does not work, try running
+DOOM with one of the DOS extenders in the file "altdoom1.zip".  See Chapter
+[6] for more information on how to get these files.
+
+[17-4]: How can I run DOOM under OS/2?
+======================================
+        People have been having a lot of trouble getting DOOM v1.x to work
+under OS/2.  Native OS/2 code is being worked on, so hang in there!
+Here is a list of settings that many DOOM users have been able to use.
+
+DOS_BACKGROUND_EXECUTION     OFF
+DOS_BREAK                    OFF
+DOS_FCBS                     16
+DOS_FCBS_KEEP                8
+DOS_FILES                    20
+DOS_HIGH                     OFF
+DOS_RMSIZE                   640
+DOS_UMB                      OFF
+
+DPMI_DOS_API                 AUTO
+DPMI_MEMORY_LIMIT            8
+DPMI_NETWORK_BUFF_SIZE       8
+
+EMS_FRAME_LOCATION           AUTO
+EMS_HIGH_OS_REGION           0
+EMS_LOW_OS_REGION            384
+EMS_MEMORY_LIMIT             2048
+
+HW_NOSOUND                   OFF
+HW_ROM_TO_RAM                ON
+HW_TIMER                     ON
+
+IDLE_SECONDS                 0
+IDLE_SENSITIVITY             100
+
+INT_DURING_IO                ON
+
+VIDEO_TRETRACE_EMULATION     OFF
+VIDEO_ROM_EMULATION          ON
+VIDEO_SWITCH_NOTIFICATION    OFF
+
+XMS_HANDLES                  32
+XMS_MEMORY_LIMIT             2048
+XMS_MINIMUM_HMA               0
+
+-----------------------------------------------------
+CHAPTER [18]: Why won't my sound card work with DOOM?
+-----------------------------------------------------
+
+        This chapter helps fix problems with various sound cards in DOOM.
+
+[18-1]: Why won't my Sound Blaster v1.0 or v1.5 work with DOOM?
+===============================================================
+        The v1.0 shareware release of DOOM does not work correctly with
+earlier versions of the Sound Blaster.  It is recommended that you receive
+v1.2 of DOOM to fix this problem.  Information on getting this upgrade is
+available in Chapter [6].
+        If you insist on using v1.0 of DOOM, here are two different ways to
+fix your problem, although they are not guaranteed to work on all computers.
+
+        (1)  If you have a turbo button on your computer, turn it off.  Run
+DOOM, and when the title screen appears, turn it back on.
+        (2)  Disable the internal cache.
+
+[18-2]: Why won't my Sound Blaster Pro work with DOOM?
+======================================================
+        If you are using an older graphics card that supports HiColor (16
+bit graphics) you may have trouble getting this to work correctly.  The
+only recommendation is to borrow a friend's graphics card.
+        DOOM v1.1 has a bug that keeps the Sound Blaster Pro from working
+on IRQ 2, and later versions do not allow usage on IRQ 10.
+
+[18-3]: Why won't my Gravis UltraSound work with DOOM?
+======================================================
+        To get DOOM to run properly with both music and digitized sound
+effects on the Gravis UltraSound use these three steps.
+
+////// SOUND //////
+
+(1) Set your ULTRASND environment variable, and use GF1 IRQ less than 8
+
+    example:  SET ULTRASND=220,1,1,7,5
+                                   |_______ GF1 IRQ
+
+NOTE: DOOM v1.2 may be able to use any valid GF1 IRQ including 11,12,15
+      However, high IRQs are _not_ recommended.  See BUGS.
+
+
+////// MUSIC //////
+
+(2) Doom requires that you have installed the General MIDI patch set from
+the 2.06a Install Disks (or later) that came with your UltraSound (and are
+also available via FTP and BBS).  DOOM will find your patches (using the
+ULTRADIR variable) in the MIDI subdirectory pointed to by ULTRADIR.
+
+    example:  SET ULTRADIR=C:\ULTRASND
+
+    (DOOM will look in C:\ULTRASND\MIDI for the patches)
+
+NOTE:  Step 3 is only required for DOOM v1.0 / Operating System 0.99
+
+(3) You will also need to copy ULTRAMID.INI into your DOOM directory and
+rename it to DMXGUS.INI (or find and use the DMXGUS.INI file).  ULTRAMID.INI
+is a part of the UltraMID/AIL package (also available via FTP and BBS).
+
+
+////// SETUP //////
+
+Run the SETUP program in the DOOM directory and select the UltraSound for
+both sfx and music.  Now run DOOM!
+
+
+////// BUGS //////
+
+NOTE: DOOM v1.2 is known to occasionally lockup with GUS support.
+
+If you experience frequent lockups AND are using a high GF1 IRQ
+(10,11,12,15), try using a low IRQ (less than 8).
+
+If you experience frequent lockups AND have less than 1024K of
+GUS RAM, try upgrading to 1024K (1 Megabyte).
+
+
+////// OPTIMIZING //////
+
+========================================================================
+Title                   : GUS1M.WAD
+Author                  : Tom Klok
+Email Address           : a344@mindlink.bc.ca, a00344@giant.rsoft.bc.ca
+
+Description             : An optimized MIDI instrument mapping for
+                          Gravis Ultrasound cards with 1024K on board.
+
+NOTE!  If you don't have a GUS with 1024K, this wad will gain you
+       nothing (but shouldn't hurt anything either).
+       This PWAD contains no new MUS music files or sounds whatsoever.
+       Nor does it require any new .PAT files, just those supplied
+       with the more recent install disks.
+========================================================================
+
+Information
+~~~~~~~~~~~
+     As you probably know, Doom's wad file contains a resource named
+DMXGUS which contains a list of all MIDI instruments (patch file
+names) and a table specifying which instruments to load into card
+memory. Since all 190+ instruments can't be loaded at once, the DMXGUS
+file loads a subset of the full GM set and then maps the remaining
+instrument numbers to the loaded instruments.
+
+     I was curious about the internal format of MUS files, and pretty
+happy when the MIDI2MUS utility was released.  Thanks, guys!  Mucking
+around with the original D_* MUS files Doom is supplied with, I
+decided to compare the patches they used with the DMXGUS file to see
+what kind of mapping was going on.  It turns out there's a lot of it,
+but much of it is poorly set up. id's supplied DMXGUS file is almost
+exactly the same as the ULTRAMID.INI file supplied with Ultramid 2.00.
+That's a good shot at a generic GM mapping, but Doom never uses many
+of the loaded instruments... and many of the instruments it DOES use
+are mapped to something else.
+
+     Therefore, I've rewritten the DMXGUS file to match Doom's MUS
+files as closely as possible.  I've booted out about 40 unused
+instruments and added 29 new ones.  The difference is quite dramatic.
+Some of the songs have percussion parts that were being thrown out
+before; some of the instruments sound quite different.  It's a shame
+that id didn't take the time to do this themselves, but I guess
+they've been too busy tweaking other stuff.
+
+Ok, how do I use it?
+~~~~~~~~~~~~~~~~~~~~
+     Extract the GUS1M.WAD file to wherever you normally put new wad
+files (ie c:\doom\wad), then use it as you'd use any other new WAD
+add-on:
+
+     doom -file WAD\GUS1M.WAD
+
+That's it!  Hopefully you'll hear the difference as soon as Doom's
+welcome screen comes up.
+
+Why only 1024K GUS's?
+~~~~~~~~~~~~~~~~~~~~~
+     Well, because that's what I own. :)  It's taken about 10 hours of
+work to get the 1024K mapping to the point where I'm happy with it. If
+someone else would like to help out with mappings for 256, 512 and
+768K boards, then go for it!  Feel free to contact me for a few utils
+I've written to make >some< of this easier.  Much of it is still trial
+and error.
+
+Will it work with id's shareware release of Doom?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Well... yes, it will.  I'm not sure that should be a problem, as
+it's not adding anything that wasn't there before... no new levels,
+sounds, music, etc.  It's just touching up something that I feel
+wasn't properly implemented in the first place.  And more importantly,
+I can't think of any way of preventing it.  The typical means to foil
+shareware use for new levels is to either insert them into episodes 2
+or 3, or to use textures/objects not found in the shareware release.
+Neither would work here.
+
+     Look at it this way: it makes the music Doom comes with sound
+better on a 1024K GUS.  If you like the change, register Doom and get
+ALL the music!  Please give id your support.  They're writing the best
+damn games on the market, publishing them as shareware, and supporting
+the GUS.  What more could we want?  Please let them know you
+appreciate it.
+
+Copyright / Permissions
+~~~~~~~~~~~~~~~~~~~~~~~
+     Authors may use this optimized DMXGUS WAD in their own WAD files,
+and may use it as a base to further modify the GUS's GM mapping,
+provided they give me (Tom Klok) credit within the DMXGUS resource and
+on their PWAD documentation.
+
+     Anyone may distribute this WAD, provided you include this text
+file with attributions.  You may distribute this pwad in via any media
+(BBS, floppy disk, CDROM, etc).
+
+[18-4]: Why does the game crash when using my Gravis UltraSound?
+================================================================
+        DOOM v1.2 has a small bug which causes DOOM to crash on some
+systems, some of the time.  People have reported that these crashes
+can be minimized by using an IRQ at 7 or less, and upgrading the GUS'
+on-board RAM to 1024k.
+
+[18-5]: Why won't my Pro Audio Spectrum 16 work with DOOM?
+==========================================================
+        You may be using an older version of DOOM such as v1.0 or v1.1.
+Get DOOM v1.666 for full PAS-16 support in native mode.
+        If the game is locking up after the "HU Init" line, there is a
+solution.  Make sure you are loading your PAS MVPRODD.SYS driver low.
+Loading it high can cause DOOM to lock up.
+
+[18-6]: Why won't my ATI Stereo-F/X work with DOOM?
+===================================================
+        Turning off DMA buffering in the sound card's SFX.EXE
+configuration program should fix this problem.
+
+-----------------------------------------
+CHAPTER [19]: Miscellaneous DOOM problems
+-----------------------------------------
+
+[19-1]: Why won't my mouse work with DOOM?
+==========================================
+
+[19-1-1]: Why does my mouse start moving itself during play?
+------------------------------------------------------------
+        It is recommended that you upgrade to DOOM v1.666 to fix this
+problem.
+        Older mouse drivers cause a problem with DOOM v1.2.  Make sure you are
+using Microsoft mouse drivers v9.x instead of v8.x.  Logitech mouse drivers
+v6.x work as well.  The newest Logitech mouse drivers are available at the
+FTP site "wuarchive.wustl.edu" in the directory
+"/systems/ibmpc/msdos/mouse" under the file name "drvr???.zip" where ??? is
+the version number of the drivers.
+        If you continue to have this problem, try playing with the keyboard
+or joystick, with the mouse unplugged.  DOOM has a bug that causes it to do
+strange things at times.
+
+[19-1-2]: Why won't my two button mouse work with DOOM?
+-------------------------------------------------------
+        DOOM's SETUP.EXE program assumes that one has a three button mouse.
+The left button is "fire," the right button is "forward," and the center
+button is "strafe."  If you run the setup program that comes with DOOM, you
+can assign "strafe" to the right mouse button, and the setting for "Move
+Forward" then appears to be blank. In actuality, "Move Forward" is set to be
+permanently "on." This can be fixed easily.  Edit the file "DEFAULT.CFG" in
+your DOOM directory with any text editor.  The three lines of interest
+are: mouseb_fire, mouseb_strafe, and mouseb_forward. The settings for these
+are 0 (left button), 1 (middle button) and 2 (right button).  When you ran
+the setup program, mouseb_forward was assigned a value of -1.  Go ahead and
+change this to "1", save the file and restart DOOM.  The final entries
+should appear as:
+
+mouseb_fire      0
+mouseb_strafe    2
+mouseb_forward   1
+
+        This will allow you to shoot with the left button and strafe with the
+right button.
+
+[19-1-3]: Why won't my IBM PS/2 mouse work with DOOM?
+-----------------------------------------------------
+        The IBM PS/2 mouse does not seem to work well with DOOM.  id
+Software is working on a solution to this problem.  The only current
+solution that has been discovered is to load DOOM under Windows.  Doing
+this allows the mouse to work perfectly.  DOOM v1.666 fixes this 
+problem, if you encounter this, upgrade.
+
+(19-2): Why does netDOOM seem to crash at certain times?
+========================================================
+        This is a known bug in v1.2 of DOOM.  Upgrade to v1.666, it fixes
+this problem.
+
+[19-3]: Why won't my modem work with DOOM?
+==========================================
+        DOOM seems to be very picky about certain kinds of modems and the
+initialization strings you use with them.  Here is a list of initialization
+strings that seem to work well.  Many modems have more than one in this
+list; if one does not work, try another one.  Place these initialization
+strings in the first line(s) of your MODEM.CFG file.
+
+-----------------------------------------------------------------------------
+AT&T Dataport 2001:        AT &F%VFX7S62=0%VG9\Q2\N0&W
+AT&T Dataport:             AT &F X7 S62=0 \Q2 \N0 &W
+-----------------------------------------------------------------------------
+Boca                       AT &Q6 %C0 &K0
+Boca 14.4 Fax/Modem        AT S46=0 S37=9 N0 &Q0 &D2 &K4
+Boca 14.4k                 AT S46=0 S37=9 N0 &Q0 &D2 &K0 %C0
+Boca 14.4 internal         AT &C0   S37=9 N0 &Q0 &K0 W0 S36=3 S48=128 %C0
+Boca 14.4k (external)      AT &F S0=1 S36=0 &K0 &Q6 N0 S37=9 &D2
+Boca M1440i (internal)     ATS48=0S37=9S46=136%C0%E0%M0&K0&Q0&R1&C1&D2\G0\N1N0
+-----------------------------------------------------------------------------
+Cardinal                   AT &F W0 &Q0 &D2
+Cardinal 14.4k             AT &F N0 S37=9 &Q0 &D2 \N1
+-----------------------------------------------------------------------------
+Computer Peripherals 14.4          AT &F S37=9 S46=0 N0 &Q0 &K0
+-----------------------------------------------------------------------------
+Digicom Systems (DSI) (softmodem)  AT Z \N0 &D2 &K0 S48=48
+Digicom Systems Scout Plus         ATZ*E0*N3*M0*S0*F0&D2
+Digicom connection 96+Softmodem:   AT \N1 &d2 %c0 s37=9 &K0
+Digicom connection 96+Softmodem:   AT Z \N0 &D2 &K0 S48=0
+Digicom connection 96+Softmodem:   ATZ*E0*N3*S0*M0*F0&D2
+-----------------------------------------------------------------------------
+GVC 14.4k (internal)      AT &F B8 \Q0
+-----------------------------------------------------------------------------
+Gateway Telepath          AT &F S37=9 %C0 &K0 &Q6 \G0
+Gateway Telepath 14.4k    AT S46=0 S37=9 N0 &Q0 &D2 &K0 %C0
+Gateway Telepath I:       AT S0=1 &N6 &K0 &M0
+Gateway Telepath I:       AT &F S37=9 &K0 &Q0 %C0 N0 \G0 &D2 S46=0 S0=1
+Gateway Telepath II       AT S0=1 S37=9 %C0 &Q0 &K0
+Gateway Telepath II:      AT &F &K0 &M0 &N6 S0=1
+-----------------------------------------------------------------------------
+Generic 14.4k Fax/Modem   AT S46=0 S37=9 N0 &Q0 &D2 %C0 \G0 &K0
+Generic v.32bis 14.4k     AT \N0 %C0 B8
+-----------------------------------------------------------------------------
+Hayes 28.8k V.FAST Modem  AT &Q6 &K S37=9 N %C0 \N0
+Hayes Optima 28.8/14.4    AT &F S37=9 N0 &Q0 &K0
+-----------------------------------------------------------------------------
+Infotel 144I:             AT &Q0 S37=9 N0 &D2
+-----------------------------------------------------------------------------
+Intel 14.4k               AT \N0 %C0 \Q0 B8
+Intel 14.4k (internal)    AT Z B8 Q1 \C0 \N1 %C0 \V
+Intel 400/i Fax/Modem:    AT Z\N0 %C0 "H0 S31=9 &Q0 &D
+-----------------------------------------------------------------------------
+Macronix                  AT S36=3 S37=9 &K0 %C0 \G0
+-----------------------------------------------------------------------------
+Microcom QX/4232bis       AT %C0 \N0
+-----------------------------------------------------------------------------
+NOKIA ECM 4896M TRELLIS V.32.    AT Z %C0 /N0
+-----------------------------------------------------------------------------
+Netcomm M7F                      AT &E &K0 B0 \V0 X4 &D2 \N1 \Q0 #J0 #Q9 %C0
+-----------------------------------------------------------------------------
+Nokia ECM 4896M Trellis V.32.    AT Z %C0 /N0
+-----------------------------------------------------------------------------
+Practical Peripherals 14400FX v.32bis   AT S46=0 &Q0 &K0 &D2
+Practical Peripherals 14400FX v.32bis   AT Z S46=0 &Q0 &D2
+-----------------------------------------------------------------------------
+Supra                     AT &F0 S46=136 %C0
+SupraFaxModem 14.4:       AT &K0 &Q6 &D2 \N0 %C0
+Supra (external)          AT &K0 &Q0 &D0 \N1
+Supra 14.4k v.32bis       AT &F0 S46=136 &Q0 &D2
+SupraFaxModem 14.4:       AT S37=9 &Q0 &D2 N \N1 &K
+SupraFaxModem 14.4:       AT \N0 &D2 &K0 S48 = 8
+SupraFaxModem:            AT &F0 N S37=9
+Supra                     AT N0 Q0 V1 W1 &K0 \G0 \N0 \%C0 %M0 S37=9
+------------------------------------------------------------------------------
+Telebit 3000/Worldblazer  AT S50=6 S180=0
+------------------------------------------------------------------------------
+Telepath 14.4k            AT &F &M0 &K0 &N6 &H0 S0=1
+------------------------------------------------------------------------------
+Turbo Modem Plus          AT &F B8 %C0 /N1
+------------------------------------------------------------------------------
+USR Sportster 9600        AT &M0 &K0 &N6
+USR 14.4k                 AT &K0 &H0 &D0 &I0 &R1
+USR 14.4k                 AT &F0 B0 S34=1 &N6 &K0 &I0
+USR Sportster             AT &F0 &K0 &M0 &B1 S34=1 &N6 &I0
+USR 14.4k                 AT &B1 &M0 S27=16 &H0 &I0 &K0 &N6
+USR 14.4k                 AT &M0 &K0 &N8 &D0 B0
+USR 14.4k                 AT &A0 &B0 &D0 &H1 &I0 &K0 &M0 &N6 &R1 S34=1
+USR Courier 16.8:         AT &A0 &M0 &K0& N6 B0 S0=0 X7
+USR Courier v.32bis       AT E1 Q0 V1 S7=60 &C1 &D2 &K0 &N6 &A3 &H0 &M0
+USR Sportster 14.4k       AT E1 Q0 V1 S7=60 &C1 &D2 &K0 &N6 &A3
+USR Sportster 14.4k:      AT &F0 &K0 &M0 &A0
+USR Sportster 14.4k       AT &F0 &M0 &K0 &N6 &H0
+USR Sportster 14.4k       AT &F0 &K0 &M0 &N6 &H0 &I0 &B1 &R1
+USR Sportster 14.4k:      AT &K0 &M0 &N6 &H0 &I0 &B0 &R1
+USR Sportster 14.4k:      AT &N6 &K0 &M0 &B1 &H0 &I0
+USR Sportster 14.4k:      AT B0 X4 E1 Q0 V1 &M0 &K0 &R1 &N6 &A3 &H0 &I0
+USR Sportster 14.4k       AT S7=60 E1 Q0 V1 &C1 &D2 &K0 &N6 &A3 &M0 &H0
+USR Sportster 14.4k:      AT S7=60 E1 Q0 V1 &C1 &D2 &K0 &N6 &A3
+USR 14.4k Dual Standard   AT B0 X4 Q0 &R1 &B1 &N6 &A0 &D2 &H0 &I0 &K0 &M0 M1
+USR DS v.32bis v.42bis    AT &M0 &N6 &A0 &R1 &H0 &K0 &I0 &S0 &B1 X1
+USR Courier HST/DS 16.8k  AT X4 B0 &A0 &B0 &H2 &I0 &K0 &M0 &N6
+------------------------------------------------------------------------------
+ViVa 14.4k                AT &F &Q6 \N0 %C0 &D2 N0 S37=9
+Viva 14.4 Fax/Modem:      AT S11=50 S37=9 S95=52 L0 N0 S46=0 &Q0 &D2 \N1
+------------------------------------------------------------------------------
+Wang 14/14 modem:         AT S46=0 S37=9 N0 &K0 %C0 %M0 &Q0 &D2 \N1
+------------------------------------------------------------------------------
+Zoom Init                 AT &F &Q6 S37=9 N0 &K0 %C0
+Zoom Init                 AT &F &Q0 S37=9 N0 &K0 S46=0
+Zoom 14.4k VFX            AT &Q6 S37=9 N0 %C0 \N0
+Zoom Init                 AT &Q6 S37=9 N0 &K0 S46=136 S36=1 S48=128 %C0
+Zoom OEM Modem            AT &Q6 S37=9 N0 &K0
+Zoom:                     AT &Q6 S37=9 N0 &K0 %C0
+Zoom:                     AT &Q0 S37=9 N0 &K0 %C0
+Zoom:                     AT &Q6 &K0 &D2 \N0 %C0
+------------------------------------------------------------------------------
+Zyxel (E+):               AT &N3 &K0
+Zyxel U-1496E+            AT Z &N4 &K0
+------------------------------------------------------------------------------
+
+[19-4]: Why is my network slowing down when using DOOM?
+=======================================================
+        You may have an older version of DOOM, such as v1.0 or v1.1.  These
+older versions utilized broadcast packets, which slow down many networks.
+Upgrading to v1.666 will fix this problem, since v1.666 utilizes direct
+packets.
+
+[19-5]: Why won't the v1.666 patch install correctly?
+===================================================
+        The DOOM v1.666 patch expects to find the ORIGINAL game in your DOOM
+directory.  If you replaced or altered the DOOM.EXE file with a new
+version, the patch will not work.
+        If the patch complains about missing "LICENSE.DOC" and/or
+"FILE_ID.DIZ," the command "PATCH -ignoremissing" can be used.  However,
+this will not help if the patch complains about "DOOM.EXE" or "DOOM.WAD."
+        If you are using the registered version, some distributors shipped
+an older release of v1.1.  It is recommended that you call your
+distributor, or E-mail "help@idsoftware.com" if you ordered from id
+Software for more help.
+
+[19-6]: DOOM is too easy
+========================
+        If you find DOOM too easy, here are some suggestions.
+
+        (1) Play on a harder difficulty level.
+        (2) Only save your game at the beginning of each level.
+        (3) Never save your game and try completing the mission.
+        (4) Only use your fist and pistol for the entire game.
+        (5) Turn down your screen contrast so you can see less.
+        (6) Use the "-respawn" parameter upon loading DOOM to allow the
+            monsters to revive in other difficulty levels.
+
+[19-7]: DOOM is too hard
+========================
+        If you find DOOM too hard, here are some suggestions.
+
+        (1) Play on an easier difficulty level.
+        (2) Save your game often.
+        (3) Try using some of the cheat codes or a cheating utility.
+        (4) Turn up your screen contrast so you can see more.
+        (5) Press F11 during game play for gamma correction.
+
+[19-8]: I get motion sickness when playing DOOM
+===============================================
+        There have been a lot of discussion about this phenomenon.  In short
+some people experience dizziness attributed to the game movement.  There were
+many theories, most along the line of motion sickness.  Some also said that
+the animation is too smooth so it fools your brain into believing it to be
+real.  Others said its too jerky and it makes you vomit like being sea sick.
+Another popular theory is that lack of proper acceleration (like on-off high
+speed) attribute to the nausea.  I will not go into discussion of why.
+Instead, I will post some steps people suggested.  Remedies are not
+guaranteed to work.  There are many, all are experimental and some will have
+opposite effects on different people.  This, it seems, is a very individual
+problem.
+
+        (1) Try different display sizes.  Either use different size monitors
+or use the screen size option to vary the display window.
+
+        (2) Try sitting closer/further from the display (don't stick your
+nose in it, I don't want you to get radiation sick).  Try combining this with
+focusing/defocusing on the display or surroundings.  This is to see if you
+are being aware that you are looking at the monitor and hopefully it may
+convince your brain that what you play is not really real.
+
+        (3) Try different machine speeds. If you have a turbo switch try
+playing with it on/off.
+
+        (4) Try different input devices.  With a mouse you can control
+acceleration more accurately than with a joystick or the keyboard.
+
+        (5) Play on your friend's/colleague's computer. See if it is
+better/worse.
+
+        (6) Have breaks while you play.  Play in turns.  Watch others play &
+then play yourself.
+
+        (7) If you have sound card, try playing with/without the sound. If
+your sound card is stereo try playing with headphones on.   Reverse the
+headphones so that left becomes right.
+
+        After switching machines, many have problems adjusting too.
+On a 486, things may seem "too smooth."  On a 386, it may make you want to
+vomit.  Sometimes you just have to give time to adjust.
+
+============================
+=SECTION FIVE= MISCELLANEOUS
+============================
+
+---------------------------------------------------------
+CHAPTER *20*: The Night Before DOOM: A Poem From the Past
+---------------------------------------------------------
+
+        Last year, about a week before DOOM was released, I wrote a poem 
+about "The Night Before DOOM," an obvious parody of "The Night Before 
+Christmas."  In celebration of DOOM's birthday, Christmas 1995, and in 
+memory of 1994, I return "The Night Before DOOM" to everyone.
+
+----------------------------------------------------------------------------
+           T H E  N I G H T  B E F O R E   *-D-*-*-O-*-*-O-*-*-M-*
+            Written by: Hank Leukart (ap641@cleveland.freenet.edu)
+----------------------------------------------------------------------------
+
+                         `Twas the night before DOOM,
+                          and all through the house,
+                   I had set up my multi-playing networks,
+                              each with a mouse.
+                          The networks were strung,
+                           with extra special care
+                             in hopes that DOOM,
+                             soon would be there.
+              The children were nestled all snug in their beds,
+             while visions of demons danced through their heads.
+                 And my computer's processor it was so quick,
+                      boy was I glad I bought that 486.
+             When out on the Internet there was a Usenet posting,
+                I dialed right in to see what it was boasting.
+                 Off to the news reader I flew like a hound,
+                 "Oh no," I cried!  The news reader was down!
+                 Frustrated, bewildered, feeling really low,
+              I leaned back to see what I heard out the window.
+                When what to my wondering eyes should appear,
+                  but a group of 6 cars, driving 60 I fear!
+                With a big young driver, just look at him go!
+                 I knew in a moment, it must be John Romero!
+                 Over the speed limit, his band of cars came,
+            And he whistled, and shouted, and called them by name:
+                           "Now, Jay! Now, John!
+                            Now, Dave and Kevin!
+                           On, Adrian! On, Sandy!
+                           On, Shawn and Robert!"
+                         To the top of the driveway!
+                             Don't hit that wall!
+             Now stop your car, stop your car, stop your car all!
+                    Leaving the car, he entered the house,
+                Walking quietly, so as to not wake the spouse.
+           He was dressed in a T-shirt, and a a pair of jeans too,
+                   I was unsure of what he was going to do.
+                   Boxes of DOOM he had flung on his back,
+             and he looked like a peddler just opening his pack.
+         Those boxes - how they sparkled!  The shrink-wrap so tight!
+          The character was drawn on the front, just ready to fight!
+                The Chain Saw and Shotgun he held in his hand,
+              Where was the BFG9000?: The best gun in the land.
+                   And then I saw it, strapped to his back,
+                Along with a copy of the "Official" DOOM FAQ!
+                A wink of John's eye and a twist of his head,
+                 Soon gave me to know I had nothing to dread.
+             He spoke not a word, but went straight to his work,
+            Installed it on the network, then turned with a jerk.
+                      And placing a hand into his jeans,
+                   out came his keys - oh how they gleamed!
+             He sprang to his car, to the id team gave a whistle,
+         and away they all drove, like DOOM's launching of a missile.
+             But I heard him exclaim, ere he drove out of sight,
+                 "DEMONS TO ALL, AND TO ALL A HELLISH NIGHT!"
+
+----------------------------------------------------------
+CHAPTER *21*: Other literature available from Hank Leukart
+----------------------------------------------------------
+
+        Other literature from Hank Leukart includes:
+
+- dmspec16.txt: The Unofficial DOOM Specs v1.666 (First Quarter, 1995)
+- dinsan66.txt: DOOM iNsAnItY: A humorous look at our favorite game
+
+------------------------
+CHAPTER [22]: Conclusion
+------------------------
+
+        Phew!  Well, that is all I have!  I hope this FAQ proves to provide
+a good resource for DOOM information.  If you have any suggestions,
+additions, or comments for the FAQ, send me E-mail at
+"ap641@cleveland.freenet.edu".  Now, I will just wait in horror as id
+Software releases a press release about a new, upcoming game.
+Thanks for reading the FAQ!
+
+        -Hank Leukart
+
+        SUPPORT YOUR SHAREWARE COMPANIES!  REGISTER YOUR SHAREWARE!
+
+------------------------------
+CHAPTER [23]: Revision History
+------------------------------
+
+[23-1]: Pre-Game-Release FAQs
+=============================
+
+v1.0:   First release of the DOOM FAQ.  (October 25, 1993 EST)
+
+v1.0a:  When ASCII uploading v1.0, the spacing malfunctioned.  This is
+        the same version as 1.0, except with fixed spacing. (October 25, 1993
+        EST)
+
+v2.0:   First major revision of the "Official" DOOM FAQ.  Id gets involved,
+        giving new information.  The FAQ is rearranged.  The FAQ is renamed
+        from "The DOOM FAQ" to "The 'Official' DOOM FAQ." (November 1,
+        1993 EST)
+
+v2.5:   A standard revision of the "Official" DOOM FAQ.  More information
+        comes in on what DOOM will and won't support.  More DOOM iNsAnItY is
+        added. Information on related DOOM software is added.  Information on
+        DOOM's music and multi-playing is added.  Sorry!  The "Official"
+        DOOM FAQ is no longer 666 lines. :)  (November 13, 1993 EST)
+
+v2.6:   A minor revision of the "Official" DOOM FAQ.  Grammatic and spelling
+        errors are corrected.  The use of asterixs, parenthesis, and
+        brackets are used to highlight which information is new to a FAQ.
+        Two new additions to DOOM iNsAnItY that didn't quite make it
+        to the v2.5 release are added.  More multi-playing information
+        added.  (November 17, 1993 EST)
+
+[23-2]: Post-Game-Release FAQs
+==============================
+
+v5.0:   A major revision of the "Official" DOOM FAQ.  DOOM is released.  FAQ
+        is completely rewritten.  FAQ tells about troubleshooting, cheating,
+        and add-on software.  New additions to DOOM iNsAnItY.  (December 18,
+        1993 EST)
+
+v5.5:   A standard revision of the "Official" DOOM FAQ.  DOOM v1.2 is
+        released, and information on modem play is added.  DOOM iNsAnItY is
+        released seperately.  A complete list of add-on software, modem init
+        strings, and troubleshooting guidelines are added.  (February 24,
+        1994 EST)
+
+v5.6:   A minor revision of the "Official" DOOM FAQ.  New add-on software is
+        added.  Many grammatic problems fixed.  The secrets section is
+        rewritten. (April 17, 1994 EST)
+
+v5.7:   A minor revision of the "Official" DOOM FAQ.  Secret information
+        completed.  New add-on software, more grammatic problems fixed.
+        Released in the DOOM v1.4 package.  (June 28, 1994 EST)
+
+v5.8:   A minor revision of the "Official" DOOM FAQ.  Minor grammatic
+        problems fixed, updated for v1.666 of DOOM.  Released in the DOOM v1.666
+        package.  (August 30, 1994 EST)
+
+v6.666: A standard revision of the "Official" DOOM FAQ.  DOOM II 
+        information added.  A large amount of new add-on software, 
+        updated information on ports and more.  (DOOMSDAY (December 10), 
+        1994 EST)

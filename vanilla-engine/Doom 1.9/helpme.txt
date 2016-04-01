@@ -1,0 +1,119 @@
+In the USA:
+
+Orders/Customer Service: 1-800-idgames (1-800-434-2637)
+(24 hours 7 days a week, Closed holidays)
+
+Technical Support: 303-339-7111
+(7AM - 11PM, 7 days a week, Closed holidays)
+
+Note: If you purchased this game in a store please call 212-686-9432.
+
+In Europe:
+
+Orders/Customer Service:
+(Open 7:30am - 5:00pm GMT, Monday - Friday)
+
+Call us toll free at
+
+        United Kingdom:         0800-834-619
+        France:                 0590-86-12
+        Germany:                0130-81-32-65
+        Spain:                  900-97-4423
+        Italy:                  1678-77-243
+
+or toll at:
+
+French speaking:                +44-1429-268207
+English speaking:               +44-1429-860814
+German speaking:                +44-1429-268218
+
+Techical Support:
+(Open 7:30am - 5:00pm GMT, Monday - Friday)
+
+English Speaking:               +44(0)1429-521004
+German Speaking:                +44-1429-521001
+French Speaking:                +44-1429-521000
+Italian Speaking:               +44-1429-521003
+Spanish Speaking:               +44-1429-521002
+
+On the net:
+
+E-mail: help@idsoftware.com
+
+News:   rec.games.computer.doom.announce  Info/FAQs/reviews about DOOM (Moderated)
+        rec.games.computer.doom.help      DOOM Help Service (new players welcome)
+        rec.games.computer.doom.misc      Talking about DOOM and id Software
+        rec.games.computer.doom.editing   Editing and hacking DOOM-related files
+        rec.games.computer.doom.playing   Playing DOOM and user-created levels
+
+Primary FTP Sites and Mirrors:
+
+Official id Software distribution site: ftp.idsoftware.com    192.246.40.6
+
+      Oregon: ftp://ftp.orst.edu/pub/doom/ (Primary Site)     128.193.2.13
+  California: ftp://ftp.cdrom.com/pub/doom/                   192.216.222.5
+      Taiwan: ftp://nctuccca.edu.tw/PC/games/DOOM/            140.111.1.10
+South Africa: ftp://ftp.sun.ac.za/pub/msdos/doom/             146.232.212.21
+     Austria: ftp://flinux.tu-graz.ac.at/pub/doom/            129.27.2.237
+     Germany: ftp://ftp.uni-erlangen.de/pub/pc/msdos/doom/    131.188.1.43      
+ Netherlands: ftp://ftp.sls.wau.nl/pub/msdos/doom/            137.224.127.2
+      Sweden: ftp://ftp.luth.se/pub/doom/                     130.240.18.2
+  G. Britain: ftp://ftp.dungeon.com/pub/msdos/games/doom/     193.130.144.1
+
+
+Other id-Related FTP Sites
+
+   Wisconsin: ftp://ftp.uwp.edu/pub/incoming/id/              131.210.1.4
+               -various files from users and iD (not organized at all!)
+Pennsylvania: ftp://smb130.rh.psu.edu/pub/doom/               128.118.192.69
+               -mirror "newwads","deu","multi_doom", & "NEWSTUFF" 
+    Missouri: ftp://ftp.wustl.edu/pub/MSDOS_UPLOADS/          128.252.135.4
+               -a little of this, a little of that... (a total mess!)
+   Australia: ftp://ftp.next.com.au/pub/doom/game             203.8.88.5
+               -DOS and SGI versions of DOOM
+  G. Britain: ftp://ftp.demon.co.uk/pub/ibmpc/games/id/       158.152.1.44
+               -DOOM/DOOM ][ patches
+
+
+DOOM/id-Related WWW Sites
+^^^^^^^^^^^^^^^^^^^^^^
+
+The Doom Help Service (DHS).
+DHS:           http://www.cee.hw.ac.uk/~mapleson/doom/doom.html
+Help Archive:  http://www.cee.hw.ac.uk/~mapleson/doom/doomhelp.zip
+
+http://www.cedar.buffalo.edu/~kapis-p/doom/DoomGate.html
+     -DOOMWeb Node
+http://www.cis.ksu.edu/~trm/doom.html
+     -DOOMWeb "Tim's" Node
+http://www.catt.ncsu.edu/users/deftly/www/doom.html
+     -DOOMWeb Node
+http://www.cs.hmc.edu/people/tkelly/docs/doom/
+     -DOOMWeb Node (not very up-to-date)
+http://lilly.ping.de/~sven/doom.html
+     -DOOMWeb Node, "Modem Doomer's Hang-Out", lots of links
+http://www.cee.hw.ac.uk/~mapleson/doom/doom.html
+     -Doom Help Service (DHS)
+http://www.york.ac.uk/~mmar1/doom/doom_level_design.html
+     -misc. stuff about Doom level design
+http://www.montefiore.ulg.ac.be/~quinet/games/doom-en.html
+     -Raphael Quinet's DOOM Page (DEU stuff, etc.)
+http://www.utk.edu/~williams/bestwads.html
+     -lists and links to the "best" .wad files
+http://www.cam-orl.co.uk/~fms/dht.html
+     -"Doom Honorific Titles"
+http://www.mantis.co.uk/doom/
+     -"Mantis DOOM Page" - links, etc.
+http://cres1.lancs.ac.uk/~esasb1/doom/
+     -"The Wadster's Guide"
+http://venom.st.hmc.edu/~tkelly/doomfaq/
+     -HTML version of the DOOM FAQ
+http://www.cmpharm.ucsf.edu/~troyer/sgidoomfaq.html
+     -SGI DOOM FAQ
+http://jcomm.uoregon.edu/~stevev/Linux-DOOM-FAQ.html
+     -Linux DOOM FAQ
+ftp://ftp.netcom.com/pub/vh/vhold/doom/doom.html
+     -The "Original Unofficial DOOM Site", various links
+
+Special thanks to Mike Newton for compiling the above lists.
+

@@ -1,0 +1,28 @@
+TITLE=Hexen: Deathkings of the Dark Citadel
+// warp type should be "em" for episode, map or "map"
+WARPTYPE=map
+EXENAME=HEXENDK.EXE
+// set class_select to "0" for non-Hexen games
+CLASS_SELECT=1
+USEWAD=HEXDD.WAD
+MAXPLAYERS=8
+MAP01=Ruined Village
+MAP02=Blight
+MAP03=Sump
+MAP04=Catacomb
+MAP05=Badlands
+MAP06=Brackenwood
+MAP07=Pyre
+MAP08=Constable's Gate
+MAP09=Treasury
+MAP10=Market Place
+MAP11=Locus Requiescat
+MAP12=Ordeal
+MAP13=Armory
+MAP14=Nave
+MAP15=Chantry
+MAP16=Abattoir
+MAP17=Dark Watch
+MAP18=Cloaca
+MAP19=Ice Hold
+MAP20=Dark Citadel
