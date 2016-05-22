@@ -4,10 +4,9 @@ files.  (This maintains the IWADs being their vanilla counterparts and
 always playable with Chocolate Strife or the original engine exactly
 as intended).
 
-Steam is the only way the game is distributed, so downgrading or
-upgrading isn't particularly useful, but since the engine is open
-source, someone could run an old version if they are determined
-enough.
+Downgrading and upgrading isn't particularly useful, but since the
+engine is open source, someone could run an old version if they are
+determined enough.
 
 SHA1 hashes as follow:
 4768b23a2d4778862e15a14ef744da121f711d5b  SVE_1.0.wad
