@@ -4,5 +4,5 @@ patch.  VOICES.WAD never had an update, and Strife versions 1.3 and
 version 1.2.
 
 If unsure of which version you have, refer to these sha1 hashes:
-eb0f3e157b35c34d5a598701f775e789ec85b4ae  strife1_1.0.wad
+eb0f3e157b35c34d5a598701f775e789ec85b4ae  strife1_1.1.wad
 64c13b951a845ca7f8081f68138a6181557458d1  strife1_1.2.wad
