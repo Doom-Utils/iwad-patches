@@ -1,6 +1,6 @@
 Master Levels for Doom II is a little bit weird, and the provided
-scripts will only work if Git is installed (if you cloned it from Git,
-you're already set there).
+scripts might only work with the GNU version of tar, so that a
+deterministically-built archive will be generated.
 
 The original release on PC provides the Master Levels as a collection
 of PWADs that aren't really attached to each other.  Console releases
@@ -8,13 +8,13 @@ have typically combined these in some form.  The only supported
 version going either direction, at the moment, is the Doom 3: BFG
 Edition version included on the Xbox 360 and PlayStation 3 releases.
 
-In order to solve going from a multiple files to a single file, or
-vice-versa, a tar file is used as an intermediary.  In order to
+In order to solve going from multiple files to a single file, or vice
+versa, a tar file is used as an intermediary.  In order to
 deterministically generate the tar file, so that a binary patch can
-work at all, Git is used for temporarily creating a repository from
-the loose files, and creating an archive from it.  This prevents
-issues resulting from the directory order, file modes, and UIDs/GIDs
-differing.
+work at all, special options are passed to tar so that the UID, GID,
+and timestamps are normalized to determined values.  This allows
+vcdiff to work against a known-good tar file for converting to and
+from the console version.
 
 Three scripts are provided.  If you have xdelta3 installed, the latter
 two should be extremely helpful.
