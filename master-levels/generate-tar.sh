@@ -42,7 +42,7 @@ chmod 644 attack.wad blacktwr.wad bloodsea.wad canyon.wad catwalk.wad \
 # Creates a tar file deterministically.
 # See https://reproducible-builds.org/docs/archives/ for information.
 tar --sort=name --mtime="1995-08-08 02:00:00Z" --owner=root --group=root    \
-    --numeric-owner -cf masterlevels.tar                                    \
+    --format=gnu --blocking-factor=20 --numeric-owner -cf masterlevels.tar  \
     attack.wad blacktwr.wad bloodsea.wad canyon.wad catwalk.wad combine.wad \
     fistula.wad garrison.wad geryon.wad manor.wad mephisto.wad minos.wad    \
     nessus.wad paradox.wad subspace.wad subterra.wad teeth.wad ttrap.wad    \
