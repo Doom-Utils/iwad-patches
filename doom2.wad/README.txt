@@ -23,3 +23,4 @@ a59548125f59f6aa1a41c22f615557d3dd2e85a9  doom2_bfg.wad
 1c91d86cd8a2f3817227986503a6672a5e1613f0  doom2_xbox.wad
 b7ba1c68631023ea1aab1d7b9f7f6e9afc508f39  doom2_xbox360bfg.wad
 2cda310805397ae44059bbcaed3cd602f4864a82  doom2_zodiac.wad
+9b39107b5bcfd1f989bcfe46f68dbc1f49222922  doom2_switch.wad
