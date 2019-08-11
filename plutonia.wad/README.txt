@@ -10,5 +10,6 @@ also appeared on the Macintosh Final Doom release and the GOG.com
 release.
 
 If unsure about which version you have, refer to these sha1 hashes:
-f131cbe1946d7fddb3caec4aa258c83399c21e60  plutonia_anthology.wad
 90361e2a538d2388506657252ae41aceeb1ba360  plutonia_1.9.wad
+f131cbe1946d7fddb3caec4aa258c83399c21e60  plutonia_anthology.wad
+327f8c41ebd4138354e9fca63cebbbd1b9489749  plutonia_psn.wad
