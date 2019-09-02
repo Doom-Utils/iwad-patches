@@ -9,6 +9,13 @@ deathmatch starts missing from the original version. This version has
 also appeared on the Macintosh Final Doom release and the GOG.com
 release.
 
+*-to-pwad.vcdiff is special.  They will create a PWAD version of The
+Plutonia Experiment, containing only the levels and demo lumps.  It
+may be used in conjunction with Freedoom to see what the levels turn
+out like with different resources.  For demo compatibility. you can
+come in from either 1.9 or anthology and it creates a PWAD with those
+specific versions of the levels.
+
 If unsure about which version you have, refer to these sha1 hashes:
 90361e2a538d2388506657252ae41aceeb1ba360  plutonia_1.9.wad
 f131cbe1946d7fddb3caec4aa258c83399c21e60  plutonia_anthology.wad

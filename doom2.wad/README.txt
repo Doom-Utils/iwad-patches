@@ -7,8 +7,13 @@ Doom II 1.666g refers to the German release of the game, which removed
 Nazi symbolism (id released an official patch to uncensor the game).
 Doom II 1.8f is the French-translated version.
 
-Doom II Zodiac is the version released for the Tapwave Zodiac hand
-held console
+Doom II Zodiac is the version released for the Tapwave Zodiac handheld
+console.
+
+1.9-to-pwad.vcdiff is special.  It will create a PWAD version of Doom
+II, containing only the levels and demo lumps.  It may be used in
+conjunction with Freedoom to see what the levels turn out like with
+different resources.
 
 If unsure of which version you have, refer to these sha1 hashes:
 a4ce5128d57cb129fdd1441c12b58245be55c8ce  doom2_1.666g.wad

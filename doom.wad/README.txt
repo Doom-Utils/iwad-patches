@@ -16,6 +16,11 @@ Doom PPC is the IWAD used for the Pocket PC version of Doom. It has the
 Ultimate Doom level set (episode 4 can't be chosen on the device) and uses
 a modified shareware TITLEPIC image.
 
+ud-to-pwad.vcdiff is special.  It will create a PWAD version of
+Ultimate Doom, containing only the levels and demo lumps.  It may be
+used in conjunction with Freedoom to see what the levels turn out like
+with different resources.
+
 If unsure of which version you have, refer to these sha1 hashes:
 df0040ccb29cc1622e74ceb3b7793a2304cca2c8  doom_1.1.wad
 b5f86a559642a2b3bdfb8a75e91c8da97f057fe6  doom_1.2.wad
