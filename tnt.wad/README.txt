@@ -19,3 +19,4 @@ If unsure about which version you have, refer to these sha1 hashes:
 9fbc66aedef7fe3bae0986cdb9323d2b8db4c9d3  tnt_1.9.wad
 4a65c8b960225505187c36040b41a40b152f8f3e  tnt_anthology.wad
 139e26d801a64b404b8d898defca10227a61867b  tnt_psn.wad
+503271390606ebded04a2cfaa1a4e249c0313a9d  tnt_unity_1.0.wad
