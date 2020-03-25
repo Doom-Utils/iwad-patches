@@ -16,6 +16,9 @@ Unity version that is also available on the Bethesda store.  It is
 intended to be part of the vanilla Doom release, albeit with SS
 soldiers replaced with zombiemen.
 
+Bethesda also released the “Bethsoft” version with DOOM Eternal, which
+can be found in your DOOMEternal/base/classicwads folder.
+
 1.9-to-pwad.vcdiff is special.  It will create a PWAD version of Doom
 II, containing only the levels and demo lumps.  It may be used in
 conjunction with Freedoom to see what the levels turn out like with
