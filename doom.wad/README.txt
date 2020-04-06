@@ -12,7 +12,7 @@ version, to have.  It is used as the sort of nexus in this file set.
 Rather than making a giant directory for every any-to-any version, instead,
 you can patch any version to or from Ultimate Doom.
 
-Doom PPC is the IWAD used for the Pocket PC version of Doom. It has the
+Doom PPC is the IWAD used for the Pocket PC version of Doom.  It has the
 Ultimate Doom level set (episode 4 can't be chosen on the device) and uses
 a modified shareware TITLEPIC image.
 

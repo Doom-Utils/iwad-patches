@@ -1,5 +1,5 @@
 Hexen went through a few technical changes from 1.0 to 1.1, one of
-which includes text strings left to the engine itself in 1.0 but moved
+which includes moving text strings (left to the engine itself in 1.0)
 to the IWAD.  This actually makes playing Hexen 1.0 problematic on
 source ports, where only 1.1 is well-supported.
 

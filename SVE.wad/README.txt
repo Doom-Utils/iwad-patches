@@ -2,7 +2,7 @@ Strife: Veteran Edition comes with a PWAD named SVE.wad that overrides
 almost all resources from the vanilla strife1.wad and voices.wad
 files.  (This maintains the IWADs being their vanilla counterparts and
 always playable with Chocolate Strife or the original engine exactly
-as intended).
+as intended.)
 
 Downgrading and upgrading isn't particularly useful, but since the
 engine is open source, someone could run an old version if they are

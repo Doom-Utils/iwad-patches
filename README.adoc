@@ -2,11 +2,11 @@
 
 Just some VCDIFF files for upgrading/downgrading between various IWAD
 releases without having to use DOS patchers (which are both slow and
-somewhat difficult to run). VCDIFF is a binary patch standard,
+somewhat difficult to run).  VCDIFF is a binary patch standard,
 probably most common with xdelta3, but any program that supports them
 would work.
 
-An example for upgrading plutiona.wad to the id Anthology version:
+An example for upgrading plutonia.wad to the id Anthology version:
 
 ....
 $ cd plutonia.wad
