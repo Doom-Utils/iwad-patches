@@ -9,8 +9,8 @@ frontend eventually were updated to also include NRFTL in an update in
 is no prior version of nerve.wad in this port.  The only change added
 by this is a DMAPINFO chunk.
 
-On July 15th, 2020, another update added prefixes (e.g. "Level 1:") to
-the map names in the DMAPINFO chunk.  We call this version "Unity 1.2".
+On July 15th, 2020, another update added prefixes (e.g. “Level 1:”) to
+the map names in the DMAPINFO chunk.  We call this version “Unity 1.2.”
 
 What release you grabbed nerve.wad out of should be evident, but the
 known-good SHA1s are documented here:
