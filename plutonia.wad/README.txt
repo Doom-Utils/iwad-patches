@@ -21,3 +21,4 @@ If unsure about which version you have, refer to these sha1 hashes:
 f131cbe1946d7fddb3caec4aa258c83399c21e60  plutonia_anthology.wad
 327f8c41ebd4138354e9fca63cebbbd1b9489749  plutonia_psn.wad
 54e27b5791fbc5677bf7e83c1de3a92ea3ef935b  plutonia_unity_1.0.wad
+20fd23ee410c466b263a741bbd53bbef573ab47d  plutonia_unity_1.3.wad
