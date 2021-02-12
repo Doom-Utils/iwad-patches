@@ -1,5 +1,5 @@
 Heretic only had a few public releases: 1.0, 1.2, and 1.3.  The last
-of these is also known as "Heretic: Shadow of the Serpent Riders,"
+of these is also known as “Heretic: Shadow of the Serpent Riders,”
 adding two new episodes in a similar vein to The Ultimate Doom.
 
 1.3-to-pwad.vcdiff is special.  It will create a PWAD version of

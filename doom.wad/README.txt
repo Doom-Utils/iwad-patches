@@ -1,11 +1,11 @@
 The original Doom and its various versions.  1.1 through 1.8 are
 unambiguous, unfortunately, 1.9 is where things become confusing.  The
-original 1.9 ("registered Doom" because you used to have to mail id
+original 1.9 (“registered Doom” because you used to have to mail id
 Software for a copy) contains only three episodes.  The Ultimate Doom
 came out in 1995 packaged for retail outlets, and still identified
 itself as 1.9.  Much more recently, Doom 3: BFG Edition includes the
 original game, and doesn't even identify itself with any version
-number.  This file set simply uses "bfg" as the term for it.
+number.  This file set simply uses “bfg” as the term for it.
 
 The Ultimate Doom from 1995 is by far the most common, and most useful
 version, to have.  It is used as the sort of nexus in this file set.
