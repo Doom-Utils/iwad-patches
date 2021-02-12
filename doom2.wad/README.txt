@@ -10,14 +10,11 @@ Doom II 1.8f is the French-translated version.
 Doom II Zodiac is the version released for the Tapwave Zodiac handheld
 console.
 
-Doom II “Bethsoft” is the version that is available on the Bethesda
-store with the name “DOOM II (ORIGINAL)”.  This is separate to the
-Unity version that is also available on the Bethesda store.  It is
-intended to be part of the vanilla Doom release, albeit with SS
-soldiers replaced with zombiemen.
-
-Bethesda also released the “Bethsoft” version with DOOM Eternal, which
-can be found in your DOOMEternal/base/classicwads folder.
+PlayStation Network versions for the PlayStation 3 (and later?)
+consoles have two known versions of the IWADs depending on region: USA
+and Europe.  The PSN Europe release has also been used for two
+separate PC releases of the “vanilla” game: in the Bethesda Store as
+“DOOM II (ORIGINAL)” and as part of Doom Eternal.
 
 1.9-to-pwad.vcdiff is special.  It will create a PWAD version of Doom
 II, containing only the levels and demo lumps.  It may be used in
@@ -32,9 +29,9 @@ a4ce5128d57cb129fdd1441c12b58245be55c8ce  doom2_1.666g.wad
 79c283b18e61b9a989cfd3e0f19a42ea98fda551  doom2_1.8.wad
 d510c877031bbd5f3d198581a2c8651e09b9861f  doom2_1.8f.wad
 7ec7652fcfce8ddc6e801839291f0e28ef1d5ae7  doom2_1.9.wad
-f1b6ba94352d53f646b67c01d2da88c5c40e3179  doom2_bethsoft.wad
 a59548125f59f6aa1a41c22f615557d3dd2e85a9  doom2_bfg.wad
-ca8db908a7c9fbac764f34c148f0bcc78d18553e  doom2_psn.wad
+f1b6ba94352d53f646b67c01d2da88c5c40e3179  doom2_psn_eur.wad
+ca8db908a7c9fbac764f34c148f0bcc78d18553e  doom2_psn_usa.wad
 9b39107b5bcfd1f989bcfe46f68dbc1f49222922  doom2_unity_1.0.wad
 b723882122e90b61a1d92a11dcfcf9cbf95a407e  doom2_unity_1.1.wad
 9574851209c9dfbede56db0dee0660ecd51e6150  doom2_unity_1.3.wad

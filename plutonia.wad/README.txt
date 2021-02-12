@@ -19,6 +19,7 @@ specific versions of the levels.
 If unsure about which version you have, refer to these sha1 hashes:
 90361e2a538d2388506657252ae41aceeb1ba360  plutonia_1.9.wad
 f131cbe1946d7fddb3caec4aa258c83399c21e60  plutonia_anthology.wad
-327f8c41ebd4138354e9fca63cebbbd1b9489749  plutonia_psn.wad
+85c3517434135a5886111b324955f9288c01046c  plutonia_psn_eur.wad
+327f8c41ebd4138354e9fca63cebbbd1b9489749  plutonia_psn_usa.wad
 54e27b5791fbc5677bf7e83c1de3a92ea3ef935b  plutonia_unity_1.0.wad
 20fd23ee410c466b263a741bbd53bbef573ab47d  plutonia_unity_1.3.wad
