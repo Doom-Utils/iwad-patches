@@ -1,0 +1,39 @@
+TITLE=Hexen
+// warp type should be "em" for episode, map or "map"
+WARPTYPE=map
+EXENAME=HEXEN.EXE
+// set class_select to "0" for non-Hexen games
+CLASS_SELECT=1
+MAXPLAYERS=8
+MAP01=Winnowing Hall
+MAP02=Seven Portals
+MAP03=Guardian of Ice
+MAP04=Guardian of Fire
+MAP05=Guardian of Steel
+MAP06=Bright Crucible
+MAP07=Shadow Wood
+MAP08=Darkmere
+MAP09=Caves of Circe
+MAP10=Wastelands
+MAP11=Sacred Grove
+MAP12=Hypostle
+MAP13=Heresiarch's Seminary
+MAP14=Dragon Chapel
+MAP15=Griffin Chapel
+MAP16=Deathwind Chapel
+MAP17=Orchard of Lamentations
+MAP18=Silent Refectory
+MAP19=Wolf Chapel
+MAP20=Forsaken Outpost
+MAP21=Castle of Grief
+MAP22=Gibbet
+MAP23=Effluvium
+MAP24=Dungeons
+MAP25=Desolate Garden
+MAP26=Necropolis
+MAP27=Zedek's Tomb
+MAP28=Menelkir's Tomb
+MAP29=Traductus' Tomb
+MAP30=Vivarium
+MAP31=Dark Crucible
+
