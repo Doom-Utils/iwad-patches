@@ -14,7 +14,9 @@ you can patch any version to or from Ultimate Doom.
 
 Doom PPC is the IWAD used for the Pocket PC version of Doom.  It has the
 Ultimate Doom level set (episode 4 can't be chosen on the device) and uses
-a modified shareware TITLEPIC image.
+a modified shareware TITLEPIC image. The installer for the game will modify
+the IWAD to include random bytes at the end. ud-to-ppc.vcdiff will create
+the IWAD as it is within the installation files without appended bytes.
 
 Bethesda also rereleased the “PSN” version with DOOM Eternal, which can be
 found in your DOOMEternal/base/classicwads folder.
@@ -31,7 +33,7 @@ b5f86a559642a2b3bdfb8a75e91c8da97f057fe6  doom_1.2.wad
 2c8212631b37f21ad06d18b5638c733a75e179ff  doom_1.8.wad
 7742089b4468a736cadb659a7deca3320fe6dcbd  doom_1.9.wad
 e5ec79505530e151ff0e6f517f3ce1fd65969c46  doom_bfg.wad
-a89b39d91122882214c3088b8cd6b308713bd7c2  doom_ppc.wad
+23a3a8bfafcfdc7c481f282cf2a3d03e5f386d43  doom_ppc.wad
 117015379c529573510be08cf59810aa10bb934e  doom_psn.wad
 f770111ca9eb6d49aead51fcbd398719b462e64b  doom_unity_1.0.wad
 08ab2507e1d525c4c06b6df4f6d5862568a6b009  doom_unity_1.1.wad
