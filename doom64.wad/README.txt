@@ -1,6 +1,6 @@
-Doom 64 has had a stadalone release on PC and consoles since 2020,
-from which time the game actually has a distinct IWAD able to be set
-apart from the engine, acting more like other Doom games on PC.
+Doom 64 has had a standalone release on PC and consoles since 2020,
+where the game actually has a distinct IWAD able to be set apart from
+the engine, acting more like other Doom games on PC.
 
 On the Nintendo 64, there still was somewhat of a distinction between
 the engine and IWAD, but it becomes a technical detail when the only
