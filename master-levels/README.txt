@@ -27,3 +27,7 @@ xdelta3-from_console.sh: Patches the console version of the Master Levels
 
 xdelta3-from_pc.sh: Converts loose files to the tar and patches it
                     to the console version.
+
+
+f095f557c9969bafd249710da7675c1bc2e94698  masterlevels_console.wad
+47d5b10aee861791c9272ba4944e8eb1ea1e0819  masterlevels_kex.wad
