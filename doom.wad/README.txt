@@ -42,3 +42,4 @@ f770111ca9eb6d49aead51fcbd398719b462e64b  doom_unity_1.0.wad
 9b07b02ab3c275a6a7570c3f73cc20d63a0e3833  doom_ud.wad
 37de4510216eb3ce9a835dd939109443375d10c5  doom_xbla.wad
 1d1d4f69fe14fa255228d8243470678b1b4efdc5  doom_xbox.wad
+997bae5e5a190c5bb3b1fb9e7e3e75b2da88cb27  doom_kex.wad

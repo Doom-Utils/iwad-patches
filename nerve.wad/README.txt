@@ -15,3 +15,4 @@ known-good SHA1s are documented here:
 2c5c4aa07eea8820a65dbf282d8b6d8358bb74fa  nerve_unity_1.2.wad
 6ab960ae23430ca2ced7db3edd8075b7e0158f26  nerve_unity_1.3.wad
 7bb0734f85b045dd41482c5e95b0ecbe1700fbcb  nerve_unity_1.4.wad
+4522eaec7a13aac24b456e29520e99ac879e6989  nerve_kex.wad

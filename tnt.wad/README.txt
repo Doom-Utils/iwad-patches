@@ -22,3 +22,4 @@ If unsure about which version you have, refer to these sha1 hashes:
 139e26d801a64b404b8d898defca10227a61867b  tnt_psn_usa.wad
 503271390606ebded04a2cfaa1a4e249c0313a9d  tnt_unity_1.0.wad
 ca0f0495a6c2813b49620202774c56560d6d7621  tnt_unity_1.3.wad
+9820e2a3035f0cdd87f69a7d57c59a7a267c9409  tnt_kex.wad
