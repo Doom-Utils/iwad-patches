@@ -24,3 +24,4 @@ f131cbe1946d7fddb3caec4aa258c83399c21e60  plutonia_anthology.wad
 54e27b5791fbc5677bf7e83c1de3a92ea3ef935b  plutonia_unity_1.0.wad
 20fd23ee410c466b263a741bbd53bbef573ab47d  plutonia_unity_1.3.wad
 816c7c6b0098f66c299c9253f62bd908456efb63  plutonia_kex.wad
+fbcc140825b507ab88d844c6b1635c60c4b8bcd6  plutonia_kex_update1.wad

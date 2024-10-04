@@ -40,3 +40,4 @@ b723882122e90b61a1d92a11dcfcf9cbf95a407e  doom2_unity_1.1.wad
 b7ba1c68631023ea1aab1d7b9f7f6e9afc508f39  doom2_xbox360bfg.wad
 2cda310805397ae44059bbcaed3cd602f4864a82  doom2_zodiac.wad
 c745f04a6abc2e6d2a2d52382f45500dd2a260be  doom2_kex.wad
+7ec7652fcfce8ddc6e801839291f0e28ef1d5ae7  doom2_key_update1.wad
