@@ -30,5 +30,5 @@ xdelta3-from_pc.sh: Converts loose files to the tar and patches it
 
 
 f095f557c9969bafd249710da7675c1bc2e94698  masterlevels_console.wad
-47d5b10aee861791c9272ba4944e8eb1ea1e0819  masterlevels_kex.wad
-32e7937fda52c4cecc8ddc75ddd41b5e0dfe6892  masterlevels_kex_update1.wad
+47d5b10aee861791c9272ba4944e8eb1ea1e0819  masterlevels_kex_1.0.wad
+32e7937fda52c4cecc8ddc75ddd41b5e0dfe6892  masterlevels_kex_1.1.wad
